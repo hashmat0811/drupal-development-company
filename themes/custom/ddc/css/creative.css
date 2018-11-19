@@ -312,7 +312,7 @@ h4 {
 }
 
 .service-list {
-  color: #fff;
+  color: #000;
 }
 
 .service-list h5 {
@@ -517,6 +517,7 @@ h4 {
   padding-top: 80px;
   padding-bottom: 40px;
   color: #eee;
+  background: #000;
 }
 
 .footer-bottom h3 {
