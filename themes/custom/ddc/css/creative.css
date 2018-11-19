@@ -630,13 +630,8 @@ h4 {
 
 .layout-intro h2 {
   color: #ccc;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 600;
-}
-
-.layout-intro .body {
-  max-width: 70%;
-  margin: auto;
 }
 
 .portfolio-box {
