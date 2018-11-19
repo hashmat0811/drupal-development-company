@@ -1,7 +1,5 @@
 {% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
 
-
-
 <div class="inner-banner">
   <div class="container">
     <div>
@@ -23,7 +21,7 @@
         {# {% if  loop.index % 2 == 0 %}
           <div class="col-md-6 order-12 my-auto">
             <div class="intro-img text-center">
-              <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/> 
+              <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
             </div>
           </div>
           <div class="col-md-6 order-12 my-auto">
@@ -36,11 +34,11 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
           <div class="col-md-6 my-auto">
-            <div class="intro-img text-center">
+            {# <div class="intro-img text-center">
               <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
-            </div>
+            </div>#}
           </div>
-        </div> 
+        </div>
       {% endfor %}
     </div>
   </div>
