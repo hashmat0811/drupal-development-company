@@ -20,7 +20,7 @@
     <div class="work-section pl-5 pr-5">
       {% for item in node.field_suggestions %}
       <div class="row p-5 text-white">
-        {% if  loop.index % 2 == 0 %}
+        {# {% if  loop.index % 2 == 0 %}
           <div class="col-md-6 order-12 my-auto">
             <div class="intro-img text-center">
               <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/> 
@@ -29,33 +29,18 @@
           <div class="col-md-6 order-12 my-auto">
             <h2>{{ item.entity.field_title.value }}</h2>
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
-              {# <h5>Technology Used</h5>
-              <ul>
-                  <li>Drupal</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Multi Site</li>
-              </ul> #}
           </div>
-        {% else %}
+        {% else %} #}
           <div class="col-md-6 my-auto">
             <h1>{{ item.entity.field_title.value }}</h1>
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
-              {# <h5>Technology Used</h5>
-              <ul>
-                  <li>Drupal</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Multi Site</li>
-              </ul> #}
           </div>
           <div class="col-md-6 my-auto">
             <div class="intro-img text-center">
               <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
             </div>
           </div>
-        {% endif %}
-      </div> 
+        </div> 
       {% endfor %}
     </div>
   </div>
