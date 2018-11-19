@@ -110,16 +110,16 @@ img::-moz-selection {
 #mainNav .menu a {
   background: none;
   text-shadow: none;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   border: none;
 }
 
 #mainNav ul.sf-menu.sf-horizontal.sf-shadow ul {
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
-  background-color: rgba(21, 21, 21, 0.72) !important;
-  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  background-color: #fff !important;
+  border-radius: 0px;
   padding-bottom: 10px !important;
   padding-left: 10px !important;
   margin-top: 10px;
@@ -619,191 +619,6 @@ h4 {
 
 .footer {
   background: #000;
-}
-
-@-webkit-keyframes checked-anim {
-  50% {
-    width: 3000px;
-    height: 3000px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-}
-
-@keyframes checked-anim {
-  50% {
-    width: 3000px;
-    height: 3000px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-}
-
-@-webkit-keyframes not-checked-anim {
-  0% {
-    width: 3000px;
-    height: 3000px;
-  }
-}
-
-@keyframes not-checked-anim {
-  0% {
-    width: 3000px;
-    height: 3000px;
-  }
-}
-
-.new-menu li, .new-menu a {
-  margin: 75px 0 -55px 0;
-  color: #03A9F4;
-  font: 14pt "Roboto", sans-serif;
-  font-weight: 700;
-  line-height: 1.8;
-  text-decoration: none;
-  text-transform: none;
-  list-style: none;
-  outline: 0;
-  display: none;
-}
-
-.new-menu li {
-  width: 230px;
-  text-indent: 56px;
-}
-
-.new-menu a:focus {
-  display: block;
-  color: #333;
-  background-color: #eee;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.new-menu aside {
-  position: absolute;
-  color: white;
-  top: 35%;
-  right: 10%;
-  text-align: right;
-}
-
-.new-menu h1 {
-  line-height: 0;
-  font-size: 4vw;
-  font-weight: 700;
-}
-
-.new-menu h3 {
-  float: right;
-  line-height: .3;
-  font-size: 2.5vw;
-  font-weight: lighter;
-}
-
-.new-menu h4 {
-  float: left;
-  margin-left: -2%;
-  font-size: 1.5vw;
-  font-weight: lighter;
-}
-
-.new-menu #trigger, .new-menu #burger, .new-menu #burger:before, .new-menu #burger:after {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  background: #03A9F4;
-  width: 30px;
-  height: 5px;
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.new-menu #trigger {
-  height: 25px;
-  background: none;
-}
-
-.new-menu #burger:before {
-  content: " ";
-  top: 10px;
-  left: 0;
-}
-
-.new-menu #burger:after {
-  content: " ";
-  top: 20px;
-  left: 0;
-}
-
-.new-menu #menu-toggle:checked + #trigger + #burger {
-  top: 35px;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: -webkit-transform .2s ease;
-  transition: -webkit-transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease;
-}
-
-.new-menu #menu-toggle:checked + #trigger + #burger:before {
-  width: 20px;
-  top: -2px;
-  left: 18px;
-  -webkit-transform: rotate(45deg) translateX(-5px);
-  transform: rotate(45deg) translateX(-5px);
-  -webkit-transition: -webkit-transform .2s ease;
-  transition: -webkit-transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease;
-}
-
-.new-menu #menu-toggle:checked + #trigger + #burger:after {
-  width: 20px;
-  top: 2px;
-  left: 18px;
-  -webkit-transform: rotate(-45deg) translateX(-5px);
-  transform: rotate(-45deg) translateX(-5px);
-  -webkit-transition: -webkit-transform .2s ease;
-  transition: -webkit-transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease;
-}
-
-.new-menu #menu {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 110px;
-  height: 110px;
-  background-color: #fff;
-  border-bottom-right-radius: 100%;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  -webkit-animation: not-checked-anim .2s both;
-  animation: not-checked-anim .2s both;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.new-menu #menu-toggle:checked + #trigger + #burger + #menu {
-  -webkit-animation: checked-anim 1s ease both;
-  animation: checked-anim 1s ease both;
-}
-
-.new-menu #menu-toggle:checked + #trigger ~ #menu > li, .new-menu a {
-  display: block;
-}
-
-.new-menu [type="checkbox"]:not(:checked), .new-menu [type="checkbox"]:checked {
-  display: none;
 }
 
 .service-box {
