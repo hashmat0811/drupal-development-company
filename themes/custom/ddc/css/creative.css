@@ -110,7 +110,7 @@ img::-moz-selection {
 #mainNav .menu a {
   background: none;
   text-shadow: none;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   border: none;
 }
@@ -123,6 +123,10 @@ img::-moz-selection {
   padding-bottom: 10px !important;
   padding-left: 10px !important;
   margin-top: 10px;
+}
+
+#mainNav ul.sf-menu.sf-horizontal.sf-shadow ul a {
+  color: #000;
 }
 
 #mainNav .sf-sub-indicator {

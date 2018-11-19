@@ -5,7 +5,7 @@
   .menu a{
     background: none;
     text-shadow: none;
-    color: #000;
+    color: #fff;
     font-weight: 600;
     border: none;
   }
@@ -16,6 +16,10 @@
     padding-bottom: 10px !important;
     padding-left: 10px !important;
     margin-top: 10px;
+  }
+
+  ul.sf-menu.sf-horizontal.sf-shadow ul a{
+    color: #000;
   }
 
   .sf-sub-indicator{
