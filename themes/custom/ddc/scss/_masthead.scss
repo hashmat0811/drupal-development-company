@@ -398,11 +398,11 @@ $primary-color: #38C5B9;
 
 
 
-.header {
+.header-new {
   position: fixed;
   z-index: 5;
   width: 100%;
-}
+
 
 .burger {
   position: absolute;
@@ -592,10 +592,7 @@ main {
   }
 }
 
-.support {
-  position: fixed;
-  bottom: 24px;
-  color: rgba(black, 0.6);
+
 }
 
 
