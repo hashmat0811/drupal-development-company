@@ -621,6 +621,15 @@ h4 {
   background: #000;
 }
 
+.arrow-down img {
+  width: 82px;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  top: 0px;
+  left: -28px;
+  position: relative;
+}
+
 .service-box {
   max-width: 400px;
 }
