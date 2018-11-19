@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif !important;
 }
 
 .bg-primary {
@@ -329,7 +329,7 @@ h4 {
   position: absolute;
   width: 1px;
   height: 130px;
-  background: #fff;
+  background: #c72000;
   top: -143px;
   left: 110px;
   z-index: 1;
