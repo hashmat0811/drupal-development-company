@@ -13,63 +13,26 @@
 </div>
 
 {# Services paragraphs #}
-<div class="content-container">
-  <div class="container">
-    <div class="work-section pl-5 pr-5">
-      {% for item in node.field_suggestions %}
-      <div class="row p-5">
-        {# {% if  loop.index % 2 == 0 %}
-          <div class="col-md-6 order-12 my-auto">
-            <div class="intro-img text-center">
-              <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
-            </div>
-          </div>
-          <div class="col-md-6 order-12 my-auto">
-            <h2>{{ item.entity.field_title.value }}</h2>
-            <p>{{ item.entity.field_banner_description.value|raw }}</p>
-          </div>
-        {% else %} #}
-          <div class="col-md-6 my-auto">
-            <h1>{{ item.entity.field_title.value }}</h1>
-            <p>{{ item.entity.field_banner_description.value|raw }}</p>
-          </div>
-          <div class="col-md-6 my-auto">
-            {# <div class="intro-img text-center">
-              <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
-            </div>#}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
 
 
 <div class="content-container">
   <div class="container">
-    {# <div class="intro-section">
+    <div class="intro-section">
       <div class="row">
-        <div class="col-md-6">
           <h1>{{ node.field_title.value }}</h1>
-          <p>{{ node.body.value|raw }}</p>
-        </div>
-        <div class="col-md-6">
-          <div class="intro-img">
-            <img src="themes/custom/ddc/images/service-img.png" />
-          </div>
-        </div>
+          {{ node.body.value|raw }}
       </div>
-    </div> #}
+    </div>
 
     <div class="content-section section-12 text-center">
       <div class="row">
         <div class="col-md-10 mx-auto p-5">
           <h1>{{ node.field_block_title.value }}</h1>
-          <p>{{ node.field_description.value|raw }}</p>
+          {{ node.field_description.value|raw }}
         </div>
       </div>
     </div>
-    <section class="service-list">
+    {# <section class="service-list">
       <div class="container">
         <div class="services-block pt-5">
           <div class="row">
@@ -92,11 +55,7 @@
         </div>
 
       </div>
-    </section>
-    <div class="services">
-
-        {# <img src="{{ file_url(node.field_image.entity.fileuri) }}" alt="{{node.field_image.alt}}" /> #}
-    </div>
+    </section> #}
 
 
   </div>
@@ -105,6 +64,7 @@
       <div class="container">
         <div class="">
           <h2>{{ node.field_block_title.value }}</h2>
+          {{ node.field_description.value|raw }}
           <a href="#" class="btn">Get in Touch</a>
         </div>
       </div>
