@@ -1,0 +1,102 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+{# {% if title %}
+  <h3>{{ title }}</h3>
+{% endif %} #}
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://idangero.us/swiper/dist/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+   .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      /*text-align: center;
+      font-size: 18px;
+      background: #fff;*/
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto text-white">
+        <h1><span class="line"></span> What our client says</h1>
+        <!-- Swiper -->
+        <div class="swiper-container swiper2">
+          <div class="swiper-wrapper">
+            {% for row in rows %}
+              {# {%
+                set row_classes = [
+                  default_row_class ? 'views-row',
+                ]
+              %} #}
+              {# <div{{ row.attributes.addClass(row_classes) }}> #}
+                {{- row.content -}}
+              {# </div> #}
+            {% endfor %}
+          </div>
+          <!-- Add Pagination -->
+          {# <div class="swiper-pagination"></div> #}
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+  <script src="https://idangero.us/swiper/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper2 = new Swiper('.swiper2', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>

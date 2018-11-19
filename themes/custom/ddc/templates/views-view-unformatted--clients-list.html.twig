@@ -1,0 +1,43 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+{# {% if title %}
+  <h3>{{ title }}</h3>
+{% endif %} #}
+
+<section class="section-client-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="client-list-block d-flex justify-content-between align-items-center">
+          {% for row in rows %}
+            {# {%
+              set row_classes = [
+                default_row_class ? 'views-row',
+              ]
+            %} #}
+            {# <div{{ row.attributes.addClass(row_classes) }}> #}
+              {{- row.content -}}
+            {# </div> #}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

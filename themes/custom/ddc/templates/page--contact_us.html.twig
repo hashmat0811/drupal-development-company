@@ -1,0 +1,42 @@
+{% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
+
+
+<div class="inner-banner">
+  <div class="container">
+    <div>
+      <div class="banner-text">
+        <h1 class="text-uppercase animated slideInUp">{{ node.title.value }}</h1>
+        <p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div>
+</div>
+
+
+{# <div class="container">
+  <div class="contact-page">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="p-5 text-white">
+          <h3>Hi,</h3>
+          <h3>I'am <input type="text" placeholder="Jason Roy"> </h3>
+          <h3>From <input type="text" placeholder="India"> </h3>
+          <h3>Looking for <input type="text" placeholder="Web Development"> </h3>
+          <h3>Contact with me</h3>
+          <h3><input type="text" placeholder="jason@gmail.com"> / <input type="text" placeholder="+91 9854313999"></h3>
+          <a href="#" class="btn">Connect</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> #}
+
+
+{# Webform #}
+{{ page.sidebar_first }}
+
+{# {% include 'themes/custom/ddc/templates/webform.html.twig' %} #}
+
+
+{% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}

@@ -1,0 +1,68 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+{# {% if title %}
+  <h3>{{ title }}</h3>
+{% endif %} #}
+
+
+
+
+
+<header class="masthead text-white d-flex">
+
+
+      <!-- Swiper -->
+
+          {% for row in rows %}
+            {# {%
+              set row_classes = [
+                default_row_class ? 'views-row',
+              ]
+            %} #}
+            {# <div{{ row.attributes.addClass(row_classes) }}> #}
+              {{- row.content -}}
+            {# </div> #}
+          {% endfor %}
+
+      <!-- Add Pagination -->
+        {# <div class="swiper-pagination"></div> #}
+        <!-- Add Arrows -->
+
+</header>
+
+ {#<!-- Swiper JS -->#}
+  {#<script src="https://idangero.us/swiper/dist/js/swiper.min.js"></script>#}
+
+  {#<!-- Initialize Swiper -->#}
+{#<script>#}
+    {#var swiper3 = new Swiper('.swiper3', {#}
+      {#slidesPerView: 1,#}
+      {#spaceBetween: 30,#}
+      {#loop: true,#}
+      {#pagination: {#}
+        {#el: '.swiper-pagination',#}
+        {#clickable: true,#}
+      {#},#}
+      {#navigation: {#}
+        {#nextEl: '.swiper-button-next',#}
+        {#prevEl: '.swiper-button-prev',#}
+      {#},#}
+    {#});#}
+  {#</script>#}

@@ -1,0 +1,124 @@
+{% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
+
+
+  {{ page.highlighted }}
+  {# Banner #}
+  {{ page.banner }}
+  {# {{ drupal_view('front_page_banner') }} #}
+
+  {# <section class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <img src="themes/custom/ddc/images/drupal-icon.png">
+          <h2 class="section-heading text-white">We are Drupal Experts</h2>
+          <h4 class="text-white">Netiapps is a Drupal focused company with more than 15 years of design & web development experience.</h4>
+        </div>
+      </div>
+    </div>
+  </section> #}
+
+    
+    {{ page.suggestion }}
+  {# {{ page.project_teaser }} #}
+
+  {# <section class="service-list">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="pl-5">
+          <h5>OUR EXPERTISE</h5>
+          <h2>We use our experience, to create yours.</h2>
+        </div>
+      </div>
+    </div> #}
+
+
+    {{ drupal_view('services_icon') }}
+      {# <div class="services-block pt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="s-block">
+              <div class="icon-image">
+                <img src="themes/custom/ddc/images/drupal-1.png">
+              </div>
+              <h6>Drupal Development</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="s-block">
+              <div class="icon-image">
+                <img src="themes/custom/ddc/images/grupal-2.png">
+              </div>
+              <h6>Drupal Development</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="s-block">
+              <div class="icon-image">
+                <img src="themes/custom/ddc/images/grupal-2.png">
+              </div>
+              <h6>Drupal Development</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+          <div class="col-md-4">
+            <div class="s-block">
+              <div class="icon-image">
+                <img src="themes/custom/ddc/images/drupal-3.png">
+              </div>
+              <h6>Drupal Development</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="s-block">
+              <div class="icon-image">
+                <img src="themes/custom/ddc/images/drupal-4.png">
+              </div>
+              <h6>Drupal Development</h6>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <div class="s-block">
+            <div class="icon-image">
+              <img src="themes/custom/ddc/images/grupal-2.png">
+            </div>
+            <h6>Drupal Development</h6>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section> #}
+
+
+{{ drupal_view('clients_list') }}
+{# <section class="section-client-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+      <div class="client-list-block d-flex justify-content-between align-items-center">
+        <img src="themes/custom/ddc/images/client-logo-1.png" />
+        <img src="themes/custom/ddc/images/client-logo-2.png" />
+        <img src="themes/custom/ddc/images/client-logo-3.png" />
+        <img src="themes/custom/ddc/images/client-logo-4.png" />
+        <img src="themes/custom/ddc/images/client-logo-5.png" />
+      </div>
+      </div>
+    </div>
+
+  </div>
+</section> #}
+
+
+{# Testimonials #}
+{{page.testimonials}}
+
+
+
+{% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}

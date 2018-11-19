@@ -1,0 +1,53 @@
+{% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
+
+
+<div class="inner-banner">
+  <div class="container">
+    <div>
+      <div class="banner-text">
+        <h1 class="text-uppercase animated slideInUp">{{ node.title.value }}</h1>
+        <p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div>
+</div>
+
+
+<div class="inner-page-content">
+  <div class="container">
+
+    <div class="about-intro p-5">
+    <div class="row">
+
+      <div class="col-md-4 my-auto text-center">
+        <img src="themes/custom/ddc/images/drupal-icon.png" />
+      </div>
+
+      <div class="col-md-8 p-5">
+        <div class="text-white">
+            <h3>We are highly experienced and professional Drupal development company in India. </h3>
+            <p>Last few years our crack teams of Drupal developers have been responsible for some of the most exciting Drupal projects. We have developed hundreds of custom Drupal module and implemented so many custom Drupal themes in the course of our work. </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="middle-intro p-5 text-white">
+    <div class="row">
+
+        <div class="col-md-12">
+            <h3>Why Drupal</h3>
+            <p>Drupal is an open source content management system powering millions of websites and applications. It is an excellent platform and it provides a seriously robust and scalable web development platform for a Content Management System. Drupal allows anyone to easily publish, manage and organize a wide variety of content on a website. Written in PHP, Drupal is a complete open source Content Management System that can be used to build and deploy complex dynamic websites, portals, online communities, etc. Some of the largest and most powerful sites in the world have used customized Drupal web application Development including growing organizations, governments and major media corporations.</p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+{% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}

@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Toolbar module overrides for ddc.
+ */
+
+.toolbar a {
+  border-bottom: none;
+}
