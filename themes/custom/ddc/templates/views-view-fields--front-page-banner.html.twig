@@ -158,16 +158,16 @@
             */
 
           var config = {
-            text: "Drupal is Big",
-            widthToSpikeLengthRatio: 0.054 };
+            text: "DRUPAL IS BIG",
+            widthToSpikeLengthRatio: 0.024 };
 
 
           var colorConfig = {
             particleOpacity: 0.2,
-            baseHue: 350,
-            hueRange: 9,
+            baseHue: 550,
+            hueRange: 20,
             hueSpeed: 0.04,
-            colorSaturation: 100 };
+            colorSaturation: 0 };
 
 
           // A line that is part of forming the text
@@ -179,7 +179,7 @@
               {
                 ctx.fillStyle = "#000";
                 ctx.beginPath();
-                ctx.arc(this.pos.x, this.pos.y, 1, 0, Math.PI * 2);
+                ctx.arc(this.pos.x, this.pos.y, 8, 0, Math.PI * 2);
                 ctx.fill();
               } }]);return Planet;}();var
 
@@ -226,7 +226,7 @@
             planets = [];
             var len = Math.round(Math.random() * 3 + 3);
             for (var i = 0; i < len; i++) {
-              var p = new Planet(50 + i * 100, 340, i ? 1000 : 4000);
+              var p = new Planet(10 + i * 100, 340, i ? 1000 : 4000);
               planets.push(p);
             }
             canvas = document.querySelector("#canvas");
@@ -241,8 +241,8 @@
             w = canvas.width = window.innerWidth;
             h = canvas.height = window.innerHeight;
             spikeLength = w * config.widthToSpikeLengthRatio;
-            A = w / 2.2;
-            B = h / 2.2;
+            A = w / 1.2;
+            B = h / 1.2;
             a = Math.round(Math.random() + 2);
             b = Math.round(Math.random() + 2);
             drawText();
@@ -269,11 +269,11 @@
 
           function drawText() {
             ctx.save();
-            var fontSize = w * 0.2;
+            var fontSize = 94;
             ctx.font = "bold " + fontSize + "px Arial, Helvetica, sans-serif";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.lineWidth = 1;
+            ctx.lineWidth = 2;
             ctx.strokeStyle = "white";
             ctx.strokeText(config.text, w / 2, h / 2);
             ctx.restore();
