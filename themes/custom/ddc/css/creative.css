@@ -215,7 +215,8 @@ img::-moz-selection {
   width: 30px;
   position: fixed;
   z-index: 2;
-  left: 50px;
+  right: 100px !important;
+  left: auto;
   top: 30px;
   cursor: pointer;
 }
@@ -368,23 +369,23 @@ body.nav-active .nav__list-item:nth-child(0) {
 }
 
 body.nav-active .nav__list-item:nth-child(1) {
-  -webkit-transition-delay: 0.58889s;
-  transition-delay: 0.58889s;
+  -webkit-transition-delay: 0.56667s;
+  transition-delay: 0.56667s;
 }
 
 body.nav-active .nav__list-item:nth-child(2) {
-  -webkit-transition-delay: 0.67778s;
-  transition-delay: 0.67778s;
+  -webkit-transition-delay: 0.63333s;
+  transition-delay: 0.63333s;
 }
 
 body.nav-active .nav__list-item:nth-child(3) {
-  -webkit-transition-delay: 0.76667s;
-  transition-delay: 0.76667s;
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
 }
 
 body.nav-active .nav__list-item:nth-child(4) {
-  -webkit-transition-delay: 0.85556s;
-  transition-delay: 0.85556s;
+  -webkit-transition-delay: 0.76667s;
+  transition-delay: 0.76667s;
 }
 
 header.masthead {

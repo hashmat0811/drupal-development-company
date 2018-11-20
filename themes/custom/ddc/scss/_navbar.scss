@@ -115,19 +115,22 @@ $font--color:#ffffff;
 $font--color--active:#000000;
 $font--primary:'Fira Sans', sans-serif;
 $transition--length: .8;
+$size: 30px;
 
 
 .menu-icon{
-  $size: 30px;
-  height: $size;
-  width: $size;
+
+  height: 30px;
+  width: 30px;
   position: fixed;
-  z-index:2;
-  left: 50px;
+  z-index: 2;
+  right: 100px !important;
+  left: auto;
   top: 30px;
   cursor: pointer;
   &__line{
     height: 2px;
+
     width: $size;
     display: block;
     background-color: $font--color;
@@ -236,7 +239,7 @@ body.nav-active{
       transition: opacity .3s ease, transform .3s ease, color .3s ease;
       @for $i from 0 through $menu--items--count {
         &:nth-child(#{$i}){
-          transition-delay: $transition--length * $i / 9 + .5 + s;
+          transition-delay: $transition--length * $i / 12 + .5 + s;
         }
       }
     }
