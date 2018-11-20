@@ -83,17 +83,17 @@ body p{
 color: #fff;
 .image-background{
   background-size: cover!important;
--o-object-fit: cover;
-object-fit: cover;
-min-height: 650px;
-position: relative;
-color: #fff;
-margin: auto;
-padding: 10%;
+  object-fit: cover;
+  min-height: 650px;
+  position: relative;
+  color: #fff;
+  margin: auto;
+  max-width: 85%;
+  padding: 10% 5% 10% 40%;
 }
 
 h2{
-
+      font-size: 40px;
 }
 
 
