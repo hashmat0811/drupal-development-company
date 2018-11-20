@@ -333,6 +333,18 @@ img::-moz-selection {
   width: 100%;
 }
 
+.content__bottom {
+  -webkit-transform: translate(0%, 100%);
+  transform: translate(0%, 100%);
+  -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+  transition: opacity .2s ease, -webkit-transform .3s ease;
+  transition: opacity .2s ease, transform .3s ease;
+  transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .8s;
+  transition-delay: .8s;
+  opacity: 0;
+}
+
 body.nav-active .menu-icon {
   z-index: 30001;
 }
