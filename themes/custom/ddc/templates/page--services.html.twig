@@ -33,10 +33,17 @@
   {% endif %}
   {% if loop.index == 2 %}
   <div class="layout2">
-    <div class="image-background" style="background:url({{ file_url(item.entity.field_image.entity.fileuri) }}) no-repeat; background-size: cover;">
-      <h2 class="background-block">{{ item.entity.field_title.value }}</h2>
-      <div class="body col-md-6">
-        {{ item.entity.field_banner_description.value|raw }}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          {{ item.entity.field_title.value }}</h2>
+          <div class="body">
+            {{ item.entity.field_banner_description.value|raw }}
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" />
+        </div>
       </div>
     </div>
   </div>
