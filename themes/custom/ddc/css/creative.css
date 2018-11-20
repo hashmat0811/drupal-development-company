@@ -65,21 +65,10 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none;
-}
-
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
 }
 
 img::selection {
@@ -920,6 +909,18 @@ body p {
   max-width: 400px;
 }
 
+.image-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #000000, #000000);
+  opacity: .3;
+  z-index: 1;
+}
+
 .layout-intro h2 {
   color: #ccc;
   font-size: 35px;
@@ -936,6 +937,7 @@ body p {
   font-size: 30px;
   font-weight: 500;
   left: -30px;
+  z-index: 1;
 }
 
 .layout1 .image-background {
@@ -956,6 +958,7 @@ body p {
   padding: 45px;
   font-size: 18px;
   text-shadow: 0px 1px 1px #929292;
+  z-index: 1;
 }
 
 .layout2 h2 {
@@ -972,7 +975,7 @@ body p {
   padding-left: 50px;
 }
 
-.layout3 h2 {
+.layout3 h2, .layout5 h2, .layout6 h2 {
   font-size: 40px;
   font-weight: 700;
   color: #a2a2a2;
@@ -982,12 +985,13 @@ body p {
   background: #ce2100;
   color: #fff;
   max-width: 380px;
-  top: 50px;
+  top: 130px;
   position: absolute;
   padding: 30px;
   font-size: 30px;
   font-weight: 500;
   right: -30px;
+  z-index: 1;
 }
 
 .layout4 .image-background {
@@ -1002,12 +1006,14 @@ body p {
 }
 
 .layout4 .body {
-  float: right;
+  float: left;
   position: relative;
-  top: 180px;
+  top: 70px;
+  left: 50px;
   padding: 45px;
   font-size: 18px;
-  text-shadow: 0px 1px 1px #929292;
+  text-shadow: 0 1px 1px #929292;
+  z-index: 1;
 }
 
 .portfolio-box {
