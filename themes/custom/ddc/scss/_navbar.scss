@@ -213,8 +213,9 @@ $size: 30px;
 
 //active state
 body.nav-active{
-  $menu--items--count: 4;
+  $menu--items--count: 5;
   .menu-icon{
+    z-index: 30001;
     &__line{
       background-color: #000;
       transform: translateX(0px) rotate(-45deg);
@@ -227,6 +228,7 @@ body.nav-active{
     }
   }
   .nav{
+    z-index: 30000;
     visibility:visible;
     &:before,&:after{
       transform: translateX(0%) translateY(0%);
