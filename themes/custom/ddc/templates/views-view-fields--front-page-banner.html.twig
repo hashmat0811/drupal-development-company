@@ -57,7 +57,7 @@
           <div class="container">
               <div>
                   <div class="banner-text">
-                      <h1 class="h1 text-uppercase">{{ fields.field_title.content }}</h1>
+                      <h1 class="text-uppercase">{{ fields.field_title.content }}</h1>
                       <p class="text-faded mb-5">{{ fields.field_banner_description.content }}</p>
                       <div class="arrow-down fadeIn animated "><img src="themes/custom/ddc/images/arrow-down.gif" /></div>
                   </div>
@@ -66,72 +66,4 @@
           <div class="slide-image">{{ fields.field_banner_image_1.content }}</div>
       </div>
 
-        <script>
-          ;(function($) {
 
-            $.fn.letterDrop = function() {
-              // Chainability
-              return this.each( function() {
-
-                var obj = $( this );
-
-                var drop = {
-                  arr : obj.text().split( '' ),
-
-                  range : {
-                    min : 1,
-                    max : 9
-                  },
-
-                  styles : function() {
-                    var dropDelays = '\n', addCSS;
-
-                    for ( i = this.range.min; i <= this.range.max; i++ ) {
-                      dropDelays += '.ld' + i + ' { animation-delay: 1.' + i + 's; }\n';
-                    }
-
-                    addCSS = $( '<style>' + dropDelays + '</style>' );
-                    $( 'head' ).append( addCSS );
-                  },
-
-                  main : function() {
-                    var dp = 0;
-                    obj.text( '' );
-
-                    $.each( this.arr, function( index, value ) {
-
-                      dp = dp.randomInt( drop.range.min, drop.range.max );
-
-                      if ( value === ' ' )
-                        value = '&nbsp'; //Add spaces
-
-                      obj.append( '<span class="letterDrop ld' + dp + '">' + value + '</span>' );
-
-                    });
-
-                  }
-                };
-
-                Number.prototype.randomInt = function ( min, max ) {
-                  return Math.floor( Math.random() * ( max - min + 1 ) + min );
-                };
-
-
-                // Create styles
-                drop.styles();
-
-
-                // Initialise
-                drop.main();
-              });
-
-            };
-
-          }(jQuery));
-
-
-          // USAGE
-          $( '.h1' ).letterDrop();
-
-
-        </script>
