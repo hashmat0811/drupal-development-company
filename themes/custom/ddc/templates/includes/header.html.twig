@@ -19,18 +19,82 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
+
+  <div class="menu-icon">
+      <span class="menu-icon__line menu-icon__line-left"></span>
+      <span class="menu-icon__line"></span>
+      <span class="menu-icon__line menu-icon__line-right"></span>
+
+      <div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>
+  </div>
+
+  <div class="nav">
+      <div class="nav__content">
+          {{ page.primary_menu }}
+
+          <ul class="nav__list">
+              <li class="nav__list-item">Home</li>
+              <li class="nav__list-item">About</li>
+              <li class="nav__list-item">Projects</li>
+              <li class="nav__list-item">Contact</li>
+
+          </ul>
+
+          <ul class="ml-auto nav pt-3">
+              <li><img src="themes/custom/ddc/images/acquia.png" /></li>
+              <li><img src="themes/custom/ddc/images/pantheon.png" /></li>
+          </ul>
+
+
+      </div>
+  </div>
+
+
+  <script>
+    console.clear();
+
+    var app = function () {
+      var body = void 0;
+      var menu = void 0;
+      var menuItems = void 0;
+
+      var init = function init() {
+        body = document.querySelector('body');
+        menu = document.querySelector('.menu-icon');
+        menuItems = document.querySelectorAll('.nav__list-item');
+
+        applyListeners();
+      };
+
+      var applyListeners = function applyListeners() {
+        menu.addEventListener('click', function () {return toggleClass(body, 'nav-active');});
+      };
+
+      var toggleClass = function toggleClass(element, stringClass) {
+        if (element.classList.contains(stringClass))
+          element.classList.remove(stringClass);else
+
+          element.classList.add(stringClass);
+      };
+
+      init();
+    }();
+  </script>
+
+
+  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top animated slideInDown" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a>
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
 
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          {{ page.primary_menu }}
-          {# <ul class="navbar-nav">
+
+           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Web</a>
             </li>
@@ -43,15 +107,8 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Cloud</a>
             </li>
-          </ul> #}
-          <ul class="ml-auto nav pt-3">
-            <li>
-              <img src="themes/custom/ddc/images/acquia.png" />
-            </li>
-              <li>
-                  <img src="themes/custom/ddc/images/pantheon.png" />
-              </li>
           </ul>
+
 
         </div>
       </div>
