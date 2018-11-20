@@ -119,10 +119,11 @@ $transition--length: .8;
 
 .menu-icon{
   height: 30px;
-  right: 133px;
   width: 30px;
   position: fixed;
   z-index: 2;
+  right: 100px !important;
+  left: auto;
   top: 30px;
   cursor: pointer;
   &__line{
