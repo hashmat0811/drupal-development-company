@@ -368,23 +368,23 @@ body.nav-active .nav__list-item:nth-child(0) {
 }
 
 body.nav-active .nav__list-item:nth-child(1) {
-  -webkit-transition-delay: 0.6s;
-  transition-delay: 0.6s;
+  -webkit-transition-delay: 0.58889s;
+  transition-delay: 0.58889s;
 }
 
 body.nav-active .nav__list-item:nth-child(2) {
-  -webkit-transition-delay: 0.7s;
-  transition-delay: 0.7s;
+  -webkit-transition-delay: 0.67778s;
+  transition-delay: 0.67778s;
 }
 
 body.nav-active .nav__list-item:nth-child(3) {
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+  -webkit-transition-delay: 0.76667s;
+  transition-delay: 0.76667s;
 }
 
 body.nav-active .nav__list-item:nth-child(4) {
-  -webkit-transition-delay: 0.9s;
-  transition-delay: 0.9s;
+  -webkit-transition-delay: 0.85556s;
+  transition-delay: 0.85556s;
 }
 
 header.masthead {
