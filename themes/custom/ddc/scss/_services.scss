@@ -1,4 +1,8 @@
 // Styling for the services section
+body p{
+    font-weight: 200;
+}
+
 .service-box {
   max-width: 400px;
 }
@@ -49,4 +53,20 @@
   text-shadow: 0px 1px 1px #929292;
 }
 
+}
+
+
+.layout2{
+  h2{
+    font-size: 40px;
+    font-weight: 300;
+    color: #a2a2a2;
+    span{
+    display: block;
+    color: #e01f03;
+    font-weight: 700;
+    font-size: 46px;
+    padding-left: 50px;
+    }
+  }
 }
