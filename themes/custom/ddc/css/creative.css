@@ -226,7 +226,8 @@ img::-moz-selection {
   width: 30px;
   position: fixed;
   z-index: 2;
-  left: 50px;
+  right: 100px !important;
+  left: auto;
   top: 30px;
   cursor: pointer;
 }
