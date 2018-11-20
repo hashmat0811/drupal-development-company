@@ -211,6 +211,13 @@ $size: 30px;
   }
 }
 
+.content__bottom{
+  transform: translate(0%, 100%);
+  transition: opacity .2s ease, transform .3s ease;
+  transition-delay: .4s;
+  opacity: 0;
+}
+
 //active state
 body.nav-active{
   $menu--items--count: 5;
@@ -227,9 +234,16 @@ body.nav-active{
       transform: translateX(-2px) rotate(45deg);
     }
   }
+  .content__bottom{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity .3s ease, transform .3s ease, color .3s ease;
+    transition-delay: 1.8s;
+  }
+
   .nav{
     z-index: 30000;
-    visibility:visible;
+    visibility: visible;
     &:before,&:after{
       transform: translateX(0%) translateY(0%);
     }
@@ -239,6 +253,9 @@ body.nav-active{
     &:before{
       transition-delay: 0s;
     }
+
+
+
     &__list-item{
       opacity: 1;
       transform: translateX(0%);
