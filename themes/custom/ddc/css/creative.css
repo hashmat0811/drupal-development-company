@@ -403,6 +403,17 @@ body.nav-active .nav__list-item:nth-child(4) {
   transition-delay: 0.76667s;
 }
 
+.navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  position: fixed;
+  left: 78px !important;
+  top: 7px !important;
+  border: none !important;
+  color: #E32003;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
