@@ -236,7 +236,7 @@ body.nav-active{
       transition: opacity .3s ease, transform .3s ease, color .3s ease;
       @for $i from 0 through $menu--items--count {
         &:nth-child(#{$i}){
-          transition-delay: $transition--length * $i / 9 + .5 + s;
+          transition-delay: $transition--length * $i / 12 + .5 + s;
         }
       }
     }
