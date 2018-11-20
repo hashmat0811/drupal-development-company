@@ -902,6 +902,12 @@ body p {
   padding-left: 50px;
 }
 
+.layout3 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #a2a2a2;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
