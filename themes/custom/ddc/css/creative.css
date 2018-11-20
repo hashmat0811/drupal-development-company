@@ -147,6 +147,10 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
+  position: fixed;
+  left: 78px !important;
+  top: 7px !important;
+  border: none !important;
   color: #E32003;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
