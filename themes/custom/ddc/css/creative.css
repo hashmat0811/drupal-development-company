@@ -333,6 +333,10 @@ img::-moz-selection {
   width: 100%;
 }
 
+body.nav-active .menu-icon {
+  z-index: 30001;
+}
+
 body.nav-active .menu-icon__line {
   background-color: #000;
   -webkit-transform: translateX(0px) rotate(-45deg);
@@ -350,6 +354,7 @@ body.nav-active .menu-icon__line-right {
 }
 
 body.nav-active .nav {
+  z-index: 30000;
   visibility: visible;
 }
 
@@ -401,6 +406,11 @@ body.nav-active .nav__list-item:nth-child(3) {
 body.nav-active .nav__list-item:nth-child(4) {
   -webkit-transition-delay: 0.76667s;
   transition-delay: 0.76667s;
+}
+
+body.nav-active .nav__list-item:nth-child(5) {
+  -webkit-transition-delay: 0.83333s;
+  transition-delay: 0.83333s;
 }
 
 .navbar-brand {
