@@ -340,9 +340,18 @@ img::-moz-selection {
   transition: opacity .2s ease, -webkit-transform .3s ease;
   transition: opacity .2s ease, transform .3s ease;
   transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: 2.8s;
-  transition-delay: 2.8s;
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
   opacity: 0;
+}
+
+.content__bottom a {
+  border: none;
+  background: #292929;
+  padding: 9px 30px;
+  border-radius: 50px;
+  font-size: 21px;
+  color: #fff;
 }
 
 body.nav-active .menu-icon {
@@ -373,8 +382,8 @@ body.nav-active .content__bottom {
   transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: .2s;
-  transition-delay: .2s;
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
 }
 
 body.nav-active .nav {
@@ -889,6 +898,17 @@ canvas {
 }
 
 .work-section {
+  color: #000;
+}
+
+.menu-font {
+  font-size: 50px;
+  font-weight: 600;
+  color: #000;
+}
+
+.menu-small-font {
+  font-size: 15px;
   color: #000;
 }
 

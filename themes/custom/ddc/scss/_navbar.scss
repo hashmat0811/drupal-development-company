@@ -216,6 +216,14 @@ $size: 30px;
   transition: opacity .2s ease, transform .3s ease;
   transition-delay: .4s;
   opacity: 0;
+  a{
+    border: none;
+    background: #292929;
+    padding: 9px 30px;
+    border-radius: 50px;
+    font-size: 21px;
+    color: #fff;
+  }
 }
 
 //active state
