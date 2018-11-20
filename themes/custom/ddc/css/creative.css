@@ -641,13 +641,13 @@ h4 {
   top: 50px;
   position: absolute;
   padding: 30px;
-  font-size: 33px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   left: -30px;
 }
 
 .layout1 .image-background {
-  background-size: cover;
+  background-size: cover !important;
   -o-object-fit: cover;
   object-fit: cover;
   min-height: 650px;
