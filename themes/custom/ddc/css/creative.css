@@ -661,57 +661,8 @@ canvas {
   cursor: crosshair;
 }
 
-.banner-text .letterDrop {
-  position: relative;
-  top: 0;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  opacity: 0.8;
-  -webkit-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-  -webkit-animation: letterDrop 1.2s ease 1 normal forwards;
-  animation: letterDrop 1.2s ease 1 normal forwards;
-}
-
-@-webkit-keyframes letterDrop {
-  10% {
-    opacity: 0.5;
-  }
-  20% {
-    opacity: 0.8;
-    top: 3.75em;
-    -webkit-transform: rotateX(-360deg);
-    transform: rotateX(-360deg);
-  }
-  100% {
-    opacity: 1;
-    top: 4.50em;
-    -webkit-transform: rotateX(360deg);
-    transform: rotateX(360deg);
-  }
-}
-
-@keyframes letterDrop {
-  10% {
-    opacity: 0.5;
-  }
-  20% {
-    opacity: 0.8;
-    top: 3.75em;
-    -webkit-transform: rotateX(-360deg);
-    transform: rotateX(-360deg);
-  }
-  100% {
-    opacity: 1;
-    top: 4.50em;
-    -webkit-transform: rotateX(360deg);
-    transform: rotateX(360deg);
-  }
-}
-
-.banner-text span:nth-child(2n) {
-  color: #663399;
+.work-section {
+  color: #000;
 }
 
 .service-box {
