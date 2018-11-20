@@ -340,8 +340,8 @@ img::-moz-selection {
   transition: opacity .2s ease, -webkit-transform .3s ease;
   transition: opacity .2s ease, transform .3s ease;
   transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: .8s;
-  transition-delay: .8s;
+  -webkit-transition-delay: 2.8s;
+  transition-delay: 2.8s;
   opacity: 0;
 }
 
@@ -373,6 +373,8 @@ body.nav-active .content__bottom {
   transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
 }
 
 body.nav-active .nav {
