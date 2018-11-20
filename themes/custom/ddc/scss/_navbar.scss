@@ -40,6 +40,10 @@
     font-weight: 700;
     text-transform: uppercase;
     border: none;
+    position: fixed;
+    left: 78px !important;
+    top: 7px !important;
+    border: none !important;
     color: $primary;
     @include sans-serif-font;
     &:focus,
