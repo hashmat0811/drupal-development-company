@@ -113,30 +113,24 @@
         </div>
       </div>
     </div> #}
-    {# <section class="service-list">
+    <section class="service-list">
       <div class="container">
         <div class="services-block pt-5">
           <div class="row">
-              {% for item in node.field_services_icons %}
-            <div class="col-md-4">
-              <div class="s-block">
-                <div class="icon-image">
-                  <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+            {% for item in node.field_services_icons %}
+              <div class="col-md-4">
+                <div class="s-block">
+                  <div class="icon-image">
+                    <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+                  </div>
+                  <h6>{{ item.entity.field_title.value }}</h6>
                 </div>
-                <h6>{{ item.entity.field_title.value }}</h6>
-
-
               </div>
-            </div>
-
-              {% endfor %}
-
-
+            {% endfor %}
           </div>
         </div>
-
       </div>
-    </section> #}
+    </section>
 
 
   </div>
