@@ -891,7 +891,7 @@ body p {
 .layout2 h2 span {
   display: block;
   color: #e01f03;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 46px;
   padding-left: 50px;
 }
@@ -906,7 +906,7 @@ body p {
   color: #fff;
 }
 
-.layout4 .background-block {
+.layout4 .image-background {
   background-size: cover !important;
   -o-object-fit: cover;
   object-fit: cover;
