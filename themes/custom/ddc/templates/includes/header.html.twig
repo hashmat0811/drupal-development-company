@@ -27,19 +27,33 @@
       {#<div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>#}
   </div>
 
-  <a class="navbar-brand" href="/" style="position: fixed; left: 6px; top: 7px"><img src="{{ logopath }}" ></a>
+  <a class="navbar-brand" href="/" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" ></a>
 
   <div class="nav">
       <div class="nav__content">
           {#{{ page.primary_menu }}#}
 
           <ul class="nav__list">
-              <li class="nav__list-item">Home</li>
               <li class="nav__list-item">About</li>
+              <li class="nav__list-item">Services</li>
               <li class="nav__list-item">Works</li>
-              <li class="nav__list-item">Projects</li>
               <li class="nav__list-item">Contact</li>
           </ul>
+
+          <div>
+              <ul class="nav__list">
+                  <li class="nav__list-item">Privacy</li>
+                  <li class="nav__list-item">Terms of use</li>
+              </ul>
+          </div>
+
+
+
+
+          <div>
+              <h2>Startup Package at 1 Lakhs</h2>
+              <a href="#">Get in touch</a>
+          </div>
 
           {#<ul class="ml-auto nav pt-3">#}
               {#<li><img src="themes/custom/ddc/images/acquia.png" /></li>#}
