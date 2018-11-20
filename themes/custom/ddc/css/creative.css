@@ -353,6 +353,16 @@ body.nav-active .menu-icon__line-right {
   transform: translateX(-2px) rotate(45deg);
 }
 
+body.nav-active .content__bottom {
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, color .3s ease;
+  transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
+}
+
 body.nav-active .nav {
   z-index: 30000;
   visibility: visible;
