@@ -14,9 +14,9 @@
 
 <div class="layout-intro text-center">
     <div class="container p-lg-5">
-      <h2>Experience That Evolves</h2>
+      <h2>{{ node.field_title.value|raw }}</h2>
       <div class="body col-md-10 m-auto">
-        Our Drupal developers have been with us for over a decade now and believe in growing with the upgrades. They are innovative, versatile and completely, absolutely dedicated to creating master pieces of digital experiences. While they strive for perfection they can create robust, scalable and flexible content management solutions faster than you can imagine. Don't believe us? We will be happy to set up a meeting. Call us today.
+        {{ node.body.value|raw }}
       </div>
     </div>
 </div>
