@@ -889,7 +889,7 @@ body p {
   max-width: 400px;
 }
 
-.image-background::after {
+.image-background::before {
   content: "";
   position: absolute;
   top: 0;

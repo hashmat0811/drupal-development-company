@@ -8,7 +8,7 @@ body p{
 }
 
 
-.image-background::after {
+.image-background::before {
     content: ""; // ::before and ::after both require content
     position: absolute;
     top: 0;
