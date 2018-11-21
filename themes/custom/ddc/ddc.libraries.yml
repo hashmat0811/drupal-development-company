@@ -83,6 +83,7 @@ global-styling:
       js/jquery-easing/jquery.easing.min.js: {}
       js/scrollreveal/scrollreveal.min.js: {}
       js/magnific-popup/jquery.magnific-popup.min.js: {}
+      js/header.js: {}
 
 messages:
   version: VERSION
