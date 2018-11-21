@@ -393,8 +393,8 @@ body.nav-active .content__bottom {
   transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
 }
 
 body.nav-active .nav {
