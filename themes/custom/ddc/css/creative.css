@@ -399,7 +399,7 @@ body.nav-active .content__bottom {
 }
 
 body.nav-active .nav {
-  z-index: 30000;
+  z-index: 30000 !important;
   visibility: visible;
 }
 
