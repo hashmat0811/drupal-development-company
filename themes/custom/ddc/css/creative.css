@@ -366,10 +366,6 @@ img::-moz-selection {
   font-weight: 900;
 }
 
-.nav {
-  z-index: -100;
-}
-
 body.nav-active .menu-icon {
   z-index: 30001;
 }
@@ -403,7 +399,7 @@ body.nav-active .content__bottom {
 }
 
 body.nav-active .nav {
-  z-index: 30000;
+  z-index: 30000 !important;
   visibility: visible;
 }
 
@@ -599,15 +595,21 @@ h4 {
 .service-list .s-block {
   background: #f7f7f7;
   padding: 40px 10px;
+  width: 100%;
   text-align: center;
   margin-bottom: 30px;
   color: #000;
+  z-index: 1;
+  position: relative;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
 }
 
 .service-list .s-block:hover {
+<<<<<<< HEAD
   background: #ca1b05;
+=======
+>>>>>>> 3600864be31f479d04b44fbf1828879faf7922f1
   -webkit-box-shadow: 0px 0px 120px #f3f3f3;
   box-shadow: 0px 0px 120px #f3f3f3;
   cursor: pointer;
@@ -792,7 +794,7 @@ h4 {
   padding-top: 150px;
   position: relative;
   margin-top: -150px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .section-client-top img {
@@ -968,6 +970,10 @@ canvas {
 
 .menu-small-font .nav__list-item:before {
   display: none;
+}
+
+.nav {
+  z-index: 0 !important;
 }
 
 body p {

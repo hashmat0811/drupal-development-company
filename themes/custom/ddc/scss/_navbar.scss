@@ -235,9 +235,7 @@ $size: 30px;
     font-weight: 900;
   }
 }
-.nav{
-  z-index: -100;
-}
+
 //active state
 body.nav-active{
   $menu--items--count: 5;
@@ -262,7 +260,7 @@ body.nav-active{
   }
 
   .nav{
-    z-index: 30000;
+    z-index: 30000 !important;
     visibility: visible;
     &:before,&:after{
       transform: translateX(0%) translateY(0%);
