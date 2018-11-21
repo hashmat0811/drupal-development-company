@@ -940,6 +940,13 @@ canvas {
   margin-top: 60px;
 }
 
+.menu-font a {
+  border: none;
+  font-size: 40px;
+  padding-left: 0px;
+  color: #000;
+}
+
 .menu-small-font {
   font-size: 15px;
   color: #000;
