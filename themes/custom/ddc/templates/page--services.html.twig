@@ -13,15 +13,15 @@
 </div>
 
 
-{% if field_title %}
-<div class="layout-intro text-center">
-    <div class="container p-lg-5">
-      <h2>{{ node.field_title.value|raw }}</h2>
-      <div class="body col-md-10 m-auto">
-        {{ node.body.value|raw }}
+{% if node.field_title.value %}
+  <div class="layout-intro text-center">
+      <div class="container p-lg-5">
+        <h2>{{ node.field_title.value|raw }}</h2>
+        <div class="body col-md-10 m-auto">
+          {{ node.body.value|raw }}
+        </div>
       </div>
-    </div>
-</div>
+  </div>
 {% endif %}
 
 
