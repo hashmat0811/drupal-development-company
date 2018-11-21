@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,700,800");
+@import url(../fonts/inter-ui.css);
 body,
 html {
   width: 100%;
@@ -65,10 +65,21 @@ section {
   margin-top: 0;
 }
 
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
 }
 
 img::selection {
