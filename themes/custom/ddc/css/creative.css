@@ -592,10 +592,11 @@ h4 {
 }
 
 .service-list .s-block:hover {
-  background: white;
+  background: #ca1b05;
   -webkit-box-shadow: 0px 0px 120px #f3f3f3;
   box-shadow: 0px 0px 120px #f3f3f3;
   cursor: pointer;
+  color: #fff;
 }
 
 .service-list .s-block h6 {
