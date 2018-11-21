@@ -235,7 +235,9 @@ $size: 30px;
     font-weight: 900;
   }
 }
-
+.nav{
+  z-index: -100;
+}
 //active state
 body.nav-active{
   $menu--items--count: 5;
