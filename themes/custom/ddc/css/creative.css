@@ -556,6 +556,11 @@ h4 {
   color: #000;
 }
 
+.service-list h2 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
 .service-list h5 {
   font-size: 15px;
 }
@@ -742,8 +747,9 @@ h4 {
 }
 
 .second-swipper h1 {
-  font-size: 30px;
+  font-size: 3rem;
   padding-right: 30px;
+  font-weight: 900;
 }
 
 .second-swipper p {
