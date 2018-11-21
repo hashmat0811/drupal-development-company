@@ -47,7 +47,8 @@
           </div>
         </div>
         <div class="col-md-5">
-          <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" />
+          <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
+          {# <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" /> #}
         </div>
       </div>
     </div>
@@ -58,7 +59,8 @@
     <div class="container">
       <div class="row pt-lg-5">
         <div class="col-md-5">
-          <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" />
+          <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
+          {# <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" /> #}
         </div>
         <div class="col-md-7">
           <h2>{{ item.entity.field_title.value|raw }}</h2>
@@ -91,7 +93,8 @@
           </div>
         </div>
         <div class="col-md-5">
-          <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" />
+          <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
+          {# <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" /> #}
         </div>
       </div>
     </div>
@@ -102,7 +105,8 @@
     <div class="container">
       <div class="row pt-lg-5">
         <div class="col-md-5">
-          <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" />
+          <img src="{{ item.entity.field_image.entity.uri.value | image_style('portfolio') }}" alt="{{item.entity.field_image.alt}}"/>
+          {# <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" /> #}
         </div>
         <div class="col-md-7">
           <h2>{{ item.entity.field_title.value|raw }}</h2>
