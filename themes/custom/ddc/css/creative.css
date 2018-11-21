@@ -334,7 +334,7 @@ img::-moz-selection {
 }
 
 .content__bottom {
-  width: 70%;
+  width: 78%;
   margin: auto;
   padding: 41px;
   height: 360px;
@@ -347,6 +347,10 @@ img::-moz-selection {
   -webkit-transition-delay: .4s;
   transition-delay: .4s;
   opacity: 0;
+}
+
+.content__bottom p {
+  font-weight: 900;
 }
 
 .content__bottom a {
