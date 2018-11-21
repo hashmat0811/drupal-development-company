@@ -19,16 +19,16 @@
 
   <body id="page-top">
 
-<header>
-  <div class="menu-icon">
-      <span class="menu-icon__line menu-icon__line-left"></span>
-      <span class="menu-icon__line"></span>
-      <span class="menu-icon__line menu-icon__line-right"></span>
-      {#<div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>#}
-  </div>
+  <header class="header">
+    <div class="menu-icon">
+        <span class="menu-icon__line menu-icon__line-left"></span>
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line menu-icon__line-right"></span>
+        {#<div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>#}
+    </div>
 
-  <a class="navbar-brand" href="/" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" ></a>
-</header>
+    <a class="navbar-brand" href="/" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" ></a>
+  </header>
   <div class="nav">
       <div class="nav__content">
           {#{{ page.primary_menu }}#}
@@ -144,9 +144,9 @@
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('header').outerHeight();
+var navbarHeight = jQuery('header').outerHeight();
 
-$(window).scroll(function(event){
+jQuery(window).scroll(function(event){
   didScroll = true;
 });
 
@@ -158,7 +158,7 @@ setInterval(function() {
 }, 250);
 
 function hasScrolled() {
-  var st = $(this).scrollTop();
+  var st = jQuery(this).scrollTop();
 
   // Make sure they scroll more than delta
   if(Math.abs(lastScrollTop - st) <= delta)
@@ -168,11 +168,11 @@ function hasScrolled() {
   // This is necessary so you never see what is "behind" the navbar.
   if (st > lastScrollTop && st > navbarHeight){
       // Scroll Down
-      $('header').removeClass('nav-down').addClass('nav-up');
+      jQuery('header').removeClass('nav-down').addClass('nav-up');
   } else {
       // Scroll Up
-      if(st + $(window).height() < $(document).height()) {
-          $('header').removeClass('nav-up').addClass('nav-down');
+      if(st + jQuery(window).height() < jQuery(document).height()) {
+          jQuery('header').removeClass('nav-up').addClass('nav-down');
       }
   }
 
