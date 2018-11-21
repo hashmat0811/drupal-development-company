@@ -604,7 +604,6 @@ h4 {
 }
 
 .service-list .s-block:hover {
-  background: white;
   -webkit-box-shadow: 0px 0px 120px #f3f3f3;
   box-shadow: 0px 0px 120px #f3f3f3;
   cursor: pointer;
