@@ -69,7 +69,7 @@
   <script>
     console.clear();
 
-      var app = function () {
+    var app = function () {
       var body = void 0;
       var menu = void 0;
       var menuItems = void 0;
@@ -128,8 +128,8 @@ jQuery(document).ready(function(){
   }, 250);
 });
 
-function hasScrolled() {
-  var st = jQuery(this).scrollTop();
+{# function hasScrolled() {
+  var st = $(this).scrollTop();
 
   // Make sure they scroll more than delta
   if(Math.abs(lastScrollTop - st) <= delta)
@@ -139,14 +139,14 @@ function hasScrolled() {
   // This is necessary so you never see what is "behind" the navbar.
   if (st > lastScrollTop && st > navbarHeight){
       // Scroll Down
-      jQuery('header').removeClass('nav-down').addClass('nav-up');
+      $('header').removeClass('nav-down').addClass('nav-up');
   } else {
       // Scroll Up
       if(st + jQuery(window).height() < jQuery(document).height()) {
-          jQuery('header').removeClass('nav-up').addClass('nav-down');
+          $('header').removeClass('nav-up').addClass('nav-down');
       }
   }
 
   lastScrollTop = st;
-}
+} #}
 </script>
