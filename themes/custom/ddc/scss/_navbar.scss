@@ -215,7 +215,9 @@ $size: 30px;
   width: 78%;
   margin: auto;
   padding: 41px;
-  height: 360px;
+  border: 1px solid #eee;
+  height: 130px;
+  margin-top: 90px;
   transform: translate(0%, 100%);
   transition: opacity .2s ease, transform .3s ease;
   transition-delay: .4s;
@@ -254,7 +256,7 @@ body.nav-active{
     opacity: 1;
     transform: translateX(0%);
     transition: opacity .3s ease, transform .3s ease, color .3s ease;
-    transition-delay: 1.8s;
+    transition-delay: 0.3s;
   }
 
   .nav{

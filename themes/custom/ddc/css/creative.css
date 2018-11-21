@@ -337,7 +337,9 @@ img::-moz-selection {
   width: 78%;
   margin: auto;
   padding: 41px;
-  height: 360px;
+  border: 1px solid #eee;
+  height: 130px;
+  margin-top: 90px;
   -webkit-transform: translate(0%, 100%);
   transform: translate(0%, 100%);
   -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
@@ -391,8 +393,8 @@ body.nav-active .content__bottom {
   transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease;
   transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: 1.8s;
-  transition-delay: 1.8s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 body.nav-active .nav {
@@ -914,7 +916,7 @@ canvas {
   font-size: 54px;
   font-weight: 900;
   color: #000;
-  margin-top: 240px;
+  margin-top: 60px;
 }
 
 .menu-small-font {
