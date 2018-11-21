@@ -990,12 +990,14 @@ body p {
 
 .layout1 .body {
   float: right;
-  position: relative;
-  top: 180px;
-  padding: 45px;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px 40px;
   font-size: 18px;
-  text-shadow: 0px 1px 1px #929292;
+  text-shadow: 0 1px 1px #929292;
   z-index: 1;
+  top: initial;
+  right: 30px;
 }
 
 .layout2 h2 {
@@ -1044,13 +1046,14 @@ body p {
 
 .layout4 .body {
   float: left;
-  position: relative;
-  top: 70px;
+  position: absolute;
+  top: inherit;
   left: 50px;
-  padding: 45px;
+  padding: 10px 15px;
   font-size: 18px;
-  text-shadow: 0 1px 1px #929292;
+  text-shadow: 1px 1px 1px #000000;
   z-index: 1;
+  bottom: 40px;
 }
 
 .portfolio-box {
