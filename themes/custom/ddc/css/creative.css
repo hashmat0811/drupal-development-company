@@ -366,10 +366,6 @@ img::-moz-selection {
   font-weight: 900;
 }
 
-.nav {
-  z-index: -100;
-}
-
 body.nav-active .menu-icon {
   z-index: 30001;
 }
@@ -967,6 +963,10 @@ canvas {
 
 .menu-small-font .nav__list-item:before {
   display: none;
+}
+
+.nav {
+  z-index: 0px !important;
 }
 
 body p {
