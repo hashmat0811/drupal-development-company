@@ -659,7 +659,7 @@ h4 {
 
 .banner .banner-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   z-index: 100;
   margin-left: 84px;
 }
@@ -901,6 +901,11 @@ h4 {
 
 .footer {
   background: #000;
+}
+
+.masthead h1 {
+  font-weight: 900;
+  width: 62%;
 }
 
 canvas {
