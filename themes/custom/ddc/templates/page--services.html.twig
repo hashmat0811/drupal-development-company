@@ -35,8 +35,8 @@
       </div>
     </div>
   </div>
-  {% endif %}
-  {% if loop.index == 2 %}
+  {# {% endif %} #}
+  {% elseif loop.index == 2 %}
   <div class="layout2 py-lg-5">
     <div class="container">
       <div class="row pt-lg-5">
@@ -53,8 +53,8 @@
       </div>
     </div>
   </div>
-  {% endif %}
-  {% if loop.index == 3 %}
+  {# {% endif %} #}
+  {% elseif loop.index == 3 %}
   <div class="layout3 py-lg-5">
     <div class="container">
       <div class="row pt-lg-5">
@@ -71,8 +71,8 @@
       </div>
     </div>
   </div>
-  {% endif %}
-  {% if loop.index == 4 %}
+  {# {% endif %} #}
+  {% elseif loop.index == 4 %}
   <div class="layout4 py-lg-5">
     <div class="image-background" style="background:url({{ file_url(item.entity.field_image.entity.fileuri) }}) no-repeat; background-size: cover;">
       <h2 class="">{{ item.entity.field_title.value|raw }}</h2>
@@ -81,8 +81,8 @@
       </div>
     </div>
   </div>
-  {% endif %}
-  {% if loop.index == 5 %}
+  {# {% endif %} #}
+  {% elseif loop.index == 5 %}
   <div class="layout5 py-lg-5">
     <div class="container">
       <div class="row pt-lg-5">
@@ -99,8 +99,8 @@
       </div>
     </div>
   </div>
-  {% endif %}
-  {% if loop.index == 6 %}
+  {# {% endif %} #}
+  {% elseif loop.index == 6 %}
   <div class="layout6 py-lg-5">
     <div class="container">
       <div class="row pt-lg-5">
