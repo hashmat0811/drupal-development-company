@@ -346,8 +346,8 @@ img::-moz-selection {
   transition: opacity .2s ease, -webkit-transform .3s ease;
   transition: opacity .2s ease, transform .3s ease;
   transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-  -webkit-transition-delay: .4s;
-  transition-delay: .4s;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
   opacity: 0;
 }
 
