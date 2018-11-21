@@ -65,10 +65,21 @@ section {
   margin-top: 0;
 }
 
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
 }
 
 img::selection {
@@ -550,6 +561,10 @@ h4 {
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 50px;
+}
+
+.navbar-brand img {
+  width: 244px;
 }
 
 .service-list {
