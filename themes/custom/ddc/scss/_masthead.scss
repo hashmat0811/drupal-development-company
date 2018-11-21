@@ -446,6 +446,10 @@ canvas {
     font-size: 40px;
     padding-left: 0px;
     color: #000;
+    padding-right: 0px;
+    &:hover{
+      color: #000;
+    }
   }
 }
 
