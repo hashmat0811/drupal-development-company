@@ -27,18 +27,18 @@
         {#<div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>#}
     </div>
 
-    <a class="navbar-brand" href="/" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" ></a>
+    <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" alt="{{ 'Home'|t }}"></a>
   </header>
   <div class="nav">
       <div class="nav__content">
-          {#{{ page.primary_menu }}#}
+          {{ page.primary_menu }}
 
-          <ul class="nav__list menu-font">
+          {# <ul class="nav__list menu-font">
               <li class="nav__list-item">About</li>
               <li class="nav__list-item">Services</li>
               <li class="nav__list-item">Works</li>
               <li class="nav__list-item">Contact</li>
-          </ul>
+          </ul> #}
 
 
               <ul class="nav__list menu-small-font">
@@ -69,7 +69,7 @@
   <script>
     console.clear();
 
-    var app = function () {
+      var app = function () {
       var body = void 0;
       var menu = void 0;
       var menuItems = void 0;
@@ -98,38 +98,6 @@
   </script>
 
 
-  <!-- Navigation -->
-    {#<nav class="navbar navbar-expand-lg navbar-light fixed-top animated slideInDown" id="mainNav">#}
-      {#<div class="container">#}
-
-        {#<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">#}
-          {#<span class="navbar-toggler-icon"></span>#}
-        {#</button>#}
-
-
-
-        {#<div class="collapse navbar-collapse" id="navbarResponsive">#}
-
-           {#<ul class="navbar-nav">#}
-            {#<li class="nav-item">#}
-              {#<a class="nav-link js-scroll-trigger" href="#about">Web</a>#}
-            {#</li>#}
-            {#<li class="nav-item">#}
-              {#<a class="nav-link js-scroll-trigger" href="#services">Mobile</a>#}
-            {#</li>#}
-            {#<li class="nav-item">#}
-              {#<a class="nav-link js-scroll-trigger" href="#portfolio">Digital</a>#}
-            {#</li>#}
-            {#<li class="nav-item">#}
-              {#<a class="nav-link js-scroll-trigger" href="#contact">Cloud</a>#}
-            {#</li>#}
-          {#</ul>#}
-
-
-        {#</div>#}
-      {#</div>#}
-    {#</nav>#}
-
     <div class="sticky-left animated slideInRight">
       <ul>
         <li><img src="themes/custom/ddc/images/facebook-logo.png"></li>
@@ -141,21 +109,24 @@
     </div>
 
 <script>
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = jQuery('header').outerHeight();
+$(document).ready(function(){
 
-jQuery(window).scroll(function(event){
-  didScroll = true;
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('header').outerHeight();
+
+  $(window).scroll(function(event){
+    didScroll = true;
+  });
+
+  setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+  }, 250);
 });
-
-setInterval(function() {
-  if (didScroll) {
-      hasScrolled();
-      didScroll = false;
-  }
-}, 250);
 
 function hasScrolled() {
   var st = jQuery(this).scrollTop();
