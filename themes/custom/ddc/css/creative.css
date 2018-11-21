@@ -334,6 +334,10 @@ img::-moz-selection {
 }
 
 .content__bottom {
+  width: 70%;
+  margin: auto;
+  padding: 41px;
+  height: 360px;
   -webkit-transform: translate(0%, 100%);
   transform: translate(0%, 100%);
   -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
@@ -352,6 +356,7 @@ img::-moz-selection {
   border-radius: 50px;
   font-size: 21px;
   color: #fff;
+  font-weight: 900;
 }
 
 body.nav-active .menu-icon {
@@ -902,14 +907,19 @@ canvas {
 }
 
 .menu-font {
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 54px;
+  font-weight: 900;
   color: #000;
+  margin-top: 240px;
 }
 
 .menu-small-font {
   font-size: 15px;
   color: #000;
+}
+
+.menu-small-font .nav__list-item:before {
+  display: none;
 }
 
 body p {
