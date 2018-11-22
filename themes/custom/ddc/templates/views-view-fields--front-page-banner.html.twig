@@ -63,10 +63,10 @@
                   </div>
               </div>
           </div>
-          {% if !empty(fields.field_video.content) %}
-            <div class="slide-video">{{ fields.field_video.content }}</div>
-          {% else %}
+          {% if fields.field_video.content is empty %}
             <div class="slide-image">{{ fields.field_banner_image_1.content }}</div>
+          {% else %}            
+            <div class="slide-video">{{ fields.field_video.content }}</div>
           {% endif %}
       </div>
 
