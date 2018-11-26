@@ -716,10 +716,14 @@ h4 {
 }
 
 .breadcrumb li {
-  color: #fff;
+  color: #6f6e5c;
   position: relative;
-  margin-right: 70px;
+  margin-right: 20px;
   display: inline-block;
+}
+
+.breadcrumb li a {
+  border-bottom: 0px dotted;
 }
 
 .breadcrumb li:before {
@@ -1206,6 +1210,14 @@ body p {
   text-shadow: 1px 1px 1px #000000;
   z-index: 1;
   bottom: 40px;
+}
+
+.region-breadcrumb {
+  padding: 0 0px 0.25em;
+}
+
+.breadcrumb {
+  background-color: #f9f9f9;
 }
 
 .blog-experience {
