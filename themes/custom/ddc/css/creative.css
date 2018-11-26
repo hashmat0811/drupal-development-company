@@ -981,6 +981,11 @@ canvas {
   font-weight: 900;
 }
 
+.contact-page label {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 body p {
   font-weight: 200;
 }
