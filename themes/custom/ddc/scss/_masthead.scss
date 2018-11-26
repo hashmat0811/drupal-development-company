@@ -328,10 +328,13 @@ h4{
   color: #eee;
   background: #000;
   h3{
-    font-size: 16px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
   }
   p{
     font-size: 13px;
+    font-weight: 600;
   }
   ul{
     list-style: none;
@@ -496,3 +499,24 @@ canvas {
     font-weight: 900;
   }
 }
+<<<<<<< HEAD
+=======
+
+.inner-page-content{
+  h3{
+    font-weight: 900 !important;
+  }
+}
+.work-section{
+  h3{
+    font-size: 2rem;
+    font-weight: 900 !important;
+  }
+  h5{
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+  }
+}
+>>>>>>> f3e01c9436cd4efb8b2debd2d84b670031c347b9
