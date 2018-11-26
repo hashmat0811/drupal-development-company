@@ -384,8 +384,8 @@ body.nav-active .menu-icon__line-left {
 }
 
 body.nav-active .menu-icon__line-right {
-  -webkit-transform: translateX(-2px) rotate(45deg);
-  transform: translateX(-2px) rotate(45deg);
+  -webkit-transform: translateX(0px) rotate(45deg);
+  transform: translateX(0px) rotate(45deg);
 }
 
 body.nav-active .content__bottom {
