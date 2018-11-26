@@ -36,8 +36,8 @@
       </div>
     </div>
   {% elseif loop.index == 2 %}
-    <div class="layout layout2 py-lg-5">
-      <div class="container">
+    <div class="layout layout2 py-lg-4">
+      <div class="container p-0">
         <div class="row pt-lg-5">
           <div class="col-md-7">
             <h2>{{ item.entity.field_title.value|raw }}</h2>
@@ -53,7 +53,7 @@
       </div>
     </div>
   {% elseif loop.index == 3 %}
-    <div class="layout layout3 py-lg-5">
+    <div class="layout layout3 py-lg-4">
       <div class="container">
         <div class="row pt-lg-5">
           <div class="col-md-5">
@@ -70,7 +70,7 @@
       </div>
     </div>
   {% elseif loop.index == 4 %}
-    <div class="layout layout4 py-lg-5">
+    <div class="layout layout4 pt-lg-5 pb-lg-4">
       <div class="image-background" style="background:url({{ file_url(item.entity.field_image.entity.fileuri) }}) no-repeat; background-size: cover;">
         <h2 class="">{{ item.entity.field_title.value|raw }}</h2>
         <div class="body col-md-7">
@@ -79,8 +79,8 @@
       </div>
     </div>
   {% elseif loop.index == 5 %}
-    <div class="layout layout5 py-lg-5">
-      <div class="container">
+    <div class="layout layout5 py-lg-4">
+      <div class="container p-0">
         <div class="row pt-lg-5">
           <div class="col-md-7">
             <h2>{{ item.entity.field_title.value|raw }}</h2>
@@ -96,7 +96,7 @@
       </div>
     </div>
   {% elseif loop.index == 6 %}
-    <div class="layout layout6 py-lg-5">
+    <div class="layout layout6 py-lg-4">
       <div class="container">
         <div class="row pt-lg-5">
           <div class="col-md-5">
@@ -131,9 +131,9 @@
         </div>
       </div>
     </div> #}
-    <section class="service-list">
+    <section class="service-list pt-lg-4 pb-lg-5">
       <div class="container p-0">
-        <div class="services-block pt-5">
+        <div class="services-block pt-4">
           <div class="row">
             {% for item in node.field_services_icons %}
               <div class="col-md-4">
@@ -153,7 +153,7 @@
   <div class="blog-experience">
       <div class="layout container">
         <div class="col-md-10 p-0"><h2>Related Contents</h2></div>
-        <div class="row pt-4 pb-5">
+        <div class="row pt-4 pb-4">
           <div class="col-md-4">
             <picture>
               <img src="http://159.89.170.213/drupal-development-company/sites/default/files/styles/portfolio/public/2018-11/rawpixel-648563-unsplash-1_0.jpg" />

@@ -896,40 +896,6 @@ h4 {
   margin-top: 0px;
 }
 
-.contact-page {
-  padding: 40px;
-}
-
-.contact-page input {
-  background: none;
-  border: 0px;
-  border-bottom: 1px solid #eee;
-}
-
-.contact-page select {
-  background: none;
-  border: 0px;
-  border-bottom: 1px solid #eee;
-}
-
-.contact-page textarea {
-  background: none;
-  border: 0px;
-  border-bottom: 1px solid #eee;
-}
-
-.contact-page h3 {
-  padding-bottom: 10px;
-}
-
-.contact-page .btn {
-  background: #fff;
-  border-radius: 30px;
-  margin-top: 30px;
-  padding: 10px 47px;
-  color: #000;
-}
-
 .arrow-down img {
   width: 82px;
   -webkit-filter: brightness(0) invert(1);
@@ -991,15 +957,6 @@ canvas {
 
 .nav {
   z-index: 0 !important;
-}
-
-.contact-page h2 {
-  font-weight: 900;
-}
-
-.contact-page label {
-  font-size: 2rem;
-  font-weight: 900;
 }
 
 .inner-page-content h3 {
@@ -1156,7 +1113,7 @@ body p {
 }
 
 .blog-experience {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 .blog-experience h4 {
@@ -1167,6 +1124,48 @@ body p {
   right: 25px;
   bottom: -80px;
   font-weight: 600;
+}
+
+.contact-page {
+  padding: 40px;
+}
+
+.contact-page input {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page select {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page textarea {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page h3 {
+  padding-bottom: 10px;
+}
+
+.contact-page .btn {
+  background: #fff;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 10px 47px;
+  color: #000;
+}
+
+.contact-page .form-submit {
+  background: #c91a06;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  border: 0px;
 }
 
 .portfolio-box {
