@@ -902,6 +902,18 @@ h4 {
   border-bottom: 1px solid #eee;
 }
 
+.contact-page select {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page textarea {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
 .contact-page h3 {
   padding-bottom: 10px;
 }
@@ -982,7 +994,7 @@ canvas {
 }
 
 .contact-page label {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
