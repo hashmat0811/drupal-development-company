@@ -988,6 +988,60 @@ canvas {
   content: ' ';
 }
 
+.contact-page {
+  padding: 40px;
+}
+
+.contact-page input {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  width: auto;
+  display: inline-block;
+}
+
+.contact-page select {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page textarea {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page h3 {
+  padding-bottom: 10px;
+}
+
+.contact-page .btn {
+  background: #fff;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 10px 47px;
+  color: #000;
+}
+
+.contact-page .form-submit {
+  background: #c91a06;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  border: 0px;
+}
+
+.contact-page h2 {
+  font-weight: 900;
+}
+
+.contact-page label {
+  font-size: 2rem;
+  font-weight: 900;
+  display: inline-block;
+}
+
 body p {
   font-weight: 200;
 }
@@ -1132,8 +1186,10 @@ body p {
 
 .contact-page input {
   background: none;
-  border: 0px;
+  border: 0;
   border-bottom: 1px solid #eee;
+  width: auto;
+  display: inline-block;
 }
 
 .contact-page select {
@@ -1166,6 +1222,16 @@ body p {
   border-radius: 30px;
   color: #fff;
   border: 0px;
+}
+
+.contact-page h2 {
+  font-weight: 900;
+}
+
+.contact-page label {
+  font-size: 2rem;
+  font-weight: 900;
+  display: inline-block;
 }
 
 .portfolio-box {
