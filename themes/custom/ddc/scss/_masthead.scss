@@ -400,6 +400,16 @@ h4{
     border: 0px;
     border-bottom: 1px solid #eee;
   }
+  select{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #eee;
+  }
+  textarea{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #eee;
+  }
   h3{
     padding-bottom: 10px;
   }
@@ -479,7 +489,7 @@ canvas {
     font-weight: 900;
   }
   label{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
   }
 }

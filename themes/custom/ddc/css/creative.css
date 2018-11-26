@@ -66,21 +66,10 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none;
-}
-
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
 }
 
 img::selection {
@@ -902,6 +891,18 @@ h4 {
   border-bottom: 1px solid #eee;
 }
 
+.contact-page select {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-page textarea {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #eee;
+}
+
 .contact-page h3 {
   padding-bottom: 10px;
 }
@@ -982,7 +983,7 @@ canvas {
 }
 
 .contact-page label {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -1004,6 +1005,28 @@ body p {
   background-image: linear-gradient(120deg, #000000, #000000);
   opacity: .3;
   z-index: 1;
+}
+
+.slide-video video {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+  background-position: center center;
+  background-size: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 .layout-intro h2 {
