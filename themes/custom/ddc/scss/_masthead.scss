@@ -506,11 +506,17 @@ canvas {
     border-bottom: 1px solid #eee;
     width: auto;
     display: inline-block;
+    color: #ccc;
   }
   select{
-    background: none;
-    border: 0px;
+    background: 0 0;
+    border: 0;
     border-bottom: 1px solid #eee;
+    display: inline-block;
+    max-width: 55%;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    color: #ccc;
   }
   textarea{
     background: none;
@@ -538,11 +544,21 @@ canvas {
 
   h2{
     font-weight: 900;
+display: flex;
   }
   label{
     font-size: 2rem;
     font-weight: 900;
     display: inline-block;
   }
+
+  input::placeholder {
+    color: #ccc;
+  }
+
+  .form-item, .form-actions {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
 
 }

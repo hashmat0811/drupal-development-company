@@ -998,12 +998,18 @@ canvas {
   border-bottom: 1px solid #eee;
   width: auto;
   display: inline-block;
+  color: #ccc;
 }
 
 .contact-page select {
-  background: none;
-  border: 0px;
+  background: 0 0;
+  border: 0;
   border-bottom: 1px solid #eee;
+  display: inline-block;
+  max-width: 55%;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  color: #ccc;
 }
 
 .contact-page textarea {
@@ -1034,12 +1040,36 @@ canvas {
 
 .contact-page h2 {
   font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact-page label {
   font-size: 2rem;
   font-weight: 900;
   display: inline-block;
+}
+
+.contact-page input::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.contact-page input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.contact-page input::-ms-input-placeholder {
+  color: #ccc;
+}
+
+.contact-page input::placeholder {
+  color: #ccc;
+}
+
+.contact-page .form-item, .contact-page .form-actions {
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 body p {
