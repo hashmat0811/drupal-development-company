@@ -517,10 +517,11 @@ canvas {
     list-style: none;
     li {
       &:before {
-        width: 40px;
-        border-top: 1px solid #eee;
+        width: 15px;
+        border-top: 1px solid #828282;
         position: absolute;
-        left: 0px;
+        left: 9px;
+        margin-top: 11px;
         content: ' ';
       }
     }
