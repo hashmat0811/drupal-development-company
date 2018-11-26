@@ -818,11 +818,14 @@ h4 {
 }
 
 .footer-bottom h3 {
-  font-size: 16px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
 }
 
 .footer-bottom p {
   font-size: 13px;
+  font-weight: 600;
 }
 
 .footer-bottom ul {
@@ -1003,7 +1006,15 @@ canvas {
 }
 
 .work-section h3 {
+  font-size: 2rem;
   font-weight: 900 !important;
+}
+
+.work-section h5 {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #3c3c3c;
 }
 
 body p {
