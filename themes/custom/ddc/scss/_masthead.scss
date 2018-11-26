@@ -125,10 +125,7 @@ h4{
     transition: 0.5s ease all;
 
     &:hover {
-<<<<<<< HEAD
       background: #ca1b05;
-=======
->>>>>>> 3600864be31f479d04b44fbf1828879faf7922f1
       box-shadow: 0px 0px 120px #f3f3f3;
       cursor: pointer;
       color: #fff;
@@ -474,4 +471,11 @@ canvas {
 
 .nav{
   z-index: 0 !important;
+}
+
+
+.contact-page{
+  h2{
+    font-weight: 900;
+  }
 }
