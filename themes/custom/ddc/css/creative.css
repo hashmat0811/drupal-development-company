@@ -1079,6 +1079,11 @@ canvas {
   display: inline-flex;
 }
 
+.contact-page .contact-field .contact-label {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
 body p {
   font-weight: 200;
 }

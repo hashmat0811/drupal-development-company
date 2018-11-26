@@ -559,13 +559,17 @@ display: flex;
   .form-item, .form-actions {
     margin-top: .3em;
     margin-bottom: .3em;
-}
+  }
 
-.contact-field{
-  .js-form-item{
-    max-width: 50%;
-    display: inline-flex;
-}
+  .contact-field{
+    .js-form-item{
+      max-width: 50%;
+      display: inline-flex;
+  }
+  .contact-label{
+    margin-top: 30px;
+margin-bottom: 0px;
+  }
 }
 
 }
