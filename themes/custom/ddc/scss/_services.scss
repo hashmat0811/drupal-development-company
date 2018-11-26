@@ -10,9 +10,10 @@ body p{
 .layout{
   h2{
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 900;
     color: #3a3a3a;
   }
+  img{width: 100%;}
 }
 
 .image-background::before {
@@ -60,7 +61,7 @@ height: auto;
   h2{
     background: #ce2100;
     color: #fff!important;
-    max-width: 400px;
+    max-width: 420px;
     top: 50px;
     position: absolute;
     padding: 30px;

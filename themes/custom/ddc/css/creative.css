@@ -788,9 +788,9 @@ h4 {
 
 .section-client-top {
   background: #fff;
-  padding-top: 150px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   position: relative;
-  margin-top: -150px;
   z-index: 0;
 }
 
@@ -804,6 +804,11 @@ h4 {
 .section-client-top img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.section-client-top h2 {
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 .footer-bottom {
@@ -1036,8 +1041,12 @@ body p {
 
 .layout h2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   color: #3a3a3a;
+}
+
+.layout img {
+  width: 100%;
 }
 
 .image-background::before {
@@ -1081,7 +1090,7 @@ body p {
 .layout1 h2 {
   background: #ce2100;
   color: #fff !important;
-  max-width: 400px;
+  max-width: 420px;
   top: 50px;
   position: absolute;
   padding: 30px;
