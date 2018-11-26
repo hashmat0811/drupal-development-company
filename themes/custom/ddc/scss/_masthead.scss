@@ -513,16 +513,4 @@ canvas {
     letter-spacing: 1px;
     color: #3c3c3c;
   }
-  ul{
-    list-style: none;
-    li{
-      &:before{
-        width: 40px;
-        border-top: 1px solid #eee;
-        position: absolute;
-        left: 0px;
-        content: ' ';
-      }
-    }
-  }
 }
