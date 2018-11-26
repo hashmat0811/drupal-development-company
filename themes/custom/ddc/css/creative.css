@@ -1155,6 +1155,16 @@ body p {
   bottom: 40px;
 }
 
+.blog-experience h4 {
+  padding: 20px;
+  background: #f1f1f1;
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  bottom: 30px;
+  font-weight: 600;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
