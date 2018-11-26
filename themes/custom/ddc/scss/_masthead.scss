@@ -266,6 +266,8 @@ h4{
   width: 100%;
   position: relative;
   top: -60px;
+  overflow: hidden;
+  padding-top: 48px;
   .hvr-sweep-to-right:before{
     background: #c22000 !important;
     color: #fff !important;
