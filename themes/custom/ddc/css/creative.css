@@ -681,28 +681,6 @@ h4 {
   width: 100%;
 }
 
-.inner-banner .breadcrumb li {
-  color: #fff;
-  position: relative;
-  margin-right: 70px;
-  display: inline-block;
-}
-
-.inner-banner .breadcrumb li:before {
-  content: ' ';
-  left: 47px;
-  bottom: 0;
-  height: 10px;
-  top: 11px;
-  position: absolute;
-  width: 57px;
-  border-top: 1px solid #eee;
-}
-
-.inner-banner .breadcrumb li:last-child:before {
-  position: relative;
-}
-
 .inner-banner h1 {
   font-size: 5rem;
   font-weight: 900;
@@ -735,6 +713,28 @@ h4 {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.breadcrumb li {
+  color: #fff;
+  position: relative;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.breadcrumb li:before {
+  content: ' ';
+  left: 47px;
+  bottom: 0;
+  height: 10px;
+  top: 11px;
+  position: absolute;
+  width: 57px;
+  border-top: 1px solid #eee;
+}
+
+.breadcrumb li:last-child:before {
+  position: relative;
 }
 
 .second-swipper {
