@@ -64,12 +64,12 @@
                   </div>
               </div>
           </div>
-          {{ vid_url }}
+          
           {% if fields.field_video.content %}
           <video class="home-page-video" autoplay="" loop="" muted="" data-object-fit="cover">
             <source src="{{ vid_url }}" type="video/mp4">
-          </video
-            <div class="slide-video">{{ fields.field_video.content }}</div>            
+          </video>
+            {# <div class="slide-video">{{ fields.field_video.content }}</div>             #}
           {% else %}
             <div class="slide-image">{{ fields.field_banner_image_1.content }}</div>
           {% endif %}
