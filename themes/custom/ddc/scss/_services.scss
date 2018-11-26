@@ -19,6 +19,26 @@ body p{
   z-index: 1;
 }
 
+.slide-video video{
+  position: absolute;
+z-index: 4;
+right: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+transform: scale(1, 1);
+height: 100%;
+background-size: 100% 100%;
+background-color: black;
+background-position: center center;
+background-size: contain;
+-o-object-fit: cover;
+object-fit: cover;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+}
 
 .layout-intro{
   h2{
