@@ -595,7 +595,7 @@ h4 {
 }
 
 .service-list .s-block {
-  background: #f1f1f1;
+  background: #f7f7f7;
   padding: 40px 10px;
   width: 100%;
   text-align: center;
@@ -605,8 +605,6 @@ h4 {
   position: relative;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 .service-list .s-block:hover {
@@ -615,11 +613,6 @@ h4 {
   box-shadow: 0px 0px 120px #f3f3f3;
   cursor: pointer;
   color: #fff;
-}
-
-.service-list .s-block:hover img {
-  -webkit-filter: brightness(10000%);
-  filter: brightness(10000%);
 }
 
 .service-list .s-block h6 {
@@ -1022,18 +1015,6 @@ canvas {
   font-weight: 900;
   letter-spacing: 1px;
   color: #3c3c3c;
-}
-
-.work-section ul {
-  list-style: none;
-}
-
-.work-section ul li:before {
-  width: 40px;
-  border-top: 1px solid #eee;
-  position: absolute;
-  left: 0px;
-  content: ' ';
 }
 
 body p {
