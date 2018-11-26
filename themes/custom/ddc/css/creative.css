@@ -1165,7 +1165,7 @@ body p {
   position: absolute;
   left: 25px;
   right: 25px;
-  bottom: 30px;
+  bottom: -80px;
   font-weight: 600;
 }
 
