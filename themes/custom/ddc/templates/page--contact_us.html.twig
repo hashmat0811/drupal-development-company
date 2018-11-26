@@ -6,12 +6,12 @@
     <div>
       <div class="banner-text">
         <h1 class="animated slideInUp">{{ node.title.value }}</h1>
-        <p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
       </div>
     </div>
   </div>
   <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div>
 </div>
+<p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
   {{ page.highlighted }}
 
 {# <div class="container">

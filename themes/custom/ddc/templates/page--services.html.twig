@@ -4,14 +4,13 @@
   <div class="container">
     <div>
       <div class="banner-text">
-        <h1 class="text-uppercase animated slideInUp">{{ node.title.value|raw }}</h1>
-        <p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
+        <h1 class="text-uppercases animated slideInUp">{{ node.title.value|raw }}</h1>
       </div>
     </div>
   </div>
   <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div>
 </div>
-
+<p class="text-faded mb-5 animated slideInUp">{{ page.breadcrumb }}</p>
 
 {% if node.field_title.value %}
   <div class="layout layout-intro text-center">
