@@ -561,4 +561,11 @@ display: flex;
     margin-bottom: .3em;
 }
 
+.contact-field{
+  .js-form-item{
+    max-width: 50%;
+    display: inline-flex;
+}
+}
+
 }

@@ -1072,6 +1072,13 @@ canvas {
   margin-bottom: .3em;
 }
 
+.contact-page .contact-field .js-form-item {
+  max-width: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 body p {
   font-weight: 200;
 }
