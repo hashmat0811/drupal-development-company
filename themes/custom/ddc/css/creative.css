@@ -227,14 +227,16 @@ img::-moz-selection {
 }
 
 .menu-icon {
-  height: 30px;
-  width: 30px;
+  height: 38px;
+  width: 42px;
   position: fixed;
   z-index: 2;
   right: 100px !important;
   left: auto;
-  top: 30px;
+  top: 14px;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.57);
+  padding: 12px 7px;
 }
 
 .menu-icon__line {
