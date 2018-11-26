@@ -1017,6 +1017,18 @@ canvas {
   color: #3c3c3c;
 }
 
+.work-section ul {
+  list-style: none;
+}
+
+.work-section ul li:before {
+  width: 40px;
+  border-top: 1px solid #eee;
+  position: absolute;
+  left: 0px;
+  content: ' ';
+}
+
 body p {
   font-weight: 200;
 }
