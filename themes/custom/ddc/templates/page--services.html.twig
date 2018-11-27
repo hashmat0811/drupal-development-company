@@ -121,12 +121,12 @@
 <div class="layout6"></div> #}
 {# Services paragraphs #}
 <div class="content-container">
-  <div class="container">
+  <!-- <div class="container">
     {# <div class="content-section section-12 text-center">
       <div class="row">
         <div class="col-md-10 mx-auto p-5">
-          <h1>{{ node.field_block_title.value }}</h1>
-          {{ node.field_description.value|raw }}
+          <h1>{#{{ node.field_block_title.value }}#}</h1>
+          {#{{ node.field_description.value|raw }}#}
         </div>
       </div>
     </div> #}
@@ -134,21 +134,21 @@
       <div class="container p-0">
         <div class="services-block pt-4">
           <div class="row">
-            {% for item in node.field_services_icons %}
+            {#{% for item in node.field_services_icons %}#}
               <div class="col-md-4">
                 <div class="s-block">
                   <div class="icon-image">
-                    <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+                    <img src="{#{ file_url(item.entity.field_image.entity.fileuri) }#}" alt="{#{item.entity.field_image.alt}#}" />
                   </div>
-                  <h6>{{ item.entity.field_title.value|raw }}</h6>
+                  <h6>{#{ item.entity.field_title.value|raw }#}</h6>
                 </div>
               </div>
-            {% endfor %}
+            {#{% endfor %}#}
           </div>
         </div>
       </div>
     </section>
-  </div>
+  </div> -->
   <div class="blog-experience">
       <div class="layout container">
         <div class="col-md-10 p-0"><h2>Related Contents</h2></div>
