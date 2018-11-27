@@ -739,12 +739,6 @@ h4 {
   font-weight: 600 !important;
 }
 
-.banner .banner-text {
-  position: absolute;
-  z-index: 100;
-  margin-left: 84px;
-}
-
 .inner-banner {
   margin: auto;
   width: 100%;
