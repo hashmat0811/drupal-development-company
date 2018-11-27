@@ -10,28 +10,19 @@
             <p> info@netiapps.com</p>
           </div>
           <div class="col-md-2">
-            <ul>
-              <li>Site Map</li>
-              <li>Careers</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul>
-              <li>Site Map</li>
-              <li>Careers</li>
-              <li>Blog</li>
-            </ul>
+            {{ page.footer_first}}
           </div>
           <div class="col-md-4 text-center social-block">
             <div class="social-media-block">
-              <img src="{{ path('<front>') }}themes/custom/ddc/images/facebook-logo.png">
-              <img src="{{ path('<front>') }}themes/custom/ddc/images/linkedin.png">
-              <img src="{{ path('<front>') }}themes/custom/ddc/images/twitter.png">
-              <img src="{{ path('<front>') }}themes/custom/ddc/images/youtube.png">
-              <img src="{{ path('<front>') }}themes/custom/ddc/images/instagram.png">
+              <ul>
+                <li><a class="facebook" target="_blank" href="http://www.facebook.com/netiapps"><img src="{{ path('<front>') }}themes/custom/ddc/images/facebook-logo.png"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.linkedin.com/company/NetiApps-Software"><img src="{{ path('<front>') }}themes/custom/ddc/images/linkedin.png"></a></li>
+                <li><a class="facebook" target="_blank" href="https://twitter.com/netiapps"><img src="{{ path('<front>') }}themes/custom/ddc/images/twitter.png"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.youtube.com/channel/UC_gkb87YDPMJTf7EsEKortg"><img src="{{ path('<front>') }}themes/custom/ddc/images/youtube.png"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.instagram.com/netiapps/"><img src="{{ path('<front>') }}themes/custom/ddc/images/instagram.png"></a></li>
+              </ul>
             </div>
-            <a href="#" class="btn" >Get in touch</a>
+            <a href="{{ path('<front>') }}contact-us" class="btn" >Get in touch</a>
           </div>
         </div>
       </div>
