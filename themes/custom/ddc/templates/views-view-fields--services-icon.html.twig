@@ -31,7 +31,7 @@
  * @ingroup themeable
  */
 #}             
-          <div onclick="location.href='{{ fields.field_link.content|raw }}';" class="col-md-4 click-box">
+          <div class="col-md-4 click-box">
             <div class="s-block hvr-grow-shadow">
               <div class="icon-image">
                 {{ fields.field_image.content }}
@@ -40,3 +40,19 @@
             </div>
           </div>
    
+   <style>
+   .click-box{
+    position: relative;
+    }
+    .click-box.a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px; //these two lines are to hide my actual link text.
+    overflow: hidden; //these two lines are to hide my actual link text.
+    }
+   </style> 
+
+   {# onclick="location.href='{{ fields.field_link.content|raw }}';" #}
