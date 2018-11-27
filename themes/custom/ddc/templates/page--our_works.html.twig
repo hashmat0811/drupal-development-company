@@ -21,12 +21,12 @@
       {% for item in node.field_portfolios %}
       <div class="row white-bg">
         {% if  loop.index % 2 == 0 %}
-          <div class="col-md-6 order-12 my-auto">
+          <div class="col-md-6 p-0">
             <div class="intro-img text-center">
               <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
           </div>
-          <div class="col-md-6 order-12 my-auto">
+          <div class="col-md-6 col-md-6 p-5">
             <h3>{{ item.entity.field_title.value }}</h3>
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
@@ -38,7 +38,7 @@
               </ul>
           </div>
         {% else %}
-          <div class="col-md-6 my-auto">
+          <div class="col-md-6 p-5">
             <h3>{{ item.entity.field_title.value }}</h3>
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
@@ -49,7 +49,7 @@
                   <li>Multi Site</li>
               </ul>
           </div>
-          <div class="col-md-6 my-auto">
+          <div class="col-md-6 p-0">
             <div class="intro-img text-center">
               <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
