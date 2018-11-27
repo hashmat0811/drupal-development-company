@@ -155,4 +155,8 @@ margin: auto;
 
 .works-gallery{
   background: #f9f9f9;
+    margin-top: -19px;
+  img{
+        filter: brightness(95%);
+  }
 }

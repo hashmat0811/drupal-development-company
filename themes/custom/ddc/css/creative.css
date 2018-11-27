@@ -976,6 +976,7 @@ canvas {
   font-weight: 900;
   letter-spacing: 1px;
   color: #3c3c3c;
+  margin-top: 30px;
 }
 
 .work-section ul {
@@ -983,13 +984,13 @@ canvas {
   padding-left: 30px;
 }
 
-.work-section ul li:before {
-  width: 15px;
-  border-top: 1px solid #828282;
-  position: absolute;
-  left: 50px;
-  margin-top: 10px;
-  content: ' ';
+.work-section ul li {
+  display: inline-block;
+  background: #dcdbdb;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: #3c3c3c;
+  margin-right: 5px;
 }
 
 .swiper-container {
@@ -1240,6 +1241,12 @@ body p {
 
 .works-gallery {
   background: #f9f9f9;
+  margin-top: -19px;
+}
+
+.works-gallery img {
+  -webkit-filter: brightness(95%);
+  filter: brightness(95%);
 }
 
 .contact-page {

@@ -483,19 +483,26 @@ canvas {
     font-weight: 900;
     letter-spacing: 1px;
     color: #3c3c3c;
+        margin-top: 30px;
   }
   ul {
     list-style: none;
     padding-left: 30px;
     li {
-      &:before {
-        width: 15px;
-        border-top: 1px solid #828282;
-        position: absolute;
-        left: 50px;
-        margin-top: 10px;
-        content: ' ';
-      }
+      display: inline-block;
+      background: #dcdbdb;
+      padding: 6px 10px;
+      font-size: 12px;
+      color: #3c3c3c;
+      margin-right: 5px;
+      // &:before {
+      //   width: 15px;
+      //   border-top: 1px solid #828282;
+      //   position: absolute;
+      //   left: 50px;
+      //   margin-top: 10px;
+      //   content: ' ';
+      // }
     }
   }
 }
