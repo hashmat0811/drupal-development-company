@@ -43,6 +43,7 @@
     border: none;
     position: fixed;
     border: none !important;
+    border-bottom: 0px;
     color: $primary;
     @include sans-serif-font;
     &:focus,

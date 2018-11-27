@@ -144,6 +144,7 @@ img::-moz-selection {
   border: none;
   position: fixed;
   border: none !important;
+  border-bottom: 0px;
   color: #E32003;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -493,6 +494,10 @@ body.nav-active .nav__list-item:nth-child(5) {
   transition-delay: 0.83333s;
 }
 
+a {
+  border-bottom: 0px;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -616,10 +621,6 @@ h4 {
   padding-bottom: 50px;
 }
 
-.navbar-brand img {
-  width: 244px;
-}
-
 .service-list {
   color: #000;
 }
@@ -736,12 +737,6 @@ h4 {
 .banner p {
   font-size: 20px;
   font-weight: 600 !important;
-}
-
-.banner .banner-text {
-  position: absolute;
-  z-index: 100;
-  margin-left: 84px;
 }
 
 .inner-banner {

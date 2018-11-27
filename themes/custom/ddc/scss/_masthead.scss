@@ -1,4 +1,6 @@
 // Styling for the masthead
+a{border-bottom: 0px;}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -29,9 +31,15 @@ header.masthead {
         z-index: 100;
         margin-left: 84px;
     }
+
+    // .navbar-brand{
+    //   img{
+    //     width: 244px;
+    //   }
+    // }
   }
 
-  
+
   @media (min-width: 992px) {
     height: 100vh;
     min-height: 650px;
@@ -119,12 +127,6 @@ h4{
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 50px;
-}
-
-.navbar-brand{
-  img{
-    width: 244px;
-  }
 }
 
 
@@ -231,11 +233,11 @@ h4{
     font-size: 20px;
     font-weight: 600 !important;
   }
-  .banner-text{
-    position: absolute;
-    z-index: 100;
-    margin-left: 84px;
-  }
+  // .banner-text{
+  //   position: absolute;
+  //   z-index: 100;
+  //   margin-left: 84px;
+  // }
 }
 
 
