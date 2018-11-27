@@ -84,6 +84,7 @@ global-styling:
       js/scrollreveal/scrollreveal.min.js: {}
       js/magnific-popup/jquery.magnific-popup.min.js: {}
       js/header.js: {}
+      js/divclick.js: {}
 
 messages:
   version: VERSION
