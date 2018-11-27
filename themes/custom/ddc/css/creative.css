@@ -514,7 +514,7 @@ header.masthead p {
 .sticky-left {
   position: absolute;
   left: 10px;
-  top: 35%;
+  top: 111px;
   bottom: 0px;
 }
 
@@ -1293,6 +1293,10 @@ body p {
   font-size: 2rem;
   font-weight: 900;
   display: inline-block;
+}
+
+.white-bg {
+  background: #fff;
 }
 
 .portfolio-box {
