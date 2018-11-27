@@ -22,8 +22,8 @@
       <div class="row white-bg">
         {% if  loop.index % 2 == 0 %}
           <div class="col-md-6 p-0">
-            <div class="intro-img text-center">
-              <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+            <div class="intro-img text-left">
+              <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
           </div>
           <div class="col-md-6 col-md-6 p-5">
@@ -50,8 +50,8 @@
               </ul>
           </div>
           <div class="col-md-6 p-0">
-            <div class="intro-img text-center">
-              <img src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+            <div class="intro-img text-right">
+              <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
           </div>
         {% endif %}

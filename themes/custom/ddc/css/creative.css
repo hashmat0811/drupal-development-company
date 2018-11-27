@@ -980,14 +980,15 @@ canvas {
 
 .work-section ul {
   list-style: none;
+  padding-left: 30px;
 }
 
 .work-section ul li:before {
   width: 15px;
   border-top: 1px solid #828282;
   position: absolute;
-  left: 9px;
-  margin-top: 11px;
+  left: 50px;
+  margin-top: 10px;
   content: ' ';
 }
 
