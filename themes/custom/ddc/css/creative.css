@@ -992,7 +992,7 @@ canvas {
 }
 
 .swiper-container {
-  padding-top: 40px;
+  padding-top: 40px !important;
 }
 
 .contact-page {
@@ -1235,6 +1235,10 @@ body p {
   right: 25px;
   bottom: -80px;
   font-weight: 600;
+}
+
+.works-gallery {
+  background: #f9f9f9;
 }
 
 .contact-page {
