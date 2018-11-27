@@ -16,6 +16,8 @@ header.masthead {
   p {
     font-weight: 300;
   }
+
+
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;
@@ -37,6 +39,17 @@ header.masthead {
   }
 }
 
+
+@media (max-width: 768px) {
+  .client-list-block{
+    flex-flow: column;
+  }
+
+  header.masthead {
+    padding-top: 0rem!important;
+    padding-bottom: calc(0rem - 16px)!important;
+  }
+}
 
 .sticky-left{
   position: absolute;
@@ -253,18 +266,18 @@ h4{
   position: relative;
   margin-right: 20px;
   display: inline-block;
-  a{    border-bottom: 0px dotted;}
+  a{border-bottom: 0px dotted;}
 }
-.breadcrumb li:before{
-  content: ' ';
-  left: 47px;
-  bottom: 0;
-  height: 10px;
-  top: 11px;
-  position: absolute;
-  width: 57px;
-  border-top: 1px solid #eee;
-}
+// .breadcrumb li:before{
+//   content: ' ';
+//   left: 47px;
+//   bottom: 0;
+//   height: 10px;
+//   top: 11px;
+//   position: absolute;
+//   width: 57px;
+//   border-top: 1px solid #eee;
+// }
 .breadcrumb li:last-child{
   &:before{
     position: relative;
