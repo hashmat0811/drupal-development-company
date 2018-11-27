@@ -362,6 +362,15 @@ img::-moz-selection {
   font-weight: 900;
 }
 
+.reverse-navbar-brand {
+  opacity: 0;
+  position: absolute;
+  left: 85px;
+  top: 20px;
+  max-width: 200px;
+  width: 200px;
+}
+
 body.nav-active .menu-icon {
   z-index: 30001;
 }
@@ -392,6 +401,10 @@ body.nav-active .content__bottom {
   transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 0.8s;
   transition-delay: 0.8s;
+}
+
+body.nav-active .reverse-navbar-brand {
+  opacity: 1;
 }
 
 body.nav-active .nav {

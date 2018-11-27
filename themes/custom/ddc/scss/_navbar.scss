@@ -236,6 +236,15 @@ $size: 30px;
   }
 }
 
+.reverse-navbar-brand{
+  opacity: 0;
+  position: absolute;
+  left: 85px;
+  top: 20px;
+  max-width: 200px;
+  width: 200px;
+}
+
 //active state
 body.nav-active{
   $menu--items--count: 5;
@@ -257,6 +266,10 @@ body.nav-active{
     transform: translateX(0%);
     transition: opacity .3s ease, transform .3s ease, color .3s ease;
     transition-delay: 0.8s;
+  }
+
+  .reverse-navbar-brand{
+    opacity: 1;
   }
 
   .nav{
@@ -297,4 +310,3 @@ body.nav-active{
   border: none !important;
   color: $primary;
 }
-
