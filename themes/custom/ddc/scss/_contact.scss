@@ -1,0 +1,49 @@
+.contact-page{
+  padding: 40px;
+
+  input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    width: auto;
+    display: inline-block;
+  }
+  select{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #eee;
+  }
+  textarea{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #eee;
+  }
+  h3{
+    padding-bottom: 10px;
+  }
+  .btn{
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 10px 47px;
+    color: #000;
+  }
+
+  .form-submit{
+    background: #c91a06;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    border: 0px;
+}
+
+  h2{
+    font-weight: 900;
+  }
+  label{
+    font-size: 2rem;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+}

@@ -27,37 +27,6 @@
   {{ title_suffix }}
 </form> #}
 
-{# <div class="request-form">
-  <div class="form-wrap clearfix">
-    <div class="col-md-4 form-desc">
-      {{ element.elements.form_description }}
-    </div>
-    <div class="col-md-8">
-      <form{{ attributes }}>
-        {{ title_prefix }}
-        <div class="row">
-          <div class="col-md-6">
-            {{ element.elements.name }}
-            {{ element.elements.from }}
-            {{ element.elements.message }}
-            
-          </div>
-          <div class="col-md-6">
-            {{ element.elements.contact_with_me }}
-            {{ element.elements.email }}
-            {{ element.elements.number }}
-            {{ element.form_token }}
-            {{ element.form_build_id }}
-            {{ element.form_id }}
-            {{ element.actions }}
-          </div>
-        </div>
-        {{ title_suffix }}
-      </form>
-    </div>
-  </div>
-</div> #}
-
 
 {# Custom structure #}
 <div class="container">
@@ -69,10 +38,10 @@
           <div class="p-5">
             <h2> {{ element.elements.name }}</h2>
             <h2>{{ element.elements.country_select }}</h2>
-            <h2>{{ element.elements.message }}</h2>
+            <h2>{{ element.elements.text_message }}</h2>
 
-            <h2>{{ element.elements.contact_with_me }}</h2>
-            <h2 class="d-flex justify-content-between align-items-center">{{ element.elements.email }} / {{ element.elements.telephone }}</h2>
+            <h2 class="contact-label">{{ element.elements.contact_with_me }}</h2>
+            <h2 class="contact-field d-flex justify-content-between align-items-center">{{ element.elements.email }} / {{ element.elements.telephone }}</h2>
             <h2>{{ element.form_token }}</h2>
             <h2>{{ element.form_build_id }}</h2>
             <h2>{{ element.form_id }}</h2>
