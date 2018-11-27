@@ -37,12 +37,12 @@
                 {{ fields.field_image.content }}
               </div>
               <h6>{{ fields.field_title.content }}</h6>
-              {{ fields.field_link.content }}
+              {{ fields.field_link.content|raw }}
             </div>
           </div>
    
   <script>
-    jQuery(".click-box").click(function() {
+    $(".click-box").click(function() {
       window.location = $(this).find("a").attr("href"); 
       return false;
     });
