@@ -146,20 +146,3 @@
   Menu.init();
 
 }());
-
-
-// Linking <a href> to a div
-$(".click-box").click(function() {
-  window.location = $(this).find("a").attr("href"); 
-  return false;
-});
-
-
-
-
-
-
-
-
-
-
