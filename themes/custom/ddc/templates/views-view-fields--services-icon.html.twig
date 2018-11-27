@@ -36,8 +36,7 @@
               <div class="icon-image">
                 {{ fields.field_image.content }}
               </div>
-              <h6>{{ fields.field_title.content }}</h6>
-              {{ fields.field_link.content|raw }}
+              <h6><a href="{{ fields.field_link.content|raw }}">{{ fields.field_title.content }}</a></h6>              
             </div>
           </div>
    
