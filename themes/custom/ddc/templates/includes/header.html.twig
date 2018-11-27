@@ -30,9 +30,26 @@
     <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" alt="{{ 'Home'|t }}"></a>
   </header>
   <div class="nav">
-      <a class="reverse-navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}"><img src="themes/custom/ddc/images/logo-reverse.png" alt="{{ 'Home'|t }}"></a>
+      <a class="reverse-navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}"><img src="../themes/custom/ddc/images/logo-reverse.png" alt="{{ 'Home'|t }}"></a>
       <div class="nav__content">
           {{ page.primary_menu }}
+
+          {# <ul class="nav__list menu-font">
+              <li class="nav__list-item">About</li>
+              <li class="nav__list-item">Services</li>
+              <li class="nav__list-item">Works</li>
+              <li class="nav__list-item">Contact</li>
+          </ul> #}
+
+
+              {# <ul class="nav__list menu-small-font">
+                  <li class="nav__list-item">Careers</li>
+                  <li class="nav__list-item">Privacy</li>
+                  <li class="nav__list-item">Terms of use</li>
+              </ul> #}
+
+
+
 
 
           <div class="content__bottom d-flex justify-content-between align-items-center">
@@ -84,11 +101,11 @@
 
     <div class="sticky-left animated slideInRight">
       <ul>
-        <li><a class="facebook" target="_blank" href="http://www.facebook.com/netiapps"><img src="{{ path('<front>') }}themes/custom/ddc/images/facebook-logo.png"></a></li>
-        <li><a class="facebook" target="_blank" href="https://www.linkedin.com/company/NetiApps-Software"><img src="{{ path('<front>') }}themes/custom/ddc/images/linkedin.png"></a></li>
-        <li><a class="facebook" target="_blank" href="https://twitter.com/netiapps"><img src="{{ path('<front>') }}themes/custom/ddc/images/twitter.png"></a></li>
-        <li><a class="facebook" target="_blank" href="https://www.youtube.com/channel/UC_gkb87YDPMJTf7EsEKortg"><img src="{{ path('<front>') }}themes/custom/ddc/images/youtube.png"></a></li>
-        <li><a class="facebook" target="_blank" href="https://www.instagram.com/netiapps/"><img src="{{ path('<front>') }}themes/custom/ddc/images/instagram.png"></a></li>
+        <li><img src="{{ path('<front>') }}themes/custom/ddc/images/facebook-logo.png"></li>
+        <li><img src="{{ path('<front>') }}themes/custom/ddc/images/linkedin.png"></li>
+        <li><img src="{{ path('<front>') }}themes/custom/ddc/images/twitter.png"></li>
+        <li><img src="{{ path('<front>') }}themes/custom/ddc/images/youtube.png"></li>
+        <li><img src="{{ path('<front>') }}themes/custom/ddc/images/instagram.png"></li>
       </ul>
     </div>
 
