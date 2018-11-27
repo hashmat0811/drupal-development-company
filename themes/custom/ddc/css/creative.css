@@ -721,6 +721,12 @@ h4 {
   border: none;
 }
 
+.inner-banner .breadcrumb ol {
+  max-width: 1140px;
+  margin: auto;
+  width: 100%;
+}
+
 .inner-banner .slide-image img {
   width: 100%;
   height: 100%;
@@ -1156,7 +1162,7 @@ body p {
 }
 
 .layout-intro h2 {
-  color: #ccc;
+  color: #3a3a3a;
 }
 
 .layout1 h2 {
