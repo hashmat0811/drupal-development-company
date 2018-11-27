@@ -112,26 +112,25 @@
     }
   }
 
+}
 
-  @media (max-width: 768px){
-    .navbar-brand {
-      position: fixed;
-      left: 78px !important;
-      top: 7px !important;
-    }
+@media (max-width: 768px){
+  .navbar-brand {
+    position: fixed;
+    left: 78px !important;
+    top: 7px !important;
+  }
+}
+
+@media (min-width: 769px){
+  .navbar-brand {
+    position: fixed;
+    left: 78px !important;
+    top: 7px !important;
   }
 
-  @media (min-width: 769px){
-    .navbar-brand {
-      position: fixed;
-      left: 78px !important;
-      top: 7px !important;
-    }
-
-    .menu-icon{
-      right: 100px!important;
-    }
-
+  .menu-icon{
+    right: 100px!important;
   }
 
 }

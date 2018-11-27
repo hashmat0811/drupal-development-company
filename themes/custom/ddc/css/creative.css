@@ -219,7 +219,7 @@ img::-moz-selection {
 }
 
 @media (max-width: 768px) {
-  #mainNav .navbar-brand {
+  .navbar-brand {
     position: fixed;
     left: 78px !important;
     top: 7px !important;
@@ -227,12 +227,12 @@ img::-moz-selection {
 }
 
 @media (min-width: 769px) {
-  #mainNav .navbar-brand {
+  .navbar-brand {
     position: fixed;
     left: 78px !important;
     top: 7px !important;
   }
-  #mainNav .menu-icon {
+  .menu-icon {
     right: 100px !important;
   }
 }
