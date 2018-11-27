@@ -27,10 +27,10 @@
         {#<div><a class="navbar-brand js-scroll-trigger" href="/"><img src="{{ logopath }}" ></a></div>#}
     </div>
 
-    <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" style="position: absolute; left: 6px; top: 7px"><img src="themes/custom/ddc/images/logo-reverse.png" alt="{{ 'Home'|t }}"></a>
+    <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" style="position: absolute; left: 6px; top: 7px"><img src="{{ logopath }}" alt="{{ 'Home'|t }}"></a>
   </header>
   <div class="nav">
-      <a class="reverse-navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}"><img src="{{ logopath }}" alt="{{ 'Home'|t }}"></a>
+      <a class="reverse-navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}"><img src="../themes/custom/ddc/images/logo-reverse.png" alt="{{ 'Home'|t }}"></a>
       <div class="nav__content">
           {{ page.primary_menu }}
 
