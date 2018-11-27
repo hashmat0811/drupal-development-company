@@ -494,7 +494,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 header.masthead p {
@@ -535,6 +535,15 @@ header.masthead p {
   header.masthead {
     padding-top: 0rem !important;
     padding-bottom: calc(0rem - 16px) !important;
+  }
+  .banner .banner-text {
+    position: absolute;
+    top: 29%;
+    z-index: 100;
+    margin-left: 10px;
+  }
+  .sticky-left {
+    display: none;
   }
 }
 
@@ -597,7 +606,7 @@ h4 {
 
 .service-list h2 {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 1.6rem;
 }
 
 .service-list h5 {

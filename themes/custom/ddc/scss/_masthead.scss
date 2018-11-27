@@ -11,7 +11,7 @@ header.masthead {
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   p {
     font-weight: 300;
@@ -49,6 +49,18 @@ header.masthead {
     padding-top: 0rem!important;
     padding-bottom: calc(0rem - 16px)!important;
   }
+
+  .banner .banner-text {
+      position: absolute;
+      top: 29%;
+      z-index: 100;
+      margin-left: 10px;
+  }
+
+  .sticky-left{
+    display: none;
+  }
+
 }
 
 .sticky-left{
@@ -111,7 +123,7 @@ h4{
   color: #000;
   h2{
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
   h5{
     font-size: 15px;
