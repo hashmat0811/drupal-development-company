@@ -1,0 +1,15 @@
+{% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
+
+  <div class="inner-banner">
+    <div class="container">
+      <div>
+        <div class="banner-text">
+          <h1 class="animated slideInUp">{{ node.title.value }}</h1>
+        </div>
+      </div>
+    </div>
+    {# <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div> #}
+  </div>
+{{ page.breadcrumb }}
+
+{% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}
