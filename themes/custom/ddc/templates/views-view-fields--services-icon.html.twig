@@ -30,19 +30,20 @@
  *
  * @ingroup themeable
  */
-#}   
-
-          <div class="col-md-4">
+#}             
+          <div class="col-md-4 click-box">
             <div class="s-block hvr-grow-shadow">
               <div class="icon-image">
                 {{ fields.field_image.content }}
               </div>
               <h6>{{ fields.field_title.content }}</h6>
+              <a href="{{ fields.filed_link.content }}">
             </div>
           </div>
    
-
-    {# <div class="">
-      {{ fields.field_image.content }}
-      <h5 class="text-white pt-2 pb-2">{{ fields.field_title.content }}</h5>
-    </div> #}
+  <script>
+    $(".click-box").click(function() {
+      window.location = $(this).find("a").attr("href"); 
+      return false;
+    });
+  </script>
