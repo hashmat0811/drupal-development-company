@@ -1,0 +1,29 @@
+{% include 'themes/custom/ddc/templates/includes/header.html.twig' %}
+
+  <div class="inner-banner">
+    <div class="container">
+      <div>
+        <div class="banner-text">
+          <h1 class="text-uppercases animated slideInUp">{{ node.title.value|raw }}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide-image"> <img src="{{ file_url(node.field_banner_image.entity.fileuri) }}" alt="{{node.field_banner_image.alt}}" /></div>
+  </div>
+  {{ page.breadcrumb }}
+
+  {% if node.field_title.value %}
+    <div class="layout layout-intro text-center">
+        <div class="container p-lg-5">
+          <h2>{{ node.field_title.value|raw }}</h2>
+          <div class="body col-md-10 m-auto">
+            {{ node.body.value|raw }}
+          </div>
+        </div>
+    </div>
+  {% endif %}
+
+  {# services icons #}
+  {{ drupal_view('services_icon') }}
+
+{% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}
