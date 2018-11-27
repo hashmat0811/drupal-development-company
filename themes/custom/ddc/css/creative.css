@@ -144,6 +144,7 @@ img::-moz-selection {
   border: none;
   position: fixed;
   border: none !important;
+  border-bottom: 0px;
   color: #E32003;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -491,6 +492,10 @@ body.nav-active .nav__list-item:nth-child(4) {
 body.nav-active .nav__list-item:nth-child(5) {
   -webkit-transition-delay: 0.83333s;
   transition-delay: 0.83333s;
+}
+
+a {
+  border-bottom: 0px;
 }
 
 header.masthead {

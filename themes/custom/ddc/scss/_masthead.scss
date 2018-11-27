@@ -1,4 +1,6 @@
 // Styling for the masthead
+a{border-bottom: 0px;}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -31,7 +33,7 @@ header.masthead {
     }
   }
 
-  
+
   @media (min-width: 992px) {
     height: 100vh;
     min-height: 650px;
