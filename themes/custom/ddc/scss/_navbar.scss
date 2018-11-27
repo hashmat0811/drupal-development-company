@@ -124,9 +124,17 @@
     right: 15px!important;
   }
 
+  .navbar-brand img {
+    width: 200px;
+}
+
 }
 
 @media (min-width: 769px){
+
+  .navbar-brand img {
+    width: 240px;
+}
   .navbar-brand {
     position: fixed;
     left: 78px !important;

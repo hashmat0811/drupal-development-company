@@ -227,9 +227,15 @@ img::-moz-selection {
   .menu-icon {
     right: 15px !important;
   }
+  .navbar-brand img {
+    width: 200px;
+  }
 }
 
 @media (min-width: 769px) {
+  .navbar-brand img {
+    width: 240px;
+  }
   .navbar-brand {
     position: fixed;
     left: 78px !important;
@@ -513,6 +519,12 @@ header.masthead p {
   header.masthead p {
     font-size: 1.15rem;
   }
+  header.masthead .banner .banner-text {
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+    margin-left: 84px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -728,7 +740,6 @@ h4 {
 
 .banner .banner-text {
   position: absolute;
-  top: 30%;
   z-index: 100;
   margin-left: 84px;
 }

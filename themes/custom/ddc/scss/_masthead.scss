@@ -22,7 +22,16 @@ header.masthead {
     p {
       font-size: 1.15rem;
     }
+
+    .banner .banner-text {
+        position: absolute;
+        top: 30%;
+        z-index: 100;
+        margin-left: 84px;
+    }
   }
+
+  
   @media (min-width: 992px) {
     height: 100vh;
     min-height: 650px;
@@ -224,7 +233,6 @@ h4{
   }
   .banner-text{
     position: absolute;
-    top: 30%;
     z-index: 100;
     margin-left: 84px;
   }
