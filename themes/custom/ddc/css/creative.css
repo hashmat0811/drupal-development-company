@@ -601,6 +601,12 @@ h4 {
   transition: 0.5s ease all;
 }
 
+.service-list .s-block a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
 .service-list .s-block:hover {
   background: #ca1b05;
   -webkit-box-shadow: 0px 0px 120px #f3f3f3;
@@ -614,10 +620,14 @@ h4 {
   filter: brightness(2000%);
 }
 
+.service-list .s-block:hover a {
+  color: #fff !important;
+}
+
 .service-list .s-block h6 {
   text-transform: capitalize;
   letter-spacing: 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .casestudy-slider h3 {
@@ -981,7 +991,7 @@ canvas {
 
 .work-section ul {
   list-style: none;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 .work-section ul li {
