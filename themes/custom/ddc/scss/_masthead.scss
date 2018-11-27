@@ -31,12 +31,27 @@ header.masthead {
         z-index: 100;
         margin-left: 84px;
     }
+    .masthead h1{
+      width: 62%;
+    }
+    .second-swipper{
+      top: -60px;
+      padding-top: 48px;
+    }
 
-    // .navbar-brand{
-    //   img{
-    //     width: 244px;
-    //   }
-    // }
+    .second-swipper .swiper-slide{
+      background: #eee;
+      padding: 15px;
+      color: #000;
+      height: auto;
+    }
+
+    h1{
+      font-size: 1.6rem;
+      padding-right: 0px;
+      font-weight: 900;
+    }
+
   }
 
 
@@ -76,6 +91,31 @@ header.masthead {
 
   .sticky-left{
     display: none;
+  }
+
+  .arrow-down{
+    display: none;
+  }
+
+  .masthead h1{
+    width: 90%;
+  }
+  .second-swipper{
+    top: -40px;
+    padding-top: 0px;
+  }
+
+  .second-swipper .swiper-slide{
+    background: #eee;
+    padding: 39px;
+    color: #000;
+    height: 480px;
+  }
+
+  h1{
+    font-size: 3rem;
+    padding-right: 30px;
+    font-weight: 900;
   }
 
 }
@@ -310,9 +350,7 @@ h4{
 .second-swipper{
   width: 100%;
   position: relative;
-  top: -60px;
   overflow: hidden;
-  padding-top: 48px;
   .hvr-sweep-to-right:before{
     background: #c22000 !important;
     color: #fff !important;
@@ -465,7 +503,6 @@ h4{
 
 .masthead h1{
   font-weight: 900;
-  width: 62%;
 }
 
 canvas {

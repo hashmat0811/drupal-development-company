@@ -530,6 +530,24 @@ header.masthead p {
     z-index: 100;
     margin-left: 84px;
   }
+  header.masthead .masthead h1 {
+    width: 62%;
+  }
+  header.masthead .second-swipper {
+    top: -60px;
+    padding-top: 48px;
+  }
+  header.masthead .second-swipper .swiper-slide {
+    background: #eee;
+    padding: 15px;
+    color: #000;
+    height: auto;
+  }
+  header.masthead h1 {
+    font-size: 1.6rem;
+    padding-right: 0px;
+    font-weight: 900;
+  }
 }
 
 @media (min-width: 992px) {
@@ -569,6 +587,27 @@ header.masthead p {
   }
   .sticky-left {
     display: none;
+  }
+  .arrow-down {
+    display: none;
+  }
+  .masthead h1 {
+    width: 90%;
+  }
+  .second-swipper {
+    top: -40px;
+    padding-top: 0px;
+  }
+  .second-swipper .swiper-slide {
+    background: #eee;
+    padding: 39px;
+    color: #000;
+    height: 480px;
+  }
+  h1 {
+    font-size: 3rem;
+    padding-right: 30px;
+    font-weight: 900;
   }
 }
 
@@ -802,9 +841,7 @@ h4 {
 .second-swipper {
   width: 100%;
   position: relative;
-  top: -60px;
   overflow: hidden;
-  padding-top: 48px;
 }
 
 .second-swipper .hvr-sweep-to-right:before {
@@ -969,7 +1006,6 @@ h4 {
 
 .masthead h1 {
   font-weight: 900;
-  width: 62%;
 }
 
 canvas {
