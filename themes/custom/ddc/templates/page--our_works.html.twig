@@ -40,18 +40,25 @@
         {% else %}
           <div class="col-md-6 p-5">
             <h3>{{ item.entity.field_title.value }}</h3>
-            <p>{{ item.entity.field_banner_description.value|raw }}</p>
+              <h5>Service Offers</h5>
+              <ul>
+                  {% for items in item.entity.field_services %}
+                    <li>{{ items.value }}</li>
+                  {% endfor %}                  
+              </ul>
+              <h5>Industries</h5>
+              <ul>
+                  {% for items in item.entity.field_industries %}
+                    <li>{{ items.value }}</li>
+                  {% endfor %}                  
+              </ul>            
               <h5>Technology Used</h5>
               <ul>
                   {% for items in item.entity.field_list %}
-                    {{ items.value }}
-                  {% endfor %}
-                  <li>{{ item.entity.field_list.value }}</li>
-                  <li>Drupal</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Multi Site</li>
+                    <li>{{ items.value }}</li>
+                  {% endfor %}                  
               </ul>
+              <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
           <div class="col-md-6 p-0">
             <div class="intro-img text-right">
