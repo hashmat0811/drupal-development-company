@@ -637,6 +637,9 @@ header.masthead p {
     font-weight: 900;
     font-size: 3rem;
   }
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -680,6 +683,9 @@ header.masthead p {
     font-size: 1.6rem;
     padding-right: 0px;
     font-weight: 900;
+  }
+  .inner-banner h1 {
+    font-size: 1.6rem;
   }
   .slider-image {
     display: none;
@@ -859,7 +865,6 @@ h4 {
 }
 
 .inner-banner h1 {
-  font-size: 5rem;
   font-weight: 900;
   color: #fff;
 }

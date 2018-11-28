@@ -100,6 +100,9 @@ header.masthead {
     }
   }
 
+  h1{
+    font-size: 5rem;
+  }
 
 }
 
@@ -150,6 +153,10 @@ header.masthead {
     padding-right: 0px;
     font-weight: 900;
   }
+
+  .inner-banner h1{
+      font-size: 1.6rem;
+    }
 
 .slider-image{display: none;}
 
@@ -332,7 +339,6 @@ h4{
   background: #161446;
 
   h1{
-    font-size: 5rem;
     font-weight: 900;
     color: #fff;
   }
