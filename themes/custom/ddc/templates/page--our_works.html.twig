@@ -31,10 +31,10 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                {% for key,value in node.field_portfolios.value %}
+                {# {% for key,value in node.field_portfolios.value %}
                   {{ content.field_portfolios[key] }}
-                {% endfor %}
-                  <li>{{ item.entity.field_list.value }}</li>
+                {% endfor %} #}
+                  <li>{{ item.entity.field_list.value|raw }}</li>
                   <li>Drupal</li>
                   <li>HTML</li>
                   <li>CSS</li>
