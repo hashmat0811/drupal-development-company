@@ -28,7 +28,18 @@
           </div>
           <div class="col-md-6 col-md-6 p-5">
             <h3>{{ item.entity.field_title.value }}</h3>
-            <p>{{ item.entity.field_banner_description.value|raw }}</p>
+              <h5>Service Offers</h5>
+              <ul>
+                  {% for items in item.entity.field_services %}
+                    <li>{{ items.value }}</li>
+                  {% endfor %}                  
+              </ul>
+              <h5>Industries</h5>
+              <ul>
+                  {% for items in item.entity.field_industries %}
+                    <li>{{ items.value }}</li>
+                  {% endfor %}                  
+              </ul> 
               <h5>Technology Used</h5>
               <ul>                  
                   <li>Drupal</li>
@@ -36,6 +47,7 @@
                   <li>CSS</li>
                   <li>Multi Site</li>
               </ul>
+              <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
         {% else %}
           <div class="col-md-6 p-5">
