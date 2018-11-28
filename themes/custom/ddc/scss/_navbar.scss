@@ -129,6 +129,16 @@
     width: 200px;
 }
 
+.menu-font {
+    margin-top: 280px!important;
+}
+
+.reverse-navbar-brand {
+  left: 5px;
+    max-width: 160px;
+    width: 210px;
+}
+
 }
 
 @media (min-width: 769px){
@@ -140,6 +150,13 @@
     position: fixed;
     left: 78px !important;
     top: 7px !important;
+  }
+
+  .reverse-navbar-brand{
+    left: 78px;
+    top: 13px;
+    max-width: 239px;
+    width: 239px;
   }
 
   .menu-icon{
@@ -273,10 +290,7 @@ $size: 30px;
 .reverse-navbar-brand{
   opacity: 0;
   position: absolute;
-  left: 78px;
   top: 13px;
-  max-width: 239px;
-  width: 239px;
   border-bottom: 0;
 }
 
