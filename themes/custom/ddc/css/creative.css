@@ -494,10 +494,6 @@ body.nav-active .nav__list-item:nth-child(5) {
   transition-delay: 0.83333s;
 }
 
-a {
-  border-bottom: 0px;
-}
-
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -1170,6 +1166,28 @@ canvas {
 .contact-page .contact-field .contact-label {
   margin-top: 30px;
   margin-bottom: 0px;
+}
+
+a {
+  border-bottom: 0px;
+}
+
+.footer-menu li a {
+  color: #fff;
+}
+
+.netiapps-footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.netiapps-footer-logo img {
+  max-height: 30px;
+  margin-left: 10px;
 }
 
 body p {
