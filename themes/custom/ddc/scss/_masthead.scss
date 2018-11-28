@@ -72,7 +72,7 @@ header.masthead {
   .service-list{
     h2{
       font-weight: 900;
-      font-size: 1.6rem;
+      font-size: 3rem;
     }
   }
 
@@ -132,7 +132,7 @@ header.masthead {
   color: #000;
   h2{
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -194,19 +194,7 @@ h4{
   //   font-weight: 900;
   //   font-size: 1.6rem;
   // }
-  h5{
-    font-size: 15px;
-    &:before{
-      content: ' ';
-      position: absolute;
-      width: 1px;
-      height: 130px;
-      background: #c72000;
-      top: -143px;
-      left: 110px;
-      z-index: 1;
-    }
-  }
+
   .s-block{
     background: #f7f7f7;
     padding: 40px 10px;
