@@ -647,6 +647,11 @@ header.masthead p {
   .service-list .s-block {
     margin-bottom: 30px;
   }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1396,12 +1401,10 @@ body p {
   float: left;
   position: absolute;
   top: inherit;
-  left: 50px;
   padding: 10px 15px;
   font-size: 15px;
   text-shadow: 1px 1px 1px #000000;
   z-index: 1;
-  bottom: 40px;
 }
 
 .region-breadcrumb {
@@ -1462,6 +1465,10 @@ body p {
     left: 10px;
     z-index: 1;
   }
+  .body {
+    left: 0px;
+    bottom: 10px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -1487,6 +1494,10 @@ body p {
     padding: 30px;
     right: -30px;
     z-index: 1;
+  }
+  .layout4 .body {
+    left: 50px;
+    bottom: 40px;
   }
 }
 
