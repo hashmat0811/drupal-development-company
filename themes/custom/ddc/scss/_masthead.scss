@@ -39,7 +39,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   p {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
   }
 
   .banner .banner-text {
@@ -431,7 +431,7 @@ h4{
   .btn{
     background: #de2d00;
     margin-top: 28px;
-    padding: 10px 61px;
+    padding: 10px 45px;
     border-radius: 30px;
     color: #fff;
     font-weight: 600;
@@ -681,7 +681,8 @@ a{border-bottom: 0px;}
 .netiapps-footer-logo{
     display: flex;
     align-items: flex-end;
-        margin-top: 40px;
+    margin-top: 40px;
+    opacity: .7;
     img{
     max-height: 30px;
     margin-left: 2px;
