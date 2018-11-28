@@ -31,11 +31,13 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                {{ item.entity.field_list.value|raw }}
+                {% for items in item.entity.field_list %}
+                  {{ items.entity.field_list.value|raw }}
                     <li>Drupal</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Multi Site</li>
+                {% endfor %}
               </ul>
           </div>
         {% else %}
