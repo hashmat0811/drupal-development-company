@@ -31,8 +31,8 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                {% for key, item in item.entity.field_list if key|first != '#' %}
-                  <div class="item-{{ key + 1 }}">{{ item }}</div>
+                {% for key,value in node.field_portfolios.value %}
+                  {{ content.field_portfolios[key] }}
                 {% endfor %}
                   <li>{{ item.entity.field_list.value }}</li>
                   <li>Drupal</li>
