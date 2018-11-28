@@ -564,6 +564,10 @@ header.masthead p {
     padding-right: 30px;
     font-weight: 900;
   }
+  .service-list h2 {
+    font-weight: 900;
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -579,7 +583,7 @@ header.masthead p {
   }
   .banner .banner-text {
     position: absolute;
-    top: 29%;
+    top: 15%;
     z-index: 100;
     margin-left: 10px;
   }
@@ -607,6 +611,16 @@ header.masthead p {
     font-size: 1.6rem;
     padding-right: 0px;
     font-weight: 900;
+  }
+  .slider-image {
+    display: none;
+  }
+  .service-list {
+    color: #000;
+  }
+  .service-list h2 {
+    font-weight: 900;
+    font-size: 3rem;
   }
 }
 
@@ -661,11 +675,6 @@ h4 {
 
 .service-list {
   color: #000;
-}
-
-.service-list h2 {
-  font-weight: 900;
-  font-size: 1.6rem;
 }
 
 .service-list h5 {
