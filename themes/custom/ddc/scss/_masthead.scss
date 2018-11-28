@@ -31,7 +31,7 @@ header.masthead {
         z-index: 100;
         margin-left: 84px;
     }
-    .masthead h1{
+    h1{
       width: 62%;
     }
     .second-swipper{
@@ -46,11 +46,7 @@ header.masthead {
       height: auto;
     }
 
-    h1{
-      font-size: 1.6rem;
-      padding-right: 0px;
-      font-weight: 900;
-    }
+
 
   }
 
@@ -112,10 +108,15 @@ header.masthead {
     color: #000;
     height: 480px;
   }
-
+  //
+  // h1{
+  //   font-size: 1.6rem;
+  //   padding-right: 10px;
+  //   font-weight: 900;
+  // }
   h1{
     font-size: 1.6rem;
-    padding-right: 10px;
+    padding-right: 0px;
     font-weight: 900;
   }
 
