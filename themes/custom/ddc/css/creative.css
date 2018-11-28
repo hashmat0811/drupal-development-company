@@ -647,6 +647,9 @@ header.masthead p {
     top: 180px;
     margin-left: 84px;
   }
+  .service-list .s-block {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -655,6 +658,9 @@ header.masthead p {
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
+  }
+  .region-breadcrumb {
+    display: none;
   }
   header.masthead {
     padding-top: 0rem !important;
@@ -719,6 +725,9 @@ header.masthead p {
     top: 70px;
     margin-left: 10px;
   }
+  .service-list .s-block {
+    margin-bottom: 15px;
+  }
 }
 
 .sticky-left {
@@ -779,7 +788,6 @@ h4 {
   padding: 40px 10px;
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
   color: #000;
   z-index: 1;
   position: relative;

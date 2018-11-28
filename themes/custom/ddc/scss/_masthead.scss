@@ -112,6 +112,9 @@ header.masthead {
     }
 
   }
+  .service-list .s-block{
+    margin-bottom: 30px;
+  }
 
 }
 
@@ -120,6 +123,10 @@ header.masthead {
   .client-list-block{
     flex-flow: column;
   }
+
+.region-breadcrumb{
+  display: none;
+}
 
   header.masthead {
     padding-top: 0rem!important;
@@ -194,7 +201,9 @@ header.masthead {
 top: 70px;
 margin-left: 10px;
 }
-
+.service-list .s-block{
+  margin-bottom: 15px;
+}
 
 }
 
@@ -250,17 +259,11 @@ h4{
 
 .service-list{
   color: #000;
-  // h2{
-  //   font-weight: 900;
-  //   font-size: 1.6rem;
-  // }
-
   .s-block{
     background: #f7f7f7;
     padding: 40px 10px;
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
     color: #000;
     z-index: 1;
     position: relative;
