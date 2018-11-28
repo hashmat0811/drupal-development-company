@@ -136,6 +136,7 @@
   width: 100%;
     .nav__list-item{
       width: 100%;
+          margin-left: 0px;
       a {
          font-size: 20px!important;
       }
@@ -154,6 +155,10 @@
   left: 5px;
     max-width: 160px;
     width: 210px;
+}
+
+.menu-toggle{
+  display: none;
 }
 
 }

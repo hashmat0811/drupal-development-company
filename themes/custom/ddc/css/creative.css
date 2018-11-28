@@ -239,6 +239,7 @@ img::-moz-selection {
   }
   .menu-font .nav__list-item {
     width: 100%;
+    margin-left: 0px;
   }
   .menu-font .nav__list-item a {
     font-size: 20px !important;
@@ -254,6 +255,9 @@ img::-moz-selection {
     left: 5px;
     max-width: 160px;
     width: 210px;
+  }
+  .menu-toggle {
+    display: none;
   }
 }
 
