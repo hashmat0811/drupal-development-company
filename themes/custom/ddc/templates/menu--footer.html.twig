@@ -38,11 +38,11 @@
     {% else %}
       <ul>
     {% endif %} #}
-    {% for menu_level == 3 %}
+    {% if menu_level == 3 %}
       <div class="col-md-2">
         <ul{{ attributes.addClass('nav__list') }}>
       </div>
-    {% endfor %}
+    {% endif %}
     {% for item in items %}
       <li{{ item.attributes.addClass('nav__list-item') }}>
         {{ link(item.title, item.url, item.attributes.addClass('nav-link')) }}
