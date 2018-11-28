@@ -257,7 +257,21 @@ img::-moz-selection {
     width: 210px;
   }
   .menu-toggle {
-    display: none;
+    display: none !important;
+  }
+  .menu-small-font {
+    font-size: 17px;
+    color: #000;
+    padding-left: 0px;
+  }
+  .nav__list-item {
+    margin-right: 0px !important;
+    width: 100%;
+    padding: 3px 0px;
+    color: #000;
+  }
+  .nav__content .content__bottom {
+    display: none !important;
   }
 }
 
