@@ -232,11 +232,22 @@ img::-moz-selection {
     width: 200px;
   }
   .menu-font {
-    margin-top: 80px !important;
+    margin-top: 200px !important;
     font-size: 35px !important;
+    padding-left: 0px;
   }
   .menu-font .nav__list-item {
     width: 100%;
+  }
+  .menu-font .nav__list-item a {
+    font-size: 30px !important;
+  }
+  .menu-font .nav__list-item:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 0px !important;
+    height: 1px;
   }
   .reverse-navbar-brand {
     left: 5px;

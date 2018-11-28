@@ -130,11 +130,23 @@
 }
 
 .menu-font {
-    margin-top: 80px!important;
-    font-size: 35px!important;
+  margin-top: 200px!important;
+  font-size: 35px!important;
+  padding-left: 0px;
     .nav__list-item{
       width: 100%;
+      a {
+         font-size: 30px!important;
+      }
     }
+    .nav__list-item:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 0px!important;
+    height: 1px;
+  }
+
 }
 
 .reverse-navbar-brand {
