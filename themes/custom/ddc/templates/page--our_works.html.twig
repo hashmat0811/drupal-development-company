@@ -43,8 +43,8 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                  {% for item in item.entity.field_list %}
-                    {{ value }}
+                  {% for items in item.entity.field_list %}
+                    {{ items.value }}
                   {% endfor %}
                   <li>{{ item.entity.field_list.value }}</li>
                   <li>Drupal</li>
