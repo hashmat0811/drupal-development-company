@@ -520,31 +520,6 @@ header.masthead p {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-  header.masthead .banner .banner-text {
-    position: absolute;
-    top: 30%;
-    z-index: 100;
-    margin-left: 84px;
-  }
-  header.masthead h1 {
-    width: 62%;
-  }
-  header.masthead .second-swipper {
-    top: -60px;
-    padding-top: 48px;
-  }
-  header.masthead .second-swipper .swiper-slide {
-    background: #eee;
-    padding: 39px;
-    color: #000;
-    height: auto;
-  }
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -560,6 +535,36 @@ header.masthead p {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.15rem;
+  }
+  .banner .banner-text {
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+    margin-left: 84px;
+  }
+  .masthead h1 {
+    width: 62%;
+  }
+  .second-swipper {
+    top: -60px;
+    padding-top: 48px;
+  }
+  .second-swipper .swiper-slide {
+    background: #eee;
+    padding: 39px;
+    color: #000;
+    height: auto;
+  }
+  h1 {
+    font-size: 1.6rem;
+    padding-right: 0px;
+    font-weight: 900;
   }
 }
 
@@ -602,7 +607,7 @@ header.masthead p {
   }
   h1 {
     font-size: 1.6rem;
-    padding-right: 0px;
+    padding-right: 10px;
     font-weight: 900;
   }
 }
