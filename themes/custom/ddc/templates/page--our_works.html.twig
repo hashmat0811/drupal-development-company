@@ -30,11 +30,7 @@
             <h3>{{ item.entity.field_title.value }}</h3>
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
-              <ul>
-                {% for key, item in item.entity.field_list if key|first != '#' %}
-                  <div class="item-{{ key + 1 }}">{{ item }}</div>
-                {% endfor %}
-                  <li>{{ item.entity.field_list.value }}</li>
+              <ul>                  
                   <li>Drupal</li>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -47,6 +43,10 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
+                  {% for item in item.entity.field_list %}
+                    {{ value }}
+                  {% endfor %}
+                  <li>{{ item.entity.field_list.value }}</li>
                   <li>Drupal</li>
                   <li>HTML</li>
                   <li>CSS</li>
