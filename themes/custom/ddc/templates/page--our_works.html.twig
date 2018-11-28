@@ -31,10 +31,11 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                  <li>Drupal</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Multi Site</li>
+                {{ item.entity.field_list.value|raw }}
+                    <li>Drupal</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Multi Site</li>
               </ul>
           </div>
         {% else %}
