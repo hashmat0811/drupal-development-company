@@ -31,15 +31,13 @@
 {% macro menu_links(items, attributes, menu_level, menu_name) %}
   {% import _self as menus %}
   {% if items %}
-    {% if menu_level == 3 %}
-      <div class="col-md-2">
-        <ul{{ attributes.addClass('nav__list') }}>
-      </div>
+    {% if menu_level == 0 %}
+      <ul{{ attributes.addClass('') }}>
     {% else %}
       <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass('nav__list-item') }}>
+      <li{{ item.attributes.addClass('') }}>
         {{ link(item.title, item.url, item.attributes.addClass('nav-link')) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
