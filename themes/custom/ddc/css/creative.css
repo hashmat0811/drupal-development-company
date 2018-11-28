@@ -539,7 +539,7 @@ header.masthead p {
   }
   header.masthead .second-swipper .swiper-slide {
     background: #eee;
-    padding: 15px;
+    padding: 39px;
     color: #000;
     height: auto;
   }
@@ -593,6 +593,7 @@ header.masthead p {
   }
   .masthead h1 {
     width: 90%;
+    padding-right: 0px;
   }
   .second-swipper {
     top: -40px;
@@ -600,13 +601,13 @@ header.masthead p {
   }
   .second-swipper .swiper-slide {
     background: #eee;
-    padding: 39px;
+    padding: 10px;
     color: #000;
     height: 480px;
   }
   h1 {
-    font-size: 3rem;
-    padding-right: 30px;
+    font-size: 1.6rem;
+    padding-right: 10px;
     font-weight: 900;
   }
 }
@@ -857,19 +858,6 @@ h4 {
   font-size: 14px !important;
   font-weight: 900 !important;
   color: #000 !important;
-}
-
-.second-swipper .swiper-slide {
-  background: #eee;
-  padding: 39px;
-  color: #000;
-  height: 480px;
-}
-
-.second-swipper h1 {
-  font-size: 3rem;
-  padding-right: 30px;
-  font-weight: 900;
 }
 
 .second-swipper p {
