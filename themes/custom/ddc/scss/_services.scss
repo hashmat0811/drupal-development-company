@@ -9,7 +9,6 @@ body p{
 
 .layout{
   h2{
-    font-size: 40px;
     font-weight: 900;
     color: #3a3a3a;
   }
@@ -61,11 +60,6 @@ height: auto;
   h2{
     background: #ce2100;
     color: #fff!important;
-    max-width: 420px;
-    top: 50px;
-    position: absolute;
-    padding: 30px;
-    left: -30px;
     z-index: 1;
   }
 
@@ -158,5 +152,51 @@ margin: auto;
     margin-top: -19px;
   img{
         filter: brightness(95%);
+  }
+}
+
+@media (max-width: 768px) {
+  .layout{
+    h2{
+      font-size: 1.6rem;
+    }
+  }
+
+  .layout1 {
+
+    h2{
+      background: #ce2100;
+      color: #fff!important;
+      max-width: 420px;
+      top: 10px;
+      position: absolute;
+      padding: 15px;
+      left: 10px;
+      right: 10px;
+      z-index: 1;
+    }
+  }
+  
+}
+
+@media (min-width: 769px) {
+  .layout{
+    h2{
+      font-size: 3rem;
+    }
+  }
+
+  .layout1 {
+
+    h2{
+      background: #ce2100;
+      color: #fff!important;
+      max-width: 420px;
+      top: 50px;
+      position: absolute;
+      padding: 30px;
+      left: -30px;
+      z-index: 1;
+    }
   }
 }
