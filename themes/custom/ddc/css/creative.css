@@ -71,21 +71,10 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none;
-}
-
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
 }
 
 img::selection {
@@ -555,7 +544,7 @@ header.masthead p {
   }
   .banner .banner-text {
     position: absolute;
-    top: 30%;
+    top: 24%;
     z-index: 100;
     margin-left: 84px;
   }
@@ -563,7 +552,7 @@ header.masthead p {
     width: 62%;
   }
   .second-swipper {
-    top: -60px;
+    top: -100px;
     padding-top: 48px;
   }
   .second-swipper .swiper-slide {
@@ -617,7 +606,7 @@ header.masthead p {
     height: 480px;
   }
   h1 {
-    font-size: 1.6rem;
+    font-size: 3rem;
     padding-right: 10px;
     font-weight: 900;
   }
