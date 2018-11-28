@@ -32,20 +32,19 @@
               <ul>
                   {% for items in item.entity.field_services %}
                     <li>{{ items.value }}</li>
-                  {% endfor %}                  
+                  {% endfor %}
               </ul>
               <h5>Industries</h5>
               <ul>
                   {% for items in item.entity.field_industries %}
                     <li>{{ items.value }}</li>
-                  {% endfor %}                  
+                  {% endfor %}
               </ul> 
               <h5>Technology Used</h5>
               <ul>                  
-                  <li>Drupal</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Multi Site</li>
+                  {% for items in item.entity.field_list %}
+                    <li>{{ items.value }}</li>
+                  {% endfor %}
               </ul>
               <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
@@ -56,19 +55,19 @@
               <ul>
                   {% for items in item.entity.field_services %}
                     <li>{{ items.value }}</li>
-                  {% endfor %}                  
+                  {% endfor %}
               </ul>
               <h5>Industries</h5>
               <ul>
                   {% for items in item.entity.field_industries %}
                     <li>{{ items.value }}</li>
-                  {% endfor %}                  
-              </ul>            
+                  {% endfor %}
+              </ul>
               <h5>Technology Used</h5>
               <ul>
                   {% for items in item.entity.field_list %}
                     <li>{{ items.value }}</li>
-                  {% endfor %}                  
+                  {% endfor %}
               </ul>
               <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
