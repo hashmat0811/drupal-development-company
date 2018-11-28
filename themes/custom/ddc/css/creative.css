@@ -432,6 +432,8 @@ body.nav-active .content__bottom {
 
 body.nav-active .reverse-navbar-brand {
   opacity: 1;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
 }
 
 body.nav-active .nav {
@@ -558,8 +560,8 @@ header.masthead p {
     height: auto;
   }
   h1 {
-    font-size: 1.6rem;
-    padding-right: 0px;
+    font-size: 3rem;
+    padding-right: 30px;
     font-weight: 900;
   }
 }
@@ -602,8 +604,8 @@ header.masthead p {
     height: 480px;
   }
   h1 {
-    font-size: 3rem;
-    padding-right: 10px;
+    font-size: 1.6rem;
+    padding-right: 0px;
     font-weight: 900;
   }
 }
