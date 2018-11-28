@@ -31,11 +31,9 @@
             <p>{{ item.entity.field_banner_description.value|raw }}</p>
               <h5>Technology Used</h5>
               <ul>
-                {% for items in element['#object'].field_list %}      
-                  {# <a class="gall-img" href="{{ file_url(item.entity.uri.value) }}"> 
-                  <img src="{{ file_url(item.entity.uri.value) }}"></a> #}
+                {# {% for items in element['#object'].field_list %}                      
                   {{ items.entity.field_list.value }}
-                {% endfor %}
+                {% endfor %} #}
                     <li>Drupal</li>
                     <li>HTML</li>
                     <li>CSS</li>
