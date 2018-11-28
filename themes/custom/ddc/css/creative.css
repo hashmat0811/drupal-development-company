@@ -592,6 +592,14 @@ header.masthead p {
     left: 110px;
     z-index: 1;
   }
+  .section-client-top {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  .section-client-top h2 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -648,6 +656,14 @@ header.masthead p {
   }
   .service-list {
     padding: 0rem 0rem !important;
+  }
+  .section-client-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .section-client-top h2 {
+    font-weight: 900;
+    font-size: 1.6rem;
   }
 }
 
@@ -890,8 +906,6 @@ h4 {
 
 .section-client-top {
   background: #fff;
-  padding-top: 20px;
-  padding-bottom: 100px;
   position: relative;
   z-index: 0;
 }
@@ -906,11 +920,6 @@ h4 {
 .section-client-top img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-}
-
-.section-client-top h2 {
-  font-weight: 900;
-  font-size: 3rem;
 }
 
 .footer-bottom {

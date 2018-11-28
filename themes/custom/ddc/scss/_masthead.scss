@@ -92,6 +92,14 @@ header.masthead {
   }
 
 
+  .section-client-top{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    h2{
+      font-weight: 900; font-size: 3rem;
+    }
+  }
+
 
 }
 
@@ -154,7 +162,16 @@ header.masthead {
 }
 
 .service-list{
-    padding: 0rem 0rem!important;
+  padding: 0rem 0rem!important;
+}
+
+
+.section-client-top{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h2{
+    font-weight: 900; font-size: 1.6rem;
+  }
 }
 
 }
@@ -416,11 +433,8 @@ h4{
 }
 
 
-
 .section-client-top{
   background: #fff;
-  padding-top: 20px;
-  padding-bottom: 100px;
   position: relative;
   z-index: 0;
   img{
@@ -430,11 +444,8 @@ h4{
       filter: grayscale(0%);
     }
   }
-
-  h2{
-    font-weight: 900; font-size: 3rem;
-  }
 }
+
 
 .footer-bottom{
   padding-top: 50px;
