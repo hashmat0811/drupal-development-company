@@ -328,6 +328,8 @@ h4{
 .inner-banner{
   margin: auto;
   width: 100%;
+  min-height: 350px;
+  background: #161446;
 
   h1{
     font-size: 5rem;
@@ -430,6 +432,14 @@ h4{
     width: 100%;
   }
 
+}
+
+.other-base-page{
+    max-width: 1140px;
+    margin: -19px auto;
+    width: 75%;
+    background: #f9f9f9;
+    padding: 30px 40px;
 }
 
 
