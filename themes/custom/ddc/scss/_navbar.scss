@@ -130,7 +130,11 @@
 }
 
 .menu-font {
-    margin-top: 280px!important;
+    margin-top: 80px!important;
+    font-size: 35px!important;
+    .nav__list-item{
+      width: 100%;
+    }
 }
 
 .reverse-navbar-brand {
