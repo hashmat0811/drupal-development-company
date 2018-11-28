@@ -103,6 +103,15 @@ header.masthead {
   h1{
     font-size: 5rem;
   }
+  .inner-banner{
+    min-height: 350px;
+
+    .banner-text{
+      top: 180px;
+      margin-left: 84px;
+    }
+
+  }
 
 }
 
@@ -180,6 +189,12 @@ header.masthead {
     font-weight: 900; font-size: 1.6rem;
   }
 }
+
+.inner-banner .banner-text{
+top: 70px;
+margin-left: 10px;
+}
+
 
 }
 
@@ -335,7 +350,7 @@ h4{
 .inner-banner{
   margin: auto;
   width: 100%;
-  min-height: 350px;
+  // min-height: 350px;
   background: #161446;
 
   h1{
@@ -344,9 +359,7 @@ h4{
   }
   .banner-text{
     position: absolute;
-    top: 180px;
     z-index: 100;
-    margin-left: 84px;
     .region-breadcrumb{
       padding-left: 3px;
     }

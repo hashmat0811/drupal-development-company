@@ -640,6 +640,13 @@ header.masthead p {
   h1 {
     font-size: 5rem;
   }
+  .inner-banner {
+    min-height: 350px;
+  }
+  .inner-banner .banner-text {
+    top: 180px;
+    margin-left: 84px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -707,6 +714,10 @@ header.masthead p {
   .section-client-top h2 {
     font-weight: 900;
     font-size: 1.6rem;
+  }
+  .inner-banner .banner-text {
+    top: 70px;
+    margin-left: 10px;
   }
 }
 
@@ -860,7 +871,6 @@ h4 {
 .inner-banner {
   margin: auto;
   width: 100%;
-  min-height: 350px;
   background: #161446;
 }
 
@@ -871,9 +881,7 @@ h4 {
 
 .inner-banner .banner-text {
   position: absolute;
-  top: 180px;
   z-index: 100;
-  margin-left: 84px;
 }
 
 .inner-banner .banner-text .region-breadcrumb {
