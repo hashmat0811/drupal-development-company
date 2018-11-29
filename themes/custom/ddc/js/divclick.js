@@ -6,4 +6,10 @@ $(ducument).ready(function() {
     return false;
   });
 });
+
+
+
+
+AOS.init();
+
    
