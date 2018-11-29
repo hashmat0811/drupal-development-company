@@ -1311,11 +1311,6 @@ body p {
   width: 100%;
 }
 
-.layout .intro-img {
-  max-height: 350px;
-  overflow: hidden;
-}
-
 .image-background::before {
   content: "";
   position: absolute;
@@ -1442,6 +1437,11 @@ body p {
 .works-gallery img {
   -webkit-filter: brightness(95%);
   filter: brightness(95%);
+}
+
+.works-gallery .intro-img {
+  max-height: 350px;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {

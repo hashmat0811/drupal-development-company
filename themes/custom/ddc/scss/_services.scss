@@ -13,10 +13,7 @@ body p{
     color: #3a3a3a;
   }
   img{width: 100%;}
-  .intro-img{
-  max-height: 350px;
-  overflow: hidden;
-  }
+
 }
 
 .image-background::before {
@@ -151,6 +148,10 @@ margin: auto;
     margin-top: -19px;
   img{
         filter: brightness(95%);
+  }
+  .intro-img{
+  max-height: 350px;
+  overflow: hidden;
   }
 }
 
