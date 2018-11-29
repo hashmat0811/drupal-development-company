@@ -1533,13 +1533,13 @@ body p {
 }
 
 .contact-page {
-  padding: 0px;
+  padding: 0px !important;
 }
 
 .contact-page input {
   background: none;
   border: 0;
-  border-bottom: 4px solid #565656 !important;
+  border-bottom: 1px solid #eee;
   width: auto;
   display: inline-block;
 }
@@ -1547,13 +1547,13 @@ body p {
 .contact-page select {
   background: none;
   border: 0px;
-  border-bottom: 4px solid #565656 !important;
+  border-bottom: 1px solid #eee;
 }
 
 .contact-page textarea {
   background: none;
   border: 0px;
-  border-bottom: 4px solid #565656 !important;
+  border-bottom: 1px solid #eee;
 }
 
 .contact-page h3 {
