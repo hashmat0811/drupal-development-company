@@ -1,0 +1,16 @@
+.eu-cookie-compliance-message {
+  float: left;
+  margin: 5px 0 0;
+  max-width: 100%;
+}
+.footer-menu ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+.nav-link-footer{
+  color: white;
+}

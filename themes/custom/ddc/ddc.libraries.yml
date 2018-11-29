@@ -75,6 +75,7 @@ global-styling:
       scss/_services.scss: {}
       scss/_variables.scss: {}
       css/swiper.min.css: {}
+      css/custom.min.css: {}
 
       # custom js
       gulpfile.js: {}
