@@ -1311,6 +1311,11 @@ body p {
   width: 100%;
 }
 
+.layout .intro-img {
+  max-height: 350px;
+  overflow: hidden;
+}
+
 .image-background::before {
   content: "";
   position: absolute;

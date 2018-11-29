@@ -13,6 +13,10 @@ body p{
     color: #3a3a3a;
   }
   img{width: 100%;}
+  .intro-img{
+  max-height: 350px;
+  overflow: hidden;
+  }
 }
 
 .image-background::before {
