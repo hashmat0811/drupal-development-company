@@ -463,7 +463,7 @@ body.nav-active .menu-icon {
 }
 
 body.nav-active .menu-icon__line {
-  background-color: #000;
+  background-color: #fff;
   -webkit-transform: translateX(0px) rotate(-45deg);
   transform: translateX(0px) rotate(-45deg);
 }
