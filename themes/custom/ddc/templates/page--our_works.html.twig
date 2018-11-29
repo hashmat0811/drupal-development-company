@@ -19,9 +19,9 @@
   <div class="container">
     <div class="work-section p-lg-5">
       {% for item in node.field_portfolios %}
-      <div class="row white-bg">
+      <div class="row white-bg pt-lg-5">
         {% if  loop.index % 2 == 0 %}
-          <div class="col-md-5 p-0">
+          <div class="col-md-5 pr-lg-5 pl-lg-0">
             <div class="intro-img text-left">
               <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
@@ -44,18 +44,18 @@
                 {% endfor %}
             </ul>
           </div>
-          <div class="col-md-7 p-lg-5">
+          <div class="col-md-7 pl-lg-5 pr-lg-5">
             <h3>{{ item.entity.field_title.value }}</h3>
 
               <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
         {% else %}
-          <div class="col-md-7 p-lg-5">
+          <div class="col-md-7 pl-lg-5 pr-lg-5">
             <h3>{{ item.entity.field_title.value }}</h3>
 
               <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
-          <div class="col-md-5 p-lg-0">
+          <div class="col-md-5 pl-lg-5 pr-lg-0">
             <div class="intro-img text-right">
               <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
