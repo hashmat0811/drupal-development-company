@@ -1451,7 +1451,7 @@ body p {
 
 @media (max-width: 768px) {
   .works-gallery {
-    margin-top: -19px;
+    margin-top: 20px;
   }
   .layout h2 {
     font-size: 1.6rem;
@@ -1486,7 +1486,7 @@ body p {
 
 @media (min-width: 769px) {
   .works-gallery {
-    margin-top: 20px;
+    margin-top: -19px;
   }
   .layout h2 {
     font-size: 3rem;
