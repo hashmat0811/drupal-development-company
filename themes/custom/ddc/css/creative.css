@@ -1316,6 +1316,10 @@ a {
   font-weight: 600;
 }
 
+.second-swipper .btn-primary:hover {
+  color: #fff !important;
+}
+
 body p {
   font-weight: 200;
 }

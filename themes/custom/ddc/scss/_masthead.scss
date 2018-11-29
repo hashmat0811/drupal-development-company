@@ -775,3 +775,11 @@ a{border-bottom: 0px;}
     font-weight: 600;
   }
 }
+
+.second-swipper{
+  .btn-primary{
+    &:hover{
+      color: #fff !important;
+    }
+  }
+}
