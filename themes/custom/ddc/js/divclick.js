@@ -10,6 +10,5 @@ $(ducument).ready(function() {
 
 
 
-AOS.init();
 
    
