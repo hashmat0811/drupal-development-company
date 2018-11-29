@@ -1539,7 +1539,7 @@ body p {
 .contact-page input {
   background: none;
   border: 0;
-  border-bottom: 4px solid #565656;
+  border-bottom: 4px solid #565656 !important;
   width: auto;
   display: inline-block;
 }
@@ -1547,13 +1547,13 @@ body p {
 .contact-page select {
   background: none;
   border: 0px;
-  border-bottom: 4px solid #565656;
+  border-bottom: 4px solid #565656 !important;
 }
 
 .contact-page textarea {
   background: none;
   border: 0px;
-  border-bottom: 4px solid #565656;
+  border-bottom: 4px solid #565656 !important;
 }
 
 .contact-page h3 {
