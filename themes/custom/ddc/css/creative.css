@@ -1431,7 +1431,6 @@ body p {
 
 .works-gallery {
   background: #f9f9f9;
-  margin-top: -19px;
 }
 
 .works-gallery img {
@@ -1440,11 +1439,14 @@ body p {
 }
 
 .works-gallery .intro-img {
-  max-height: 350px;
+  max-height: 240px;
   overflow: hidden;
 }
 
 @media (max-width: 768px) {
+  .works-gallery {
+    margin-top: -19px;
+  }
   .layout h2 {
     font-size: 1.6rem;
   }
@@ -1477,6 +1479,9 @@ body p {
 }
 
 @media (min-width: 769px) {
+  .works-gallery {
+    margin-top: 20px;
+  }
   .layout h2 {
     font-size: 3rem;
   }

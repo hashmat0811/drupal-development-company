@@ -145,17 +145,21 @@ margin: auto;
 
 .works-gallery{
   background: #f9f9f9;
-    margin-top: -19px;
   img{
         filter: brightness(95%);
   }
   .intro-img{
-  max-height: 350px;
+  max-height: 240px;
   overflow: hidden;
   }
 }
 
 @media (max-width: 768px) {
+
+  .works-gallery{
+      margin-top: -19px;
+    }
+
   .layout{
     h2{
       font-size: 1.6rem;
@@ -199,6 +203,10 @@ margin: auto;
 }
 
 @media (min-width: 769px) {
+
+  .works-gallery{
+      margin-top: 20px;
+    }
   .layout{
     h2{
       font-size: 3rem;
