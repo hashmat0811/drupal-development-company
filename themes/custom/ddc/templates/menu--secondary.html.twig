@@ -38,7 +38,7 @@
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes.addClass('nav__list-item') }}>
-        {{ link(item.title, item.url, item.attributes.addClass('nav-link')) }}
+        {{ link(item.title, item.url, item.attributes.addClass('nav-link').removeClass('nav__list-item')) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% endif %}
