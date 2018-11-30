@@ -756,6 +756,16 @@ header.masthead p {
   .intl-tel-input {
     width: 100%;
   }
+  .inner-banner {
+    min-height: 140px;
+  }
+  .other-base-page {
+    max-width: 1140px;
+    margin: 0px auto !important;
+    width: 100% !important;
+    background: #f9f9f9;
+    padding: 30px 20px !important;
+  }
 }
 
 .sticky-left {
@@ -1342,6 +1352,12 @@ a {
 
 .second-swipper .btn-primary:hover {
   color: #fff !important;
+}
+
+.other-base-page b, .other-base-page strong {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Lyon Text Web' !important;
 }
 
 body p {

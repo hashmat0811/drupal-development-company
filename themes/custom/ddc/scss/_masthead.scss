@@ -227,6 +227,18 @@ margin-left: 10px;
 
   .intl-tel-input{width: 100%;}
 
+  .inner-banner {
+    min-height: 140px;
+  }
+
+  .other-base-page {
+    max-width: 1140px;
+    margin: 0px auto!important;
+    width: 100%!important;
+    background: #f9f9f9;
+    padding: 30px 20px!important;
+}
+
 }
 
 .sticky-left{
@@ -806,5 +818,13 @@ a{border-bottom: 0px;}
     &:hover{
       color: #fff !important;
     }
+  }
+}
+
+.other-base-page{
+  b, strong {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lyon Text Web' !important;
   }
 }
