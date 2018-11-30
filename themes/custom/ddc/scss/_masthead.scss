@@ -122,6 +122,10 @@ header.masthead {
     overflow: hidden;
 }
 
+.contact-page .contact-field .js-form-item {
+    max-width: 50%;
+  }
+
 }
 
 
@@ -210,6 +214,14 @@ margin-left: 10px;
 .service-list .s-block{
   margin-bottom: 15px;
 }
+
+.contact-page h2{
+  flex-flow: column;
+}
+
+.contact-page .contact-field .js-form-item {
+    max-width: 100%;
+  }
 
 }
 
@@ -714,7 +726,7 @@ canvas {
 
   h2{
     font-weight: 900;
-display: flex;
+    display: flex;
   }
   label{
     font-size: 2rem;
@@ -733,12 +745,11 @@ display: flex;
 
   .contact-field{
     .js-form-item{
-      max-width: 50%;
       display: inline-flex;
   }
   .contact-label{
     margin-top: 30px;
-margin-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 

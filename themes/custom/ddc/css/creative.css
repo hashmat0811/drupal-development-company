@@ -653,6 +653,9 @@ header.masthead p {
     height: 100%;
     overflow: hidden;
   }
+  .contact-page .contact-field .js-form-item {
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -730,6 +733,15 @@ header.masthead p {
   }
   .service-list .s-block {
     margin-bottom: 15px;
+  }
+  .contact-page h2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+  .contact-page .contact-field .js-form-item {
+    max-width: 100%;
   }
 }
 
@@ -1260,7 +1272,6 @@ canvas {
 }
 
 .contact-page .contact-field .js-form-item {
-  max-width: 50%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
