@@ -1197,10 +1197,10 @@ canvas {
 
 .work-section ul li {
   display: inline-block;
-  background: #e4bcb6;
+  background: #dcdbdb;
   padding: 5px 8px;
   font-size: 12px;
-  color: #ffffff;
+  color: #000;
   margin-right: 1px;
   margin-bottom: 5px;
 }
