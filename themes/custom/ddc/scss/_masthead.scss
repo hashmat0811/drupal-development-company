@@ -846,3 +846,30 @@ a{border-bottom: 0px;}
     font-family: 'Lyon Text Web' !important;
   }
 }
+
+
+.sliding-popup-bottom{
+max-width: 90%;
+width: auto !important;
+background-color: #dd1700 !important;
+left: 4% !important;
+right: 4%;
+padding: 12px 15px !important;
+z-index: 1000000000000 !important;
+text-align: left !important;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+.eu-cookie-compliance-content {
+    margin: 0 auto;
+    max-width: 100%;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    a{
+    color: #fff;
+    text-decoration: underline;
+    }
+}
+
+}
