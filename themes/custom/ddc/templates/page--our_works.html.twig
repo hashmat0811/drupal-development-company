@@ -25,19 +25,19 @@
             <div class="intro-img text-left">
               <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
             </div>
-            <h5>Service Offers</h5>
+            <h5>Services Offered</h5>
             <ul>
                 {% for items in item.entity.field_services %}
                   <li>{{ items.value }}</li>
                 {% endfor %}
             </ul>
-            <h5>Industries</h5>
+            <h5>Industry</h5>
             <ul>
                 {% for items in item.entity.field_industries %}
                   <li>{{ items.value }}</li>
                 {% endfor %}
             </ul>
-            <h5>Technology Used</h5>
+            <h5>Technologies</h5>
             <ul>
                 {% for items in item.entity.field_list %}
                   <li>{{ items.value }}</li>

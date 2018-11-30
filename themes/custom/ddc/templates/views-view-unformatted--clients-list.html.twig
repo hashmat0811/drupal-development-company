@@ -21,7 +21,7 @@
   <h3>{{ title }}</h3>
 {% endif %} #}
 
-<section class="section-client-top">
+<section class="section-client-top" data-aos="fade-up">
   <div class="container">
   <div class="col-md-8 p-0">
     <div class="pl-lg-5">
@@ -31,7 +31,7 @@
   </div>
     <div class="row">
       <div class="col-md-11 mx-auto pt-lg-5">
-        <div class="client-list-block d-flex justify-content-between align-items-center">
+        <div class="client-list-block d-flex justify-content-between align-items-center" >
           {% for row in rows %}
             {# {%
               set row_classes = [

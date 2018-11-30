@@ -346,7 +346,7 @@ body.nav-active{
   .menu-icon{
     z-index: 30001;
     &__line{
-      background-color: #000;
+      background-color: #fff;
       transform: translateX(0px) rotate(-45deg);
     }
     &__line-left{

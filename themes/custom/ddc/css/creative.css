@@ -452,7 +452,7 @@ body.nav-active .menu-icon {
 }
 
 body.nav-active .menu-icon__line {
-  background-color: #000;
+  background-color: #fff;
   -webkit-transform: translateX(0px) rotate(-45deg);
   transform: translateX(0px) rotate(-45deg);
 }
@@ -1311,6 +1311,15 @@ a {
   margin-left: 2px;
 }
 
+#block-secondary .nav-link {
+  color: #000;
+  font-weight: 600;
+}
+
+.second-swipper .btn-primary:hover {
+  color: #fff !important;
+}
+
 body p {
   font-weight: 200;
 }
@@ -1524,7 +1533,7 @@ body p {
 }
 
 .contact-page {
-  padding: 40px;
+  padding: 0px !important;
 }
 
 .contact-page input {
