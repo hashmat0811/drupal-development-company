@@ -775,6 +775,9 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+  // $settings['trusted_host_patterns'] = [
+  //   '^www\.drupaldevelopmentcompany\.com$',
+  // ];
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -827,5 +830,3 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/config';
-
-
