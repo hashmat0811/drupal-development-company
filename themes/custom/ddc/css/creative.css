@@ -569,6 +569,11 @@ body.nav-active .nav__list-item:nth-child(5) {
   align-items: center;
 }
 
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 header.masthead {
   padding-top: none !important;
   padding-bottom: calc(10rem - 56px);
@@ -576,11 +581,6 @@ header.masthead {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 header.masthead h1 {
