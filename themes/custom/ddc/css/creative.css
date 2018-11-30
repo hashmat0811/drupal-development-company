@@ -1290,6 +1290,15 @@ canvas {
   margin-bottom: 0px;
 }
 
+.contact-page .contact-label {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.contact-page .contact-label label {
+  margin-bottom: 0px;
+}
+
 .tell-us-title {
   font-size: 2.6rem;
   margin-bottom: 0px;
