@@ -271,9 +271,9 @@ $size: 30px;
     transition-delay: .1s;
   }
   &__content{
-    position: fixed;
-    top:50%;
-    transform: translate(0%,-50%);
+    // position: fixed;
+    // top:50%;
+    // transform: translate(0%,-50%);
     width: 100%;
     text-align: center;
     font-size: $font--size--calc;
@@ -381,7 +381,11 @@ body.nav-active{
       transition-delay: 0s;
     }
 
-
+    &__content{
+      position: fixed;
+      top:50%;
+      transform: translate(0%,-50%);
+    }
 
     &__list-item{
       opacity: 1;
