@@ -22,11 +22,22 @@
       <div class="row white-bg p-lg-5">
         {% if  loop.index % 2 == 0 %}
           <div class="col-md-5 p-lg-0">
-            <div class="intro-img text-left">
-              {% for items in item.entity.field_slider_images %}
-                <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
-              {% endfor %}
-              {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
+
+            <div class="row">
+              <!-- Swiper -->
+              <div class="swiper-container swiper4">
+                <div class="swiper-wrapper">
+                    {% for items in item.entity.field_slider_images %}
+                      <div class="slider">
+                        <div class="intro-img text-left">
+                          <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
+                        </div>
+                      </div>
+                    {% endfor %}
+                    {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
             <h5>Services Offered</h5>
             <ul>
@@ -59,11 +70,22 @@
               <p>{{ item.entity.field_banner_description.value|raw }}</p>
           </div>
           <div class="col-md-5 p-lg-0">
-            <div class="intro-img text-right">
-              {% for items in item.entity.field_slider_images %}
-                <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
-              {% endfor %}
-              {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
+            <div class="row">
+              <!-- Swiper -->
+              <div class="swiper-container swiper4">
+                <div class="swiper-wrapper">
+
+                    {% for items in item.entity.field_slider_images %}
+                      <div class="slider">
+                        <div class="intro-img text-left">
+                          <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
+                        </div>
+                      </div>
+                    {% endfor %}
+                    {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
             <h5>Services Offered</h5>
             <ul>
