@@ -989,6 +989,13 @@ h4 {
   position: relative;
 }
 
+.breadcrumb ol {
+  margin: 0 auto;
+  padding: 0px 15px;
+  max-width: 1140px;
+  width: 100%;
+}
+
 .second-swipper {
   width: 100%;
   position: relative;
@@ -1377,7 +1384,7 @@ a {
 }
 
 .sliding-popup-bottom {
-  max-width: 90%;
+  max-width: 100%;
   width: auto !important;
   background-color: #dd1700 !important;
   left: 4% !important;
