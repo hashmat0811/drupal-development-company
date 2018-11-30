@@ -25,8 +25,8 @@
 
       <div class="col-md-8 p-lg-5">
         <div>
-            <h3>We are highly experienced and professional Drupal development company in India. </h3>
-            <p>Last few years our crack teams of Drupal developers have been responsible for some of the most exciting Drupal projects. We have developed hundreds of custom Drupal module and implemented so many custom Drupal themes in the course of our work. </p>
+            <h3>{{ node.field_title.value }}</h3>
+            {{ node.body.value|raw }}
         </div>
       </div>
       </div>
@@ -35,8 +35,8 @@
     <div class="row">
 
         <div class="col-md-12">
-            <h3>Why Drupal</h3>
-            <p>Drupal is an open source content management system powering millions of websites and applications. It is an excellent platform and it provides a seriously robust and scalable web development platform for a Content Management System. Drupal allows anyone to easily publish, manage and organize a wide variety of content on a website. Written in PHP, Drupal is a complete open source Content Management System that can be used to build and deploy complex dynamic websites, portals, online communities, etc. Some of the largest and most powerful sites in the world have used customized Drupal web application Development including growing organizations, governments and major media corporations.</p>
+            <h3>{{ node.field_block_title.value }}</h3>
+            {{ node.field_description.value|raw }}
         </div>
 
       </div>
