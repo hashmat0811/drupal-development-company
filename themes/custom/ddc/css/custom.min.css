@@ -16,5 +16,5 @@
 }
 
 header.masthead {
-  padding-top: none;
+  padding-top: none !important;
 }
