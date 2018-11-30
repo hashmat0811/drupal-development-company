@@ -365,8 +365,8 @@ img::-moz-selection {
 .nav__content {
   position: fixed;
   top: 0%;
-  -webkit-transform: translate(0%, -100%);
-  transform: translate(0%, -100%);
+  -webkit-transform: translate(0%, 100%);
+  transform: translate(0%, 100%);
   width: 100%;
   text-align: center;
   font-size: calc(2vw + 10px);
