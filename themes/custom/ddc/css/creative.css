@@ -1391,16 +1391,36 @@ a {
 }
 
 .sliding-popup-bottom .eu-cookie-compliance-content {
-  margin: 0 auto;
-  max-width: 100%;
-  display: inline-block;
-  text-align: left;
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sliding-popup-bottom .eu-cookie-compliance-content a {
   color: #fff;
   text-decoration: underline;
+}
+
+.sliding-popup-bottom .eu-cookie-compliance-message h2 {
+  font-size: 13px;
+  font-weight: 100;
+  font-family: verdana !important;
+}
+
+.sliding-popup-bottom .eu-cookie-compliance-buttons {
+  float: right;
+  margin: 0 0 0em 0;
+  max-width: 80px;
+}
+
+.sliding-popup-bottom .agree-button {
+  margin-top: 0px;
 }
 
 body p {
