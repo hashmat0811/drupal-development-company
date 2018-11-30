@@ -113,6 +113,25 @@
   </div>
 </div>
 
+<!-- Swiper JS -->
+ <script src="https://idangero.us/swiper/dist/js/swiper.min.js"></script>
 
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper4 = new Swiper('.swiper4', {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+     delay: 2500,
+     disableOnInteraction: false,
+     },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+   });
+ </script>
 
 {% include 'themes/custom/ddc/templates/includes/footer.html.twig' %}
