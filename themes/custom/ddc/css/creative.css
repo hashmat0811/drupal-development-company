@@ -363,6 +363,10 @@ img::-moz-selection {
 }
 
 .nav__content {
+  position: fixed;
+  top: 0%;
+  -webkit-transform: translate(0%, -100%);
+  transform: translate(0%, -100%);
   width: 100%;
   text-align: center;
   font-size: calc(2vw + 10px);
@@ -503,9 +507,9 @@ body.nav-active .nav:before {
 
 body.nav-active .nav__content {
   position: fixed;
-  top: 50%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+  top: 50% !important;
+  -webkit-transform: translate(0%, -50%) !important;
+  transform: translate(0%, -50%) !important;
 }
 
 body.nav-active .nav__list-item {
