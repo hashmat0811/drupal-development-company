@@ -14,3 +14,7 @@
 .nav-link-footer{
   color: white;
 }
+
+header.masthead {
+  padding-top: none;
+}
