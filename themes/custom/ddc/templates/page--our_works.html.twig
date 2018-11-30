@@ -23,7 +23,10 @@
         {% if  loop.index % 2 == 0 %}
           <div class="col-md-5 p-lg-0">
             <div class="intro-img text-left">
-              <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+              {% for items in item.entity.field_slider_images %}
+                <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
+              {% endfor %}
+              {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
             </div>
             <h5>Services Offered</h5>
             <ul>
@@ -57,7 +60,10 @@
           </div>
           <div class="col-md-5 p-lg-0">
             <div class="intro-img text-right">
-              <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+              {% for items in item.entity.field_slider_images %}
+                <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
+              {% endfor %}
+              {# <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" /> #}
             </div>
             <h5>Services Offered</h5>
             <ul>
