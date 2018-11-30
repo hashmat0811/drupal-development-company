@@ -1003,11 +1003,9 @@ h4 {
 }
 
 .other-base-page {
-  max-width: 1140px;
-  margin: -19px auto;
-  width: 75%;
+  margin: -19px auto 1px;
   background: #f9f9f9;
-  padding: 30px 40px;
+  padding: 0px 0px;
 }
 
 .section-client-top {
