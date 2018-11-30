@@ -743,6 +743,12 @@ header.masthead p {
   .contact-page .contact-field .js-form-item {
     max-width: 100%;
   }
+  .seperator {
+    display: none;
+  }
+  .intl-tel-input {
+    width: 100%;
+  }
 }
 
 .sticky-left {
