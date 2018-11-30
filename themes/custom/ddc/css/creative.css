@@ -1204,6 +1204,7 @@ canvas {
   width: auto;
   display: inline-block;
   color: #ccc;
+  outline: none;
 }
 
 .contact-page select {
@@ -1254,6 +1255,7 @@ canvas {
   font-size: 2rem;
   font-weight: 900;
   display: inline-block;
+  font-family: 'Lyon Text Web' !important;
 }
 
 .contact-page input::-webkit-input-placeholder {

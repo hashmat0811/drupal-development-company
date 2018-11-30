@@ -693,6 +693,7 @@ canvas {
     width: auto;
     display: inline-block;
     color: #ccc;
+    outline: none;
   }
   select{
     background: 0 0;
@@ -736,6 +737,7 @@ canvas {
     font-size: 2rem;
     font-weight: 900;
     display: inline-block;
+    font-family: 'Lyon Text Web' !important;
   }
 
   input::placeholder {
