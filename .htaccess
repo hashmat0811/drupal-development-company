@@ -192,6 +192,6 @@ AddEncoding gzip svgz
   php_value post_max_size 10M
 </IfModule>
 
-<Location /favicon.ico>
-  ErrorDocument 404 "No favicon"
-</Location>
+# <Location /favicon.ico>
+#   ErrorDocument 404 "No favicon"
+# </Location>
