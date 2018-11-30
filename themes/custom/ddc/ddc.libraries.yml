@@ -76,6 +76,7 @@ global-styling:
       scss/_variables.scss: {}
       css/swiper.min.css: {}
       css/custom.min.css: {}
+      fonts/inter-ui.css: {}
 
       # custom js
       gulpfile.js: {}
