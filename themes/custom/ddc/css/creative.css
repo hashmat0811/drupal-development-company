@@ -1233,6 +1233,16 @@ canvas {
   padding-top: 40px !important;
 }
 
+.swiper-pagination-bullet {
+  background: #fff;
+  opacity: .7;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #ea0a43;
+}
+
 .contact-page {
   padding: 40px;
 }
