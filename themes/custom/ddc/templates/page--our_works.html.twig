@@ -28,7 +28,7 @@
               <div class="swiper-container swiper4">
                 <div class="swiper-wrapper">
                     {% for items in item.entity.field_slider_images %}
-                      <div class="slider">
+                      <div class="swiper-slide">
                         <div class="intro-img text-left">
                           <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
                         </div>
@@ -76,7 +76,7 @@
                 <div class="swiper-wrapper">
 
                     {% for items in item.entity.field_slider_images %}
-                      <div class="slider">
+                      <div class="swiper-slide">
                         <div class="intro-img text-left">
                           <img class="w-100" src="{{ file_url(items.entity.fileuri) }}" alt="{{items.alt}}" />
                         </div>
