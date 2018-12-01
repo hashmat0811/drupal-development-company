@@ -255,3 +255,9 @@ margin: auto;
     object-fit: cover;
     }
 }
+
+.page-node-type-services-landing{
+  .service-list h5{
+    display: none;
+  }
+}

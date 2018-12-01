@@ -40,24 +40,26 @@
               </div>
             </div>
             <div class="row">
-              <h5>Services Offered</h5>
-              <ul>
-                  {% for items in item.entity.field_services %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
-              <h5>Industry</h5>
-              <ul>
-                  {% for items in item.entity.field_industries %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
-              <h5>Technologies</h5>
-              <ul>
-                  {% for items in item.entity.field_list %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
+              <div>
+                <h5>Services Offered</h5>
+                <ul>
+                    {% for items in item.entity.field_services %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+                <h5>Industry</h5>
+                <ul>
+                    {% for items in item.entity.field_industries %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+                <h5>Technologies</h5>
+                <ul>
+                    {% for items in item.entity.field_list %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
             </div>
           </div>
           <div class="col-md-7 pr-lg-5 pl-lg-5">
@@ -90,24 +92,26 @@
               </div>
             </div>
             <div class="row">
-              <h5>Services Offered</h5>
-              <ul>
-                  {% for items in item.entity.field_services %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
-              <h5>Industry</h5>
-              <ul>
-                  {% for items in item.entity.field_industries %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
-              <h5>Technologies</h5>
-              <ul>
-                  {% for items in item.entity.field_list %}
-                    <li>{{ items.value }}</li>
-                  {% endfor %}
-              </ul>
+              <div>
+                <h5>Services Offered</h5>
+                <ul>
+                    {% for items in item.entity.field_services %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+                <h5>Industry</h5>
+                <ul>
+                    {% for items in item.entity.field_industries %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+                <h5>Technologies</h5>
+                <ul>
+                    {% for items in item.entity.field_list %}
+                      <li>{{ items.value }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
             </div>
           </div>
         {% endif %}
