@@ -126,9 +126,12 @@ header.masthead {
     min-height: 350px;
 
     .banner-text{
-      top: 180px;
+      top: 140px;
       margin-left: 84px;
-      max-width: 55%;
+      max-width: 50%;
+      h1{
+        font-size: 4rem;
+      }
     }
 
   }

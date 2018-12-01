@@ -666,9 +666,12 @@ header.masthead p {
     min-height: 350px;
   }
   .inner-banner .banner-text {
-    top: 180px;
+    top: 140px;
     margin-left: 84px;
-    max-width: 55%;
+    max-width: 50%;
+  }
+  .inner-banner .banner-text h1 {
+    font-size: 4rem;
   }
   .service-list .s-block {
     margin-bottom: 30px;
