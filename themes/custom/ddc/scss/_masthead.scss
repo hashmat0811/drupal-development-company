@@ -714,7 +714,7 @@ canvas {
   }
 }
 
-.swiper-container {
+.region-suggestion .swiper-container {
     padding-top: 40px!important;
 }
 
@@ -853,6 +853,14 @@ a{border-bottom: 0px;}
   }
 }
 
+.swiper-container {
+    position: relative;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    font-size: 0px;
+}
 
 .sliding-popup-bottom{
 max-width: 100%;

@@ -1229,7 +1229,7 @@ canvas {
   margin-bottom: 5px;
 }
 
-.swiper-container {
+.region-suggestion .swiper-container {
   padding-top: 40px !important;
 }
 
@@ -1381,6 +1381,15 @@ a {
   font-weight: bold;
   font-size: 24px;
   font-family: 'Lyon Text Web' !important;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  font-size: 0px;
 }
 
 .sliding-popup-bottom {
@@ -1573,6 +1582,7 @@ body p {
 .works-gallery .intro-img {
   max-height: 240px;
   overflow: hidden;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -1641,6 +1651,12 @@ body p {
     left: 50px;
     bottom: 40px;
   }
+}
+
+.works-gallery .intro-img img {
+  height: 220px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .contact-page {

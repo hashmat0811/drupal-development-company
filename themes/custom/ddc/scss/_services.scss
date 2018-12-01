@@ -151,6 +151,7 @@ margin: auto;
   .intro-img{
   max-height: 240px;
   overflow: hidden;
+  width: 100%;
   }
 }
 
@@ -246,4 +247,11 @@ margin: auto;
 
   }
 
+}
+
+.works-gallery{
+  .intro-img img{
+    height: 220px;
+    object-fit: cover;
+    }
 }
