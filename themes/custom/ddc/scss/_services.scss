@@ -78,7 +78,7 @@ height: auto;
   float: right;
   position: absolute;
   bottom: -10px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   font-size: 15px;
   text-shadow: 0 0px 0px #929292;
   z-index: 1;
@@ -94,13 +94,13 @@ height: auto;
 
 
 .layout4{
-h2{
-  background: #ce2100;
-  color: #fff!important;
-  max-width: 380px;
-  position: absolute;
-  z-index: 1;
-}
+// h2{
+//   background: #ce2100;
+//   color: #fff!important;
+//   max-width: 380px;
+//   position: absolute;
+//   z-index: 1;
+// }
 
 .image-background{
 background-size: cover!important;
@@ -116,7 +116,7 @@ margin: auto;
   float: left;
   position: absolute;
   top: inherit;
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-size: 15px;
   text-shadow: 0px 0px 0px #000000;
   z-index: 1;
