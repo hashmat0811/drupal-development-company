@@ -1528,13 +1528,16 @@ body p {
 .layout1 .body {
   float: right;
   position: absolute;
-  bottom: 30px;
+  bottom: -10px;
   padding: 10px 40px;
   font-size: 15px;
   text-shadow: 0 1px 1px #929292;
   z-index: 1;
   top: initial;
-  right: 30px;
+  right: 10px;
+  left: 0px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(255, 0, 0, 0)));
+  background-image: linear-gradient(to top, black, rgba(255, 0, 0, 0));
 }
 
 .layout4 h2 {
@@ -1644,7 +1647,7 @@ body p {
     background: #ce2100;
     color: #fff !important;
     max-width: 480px;
-    top: 50px;
+    top: 30px;
     position: absolute;
     padding: 30px;
     left: -30px;
