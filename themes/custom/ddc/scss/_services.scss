@@ -266,3 +266,21 @@ margin: auto;
     display: none;
   }
 }
+
+
+.page-node-type-contact-us .messages--status {
+  color: #656565;
+      background-color: #ffffff;
+      border-color: #c9e1bd #c9e1bd #c9e1bd #c9e1bd;
+      background-image: url(/core/misc/icons/73b355/check.svg);
+      box-shadow: -1px 0 0 #c9e1bd;
+      background-position: center 30px;
+      background-size: 60px;
+      max-width: 680px;
+      text-align: center;
+      padding: 60px;
+      margin: auto;
+      font-size: 50px;
+      font-weight: 100;
+      padding-top: 100px;
+}
