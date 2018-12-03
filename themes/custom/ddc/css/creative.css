@@ -1668,8 +1668,8 @@ body p {
     z-index: 1;
   }
   .layout4 .body {
-    left: 50px;
-    bottom: 40px;
+    left: 0px;
+    bottom: 0px;
   }
 }
 
