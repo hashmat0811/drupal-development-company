@@ -18,3 +18,7 @@
 header.masthead {
   padding-top: none !important;
 }
+
+.intl-tel-input .country-list {
+  max-width: 600px;
+}
