@@ -67,7 +67,7 @@
                       </div>                      
                     </div>
                   </div>
-                {% else %}
+                {# {% else %}
                   <div class="col-md-7 mb-lg-0 mb-3">
                     <div class="">                    
                       <div class="blog-related-content">
@@ -79,13 +79,13 @@
                             <div class="col-md-8 field-content">                            
                               <h5><a href="{{ item.entity.field_link.value }}"> {{ item.entity.field_title.value }} </a></h5>
                               <div class="field-content-summary">{{ item.entity.field_description.value }}</div>
-                              {# <div class="field-date"><?php echo "By ".$node_details->name." | ".gmdate("M j, Y", $node_details->created); ?></div> #}
+                              <div class="field-date"><?php echo "By ".$node_details->name." | ".gmdate("M j, Y", $node_details->created); ?></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> #}
                 {% endif %}
               </div>
             {% endfor %}
