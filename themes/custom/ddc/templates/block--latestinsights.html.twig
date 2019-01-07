@@ -45,9 +45,9 @@
   {% block content %}
     <div{{ content_attributes.addClass('content') }}>
       {# {{ content }}  #}
-      {{ content.body.value }}
+      {{ content.body }}
       {% for item in content.field_featured_blog %}
-        {# {{ item.entity.field_title }} #}
+        {{ item.entity.field_title.value }}
       {% endfor %}
     </div>
   {% endblock %}
