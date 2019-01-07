@@ -139,9 +139,10 @@
           {% endif %}
         {% endfor %}
           
-        {% for item in node.field_latest_insight_articles %}
+        
             <div class="col-md-7 mb-lg-0 mb-3">
               <div class="">
+              {% for item in node.field_latest_insight_articles %}
               {% if loop.index > 1 %}
                 <div class="blog-related-content">
                   <div class="blog-content">
@@ -158,10 +159,11 @@
                   </div>
                 </div>
               {% endif %}
+              {% endfor %}
               </div>
             </div>
           {# {% endif %} #}
-        {% endfor %}  
+          
       </div>
 
     </div>
