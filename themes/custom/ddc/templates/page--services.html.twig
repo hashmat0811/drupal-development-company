@@ -130,8 +130,8 @@
                 <div class="blog-content-card mb-lg-5">
                   <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
                   <div class="blog-content">
-                    <h5><a href="{{ item.entity.field_link.url }}"> {{ item.entity.field_title.value|raw }} </a> </h5>
-                      {# <div class="field-date"><?php echo "By ".$node_details->name." | ".gmdate("M j, Y", $node_details->created); ?></div> #}
+                    <h5><a href="{{ item.entity.field_link.0.url }}"> {{ item.entity.field_title.value|raw }} </a> </h5>
+                      <div class="field-date">{{ item.entity.field_author_name }}</div>
                   </div>
                 </div>                      
               </div>
