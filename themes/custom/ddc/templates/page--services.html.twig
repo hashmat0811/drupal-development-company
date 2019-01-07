@@ -131,14 +131,18 @@
                   <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
                   <div class="blog-content">
                     <h5><a href="{{ item.entity.field_link.0.url }}"> {{ item.entity.field_title.value|raw }} </a> </h5>
-                      <div class="field-date">{{ item.entity.field_author_name.value ~ '|' ~ item.entity.field_date.date }}</div>
+                      <div class="field-date">{{ item.entity.field_author_name.value ~ ' | ' ~ item.entity.field_date.date }}</div>
                   </div>
                 </div>                      
               </div>
             </div>
-          {% else %}
+          {% endif %}
+        {% endfor %}
+          
+        {% for item in node.field_latest_insight_articles %}
             <div class="col-md-7 mb-lg-0 mb-3">
-              <div class="">                    
+              <div class="">
+              {% if loop.index > 1 %}
                 <div class="blog-related-content">
                   <div class="blog-content">
                     <div class="row">
@@ -146,16 +150,17 @@
                         <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
                       </div>
                       <div class="col-md-8 field-content">                            
-                        <h5><a href="{{ item.entity.field_link.url }}"> {{ item.entity.field_title.value }} </a></h5>
+                        <h5><a href="{{ item.entity.field_link.0.url }}"> {{ item.entity.field_title.value }} </a></h5>
                         <div class="field-content-summary">{{ item.entity.field_description.value|raw }}</div>
-                        {# <div class="field-date"><?php echo "By ".$node_details->name." | ".gmdate("M j, Y", $node_details->created); ?></div> #}
+                        <div class="field-date">{{ item.entity.field_author_name.value ~ ' | ' ~ item.entity.field_date.date }}</div>
                       </div>
                     </div>
                   </div>
                 </div>
+              {% endif %}
               </div>
             </div>
-          {% endif %}
+          {# {% endif %} #}
         {% endfor %}  
       </div>
 
