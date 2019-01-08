@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -1691,6 +1691,87 @@ body p {
   font-size: 35px;
   font-weight: lighter;
   padding-top: 150px;
+}
+
+@media all and (max-width: 6000px) and (min-width: 768px) {
+  .blog-related-content .blog-content img {
+    max-height: 170px;
+    height: 100vh;
+    max-width: 170px;
+  }
+}
+
+.featured-content .blog-content-card {
+  -webkit-box-shadow: 0px 0px 10px #ececec;
+  box-shadow: 0px 0px 10px #ececec;
+  border: solid 1px #efefef;
+}
+
+.featured-content .blog-content-card img {
+  max-height: 237px;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.featured-content .blog-content {
+  padding: 0px 20px 20px;
+  min-height: 110px;
+}
+
+.featured-content .blog-content .field-date {
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.featured-content h5 {
+  padding: 20px 0px 10px;
+  font-weight: 600;
+  min-height: 83px;
+}
+
+.featured-content h5 a {
+  color: #333;
+}
+
+.content-summary h5 {
+  font-weight: 600;
+}
+
+.blog-related-content .blog-content {
+  padding-bottom: 0px;
+  -webkit-box-shadow: 0px 0px 10px #ececec;
+  box-shadow: 0px 0px 10px #ececec;
+  margin-bottom: 30px;
+}
+
+.blog-related-content .blog-content img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.blog-related-content .blog-content .field-content {
+  padding: 15px 30px 15px 10px;
+}
+
+.blog-related-content .blog-content .field-content .field-content-summary {
+  max-height: 40px;
+  overflow: hidden;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.blog-related-content .blog-content h5 {
+  font-weight: 600;
+}
+
+.blog-related-content .blog-content h5 a {
+  color: #000;
+}
+
+.blog-related-content .blog-content .field-date {
+  color: #8a8a8a;
+  font-size: 14px;
 }
 
 .contact-page {
