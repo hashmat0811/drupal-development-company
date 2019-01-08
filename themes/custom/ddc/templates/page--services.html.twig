@@ -115,7 +115,7 @@
 {% endfor %}
 
 
-{# <div class="container py-lg-5">
+<div class="container py-lg-5">
   <div id="parent">
     <div class="insights-wrapper pt-lg-5">
       <div class="section-header d-flex">
@@ -138,34 +138,33 @@
             </div>
           {% endif %}
         {% endfor %}
-          
-        
-            <div class="col-md-7 mb-lg-0 mb-3">
-              <div class="">
-              {% for item in node.field_latest_insight_articles %}
-              {% if loop.index > 1 %}
-                <div class="blog-related-content">
-                  <div class="blog-content">
-                    <div class="row">
-                      <div class="col-md-4 pr-lg-0 pl-lg-3 p-0">
-                        <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
-                      </div>
-                      <div class="col-md-8 field-content">                            
-                        <h5><a href="{{ item.entity.field_link.0.url }}"> {{ item.entity.field_title.value }} </a></h5>
-                        <div class="field-content-summary">{{ item.entity.field_description.value|raw }}</div>
-                        <div class="field-date">{{ item.entity.field_author_name.value ~ ' | ' ~ item.entity.field_date.date }}</div>
-                      </div>
+                  
+        <div class="col-md-7 mb-lg-0 mb-3">
+          <div class="">
+          {% for item in node.field_latest_insight_articles %}
+            {% if loop.index > 1 %}
+              <div class="blog-related-content">
+                <div class="blog-content">
+                  <div class="row">
+                    <div class="col-md-4 pr-lg-0 pl-lg-3 p-0">
+                      <img class="w-100" src="{{ file_url(item.entity.field_image.entity.fileuri) }}" alt="{{item.entity.field_image.alt}}" />
+                    </div>
+                    <div class="col-md-8 field-content">                            
+                      <h5><a href="{{ item.entity.field_link.0.url }}"> {{ item.entity.field_title.value }} </a></h5>
+                      <div class="field-content-summary">{{ item.entity.field_description.value|raw }}</div>
+                      <div class="field-date">{{ item.entity.field_author_name.value ~ ' | ' ~ item.entity.field_date.date }}</div>
                     </div>
                   </div>
                 </div>
-              {% endif %}
-              {% endfor %}
               </div>
-            </div>          
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div> #}
+</div>
 
 {# <div class="layout2"></div>
 <div class="layout3"></div>
