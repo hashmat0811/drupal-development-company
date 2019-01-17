@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9e6d51-b433-4e68-9c0b-85a09eb73f53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--suggestion.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--suggestion.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/asm89/stack-cors/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -63,11 +62,43 @@
   <component name="DrupalConfiguration" doNotAskAgain="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views-view-fields--project-teasers.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views-view-fields--project-teasers.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="69">
+              <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-page.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/home-page.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1839" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-fields--testimonial.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--testimonial.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-444" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-unformatted--suggestion.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-unformatted--suggestion.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-fields--suggestion.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--suggestion.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -96,8 +127,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss" />
+        <option value="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--suggestion.html.twig" />
       </list>
     </option>
   </component>
@@ -182,6 +214,32 @@
               <item name="ddc-staging" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddc-staging" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ddc-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddc-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddc-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddc-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddc-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddc-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="ddc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddc-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddc-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="ddc" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,18 +273,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547722260456</updated>
-      <workItem from="1547722262928" duration="1603000" />
+      <workItem from="1547722262928" duration="2000000" />
     </task>
+    <task id="LOCAL-00001" summary="slider animation">
+      <created>1547724836620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547724836620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1603000" />
+    <option name="totallyTimeSpent" value="2000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -235,7 +301,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5470588" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.5470588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -252,6 +318,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="slider animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider animation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/themes/custom/ddc/scss/_global.scss">
@@ -275,8 +345,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--project-teasers.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="69">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/home-page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1839" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--testimonial.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-unformatted--suggestion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/ddc/templates/views-view-fields--suggestion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
         </state>
       </provider>
     </entry>
