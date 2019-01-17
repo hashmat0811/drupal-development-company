@@ -377,12 +377,10 @@ margin: auto;
  }
 
 .swiper-slide-active{
-  .animate-slider{
     img{
       transform: rotateX(0deg);
       transform-origin: bottom center;
       transition: 3s ease all;
     }
-  }
 }
 

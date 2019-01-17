@@ -1794,7 +1794,7 @@ body p {
   transition: 3s ease all;
 }
 
-.swiper-slide-active .animate-slider img {
+.swiper-slide-active img {
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
   -webkit-transform-origin: bottom center;
