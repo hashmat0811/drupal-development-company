@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9e6d51-b433-4e68-9c0b-85a09eb73f53" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/ddc/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/css/creative.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/ddc/css/creative.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/css/creative.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/asm89/stack-cors/" />
@@ -110,8 +113,8 @@
       <file leaf-file-name="_services.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="379" column="8" lean-forward="true" selection-start-line="379" selection-start-column="8" selection-end-line="379" selection-end-column="8" />
+            <state relative-caret-position="178">
+              <caret line="381" column="35" selection-start-line="381" selection-start-column="35" selection-end-line="381" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -285,7 +288,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547722260456</updated>
-      <workItem from="1547722262928" duration="2758000" />
+      <workItem from="1547722262928" duration="3056000" />
     </task>
     <task id="LOCAL-00001" summary="slider animation">
       <created>1547724836620</created>
@@ -329,11 +332,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547726242500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="slider animation">
+      <created>1547726324070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547726324070</updated>
+    </task>
+    <task id="LOCAL-00008" summary="slider animation">
+      <created>1547726419534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547726419534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2758000" />
+    <option name="totallyTimeSpent" value="3056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -419,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/ddc/scss/_services.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="379" column="8" lean-forward="true" selection-start-line="379" selection-start-column="8" selection-end-line="379" selection-end-column="8" />
+        <state relative-caret-position="178">
+          <caret line="381" column="35" selection-start-line="381" selection-start-column="35" selection-end-line="381" selection-end-column="35" />
         </state>
       </provider>
     </entry>

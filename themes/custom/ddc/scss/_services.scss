@@ -371,7 +371,7 @@ margin: auto;
 .animate-slider{
    img{
      transform: rotateX(-180deg);
-     transform-origin: left;
+     transform-origin: left center;
      transition: 3s ease all;
    }
  }
@@ -379,7 +379,7 @@ margin: auto;
 .swiper-slide-active{
     img{
       transform: rotateX(0deg);
-      transform-origin: left;
+      transform-origin: left center;
       transition: 3s ease all;
     }
 }
