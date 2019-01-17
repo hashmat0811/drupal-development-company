@@ -71,10 +71,21 @@ section {
   margin-top: 0;
 }
 
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
 }
 
 img::selection {
@@ -1772,6 +1783,13 @@ body p {
 .blog-related-content .blog-content .field-date {
   color: #8a8a8a;
   font-size: 14px;
+}
+
+.animate-slider img {
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
 }
 
 .contact-page {

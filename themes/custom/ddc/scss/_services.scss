@@ -368,3 +368,13 @@ margin: auto;
     }
   }
 }
+
+
+
+
+.animate-slider{
+  img{
+    transform: rotateX(-180deg);
+    transform-origin: bottom center;
+  }
+}
