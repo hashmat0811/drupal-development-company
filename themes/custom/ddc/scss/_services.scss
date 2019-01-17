@@ -370,7 +370,7 @@ margin: auto;
 }
 .animate-slider{
    img{
-     transform: rotateY(-180deg);
+     transform: rotateY(180deg);
      transform-origin: left center;
      transition: 3s ease all;
    }
