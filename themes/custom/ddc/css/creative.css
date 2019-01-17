@@ -1786,8 +1786,8 @@ body p {
 }
 
 .animate-slider img {
-  -webkit-transform: rotateX(-180deg);
-  transform: rotateX(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
   -webkit-transform-origin: left center;
   transform-origin: left center;
   -webkit-transition: 3s ease all;
@@ -1795,8 +1795,8 @@ body p {
 }
 
 .swiper-slide-active img {
-  -webkit-transform: rotateX(0deg);
-  transform: rotateX(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   -webkit-transform-origin: left center;
   transform-origin: left center;
   -webkit-transition: 3s ease all;
