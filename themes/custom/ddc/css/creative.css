@@ -1795,8 +1795,8 @@ body p {
 }
 
 .swiper-slide-active img {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0) perspective(50em);
+  transform: rotateY(0) perspective(50em);
   -webkit-transform-origin: left center;
   transform-origin: left center;
   -webkit-transition: 3s ease all;
