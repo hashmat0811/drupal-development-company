@@ -1790,6 +1790,17 @@ body p {
   transform: rotateX(-180deg);
   -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
+  -webkit-transition: 3s ease all;
+  transition: 3s ease all;
+}
+
+.swiper-slide-active .animate-slider img {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-transition: 3s ease all;
+  transition: 3s ease all;
 }
 
 .contact-page {
