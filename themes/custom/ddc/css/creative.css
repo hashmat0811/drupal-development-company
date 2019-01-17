@@ -1788,8 +1788,8 @@ body p {
 .animate-slider img {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  -webkit-transform-origin: left center;
-  transform-origin: left center;
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
   -webkit-transition: 3s ease all;
   transition: 3s ease all;
 }
@@ -1797,10 +1797,10 @@ body p {
 .swiper-slide-active img {
   -webkit-transform: rotateY(0) perspective(50em);
   transform: rotateY(0) perspective(50em);
-  -webkit-transform-origin: left center;
-  transform-origin: left center;
-  -webkit-transition: 3s ease all;
-  transition: 3s ease all;
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-transition: 4s ease all;
+  transition: 4s ease all;
 }
 
 .contact-page {

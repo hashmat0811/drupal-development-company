@@ -371,7 +371,7 @@ margin: auto;
 .animate-slider{
    img{
      transform: rotateY(180deg);
-     transform-origin: left center;
+     transform-origin: bottom center;
      transition: 3s ease all;
    }
  }
@@ -379,8 +379,8 @@ margin: auto;
 .swiper-slide-active{
     img{
       transform:rotateY(0) perspective(50em);
-      transform-origin: left center;
-      transition: 3s ease all;
+      transform-origin: bottom center;
+      transition: 4s ease all;
 
     }
 }
