@@ -1786,8 +1786,8 @@ body p {
 }
 
 .animate-slider img {
-  -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
   -webkit-transform-origin: top;
   transform-origin: top;
   -webkit-transition: 3s ease all;
@@ -1799,8 +1799,8 @@ body p {
   transform: rotateX(0) perspective(50em);
   -webkit-transform-origin: top;
   transform-origin: top;
-  -webkit-transition: 4s ease all;
-  transition: 4s ease all;
+  -webkit-transition: 2s ease all;
+  transition: 2s ease all;
 }
 
 .contact-page {

@@ -370,7 +370,7 @@ margin: auto;
 }
 .animate-slider{
    img{
-     transform: rotateX(180deg);
+     transform: rotateX(-180deg);
      transform-origin: top;
      transition: 3s ease all;
    }
@@ -380,7 +380,7 @@ margin: auto;
     img{
       transform:rotateX(0) perspective(50em);
       transform-origin: top;
-      transition: 4s ease all;
+      transition: 2s ease all;
 
     }
 }
