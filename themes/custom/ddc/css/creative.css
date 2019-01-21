@@ -1790,8 +1790,8 @@ body p {
   transform: rotateX(-180deg);
   -webkit-transform-origin: top;
   transform-origin: top;
-  -webkit-transition: 3s ease all;
-  transition: 3s ease all;
+  -webkit-transition: 2s ease all;
+  transition: 2s ease all;
 }
 
 .swiper-slide-active img {
