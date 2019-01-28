@@ -35,17 +35,19 @@ function ddc_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'has-featured-top';
   }
 
-  // if(!empty($node) ) {
+  // if (($node = \Drupal::routeMatch()->getParameter('node')) && $node instanceof \Drupal\node\NodeInterface) {
+
+  // }
+  
     
     $script = array(
-      '#tag' => 'meta',
+      '#tag' => 'script',
       '#attributes' => array('type' => 'application/ld+json'),
       '#value' =>
       $node->field_schema_markup->value,
     );
 
-    $page['#attached']['html_head'][] = [$script, 'meta'];
-  // }
+    $page['#attached']['html_head'][] = [$script, 'script'];
 
 }
 
