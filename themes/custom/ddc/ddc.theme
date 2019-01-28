@@ -7,6 +7,7 @@
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Template\Attribute;
+$node = Drupal::request()->attributes->get('node');
 
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
@@ -33,6 +34,18 @@ function ddc_preprocess_html(&$variables) {
   if (!empty($variables['page']['featured_top'])) {
     $variables['attributes']['class'][] = 'has-featured-top';
   }
+
+  // if(!empty($node) ) {
+    
+    $script = array(
+      '#tag' => 'meta',
+      '#attributes' => array('type' => 'application/ld+json'),
+      '#value' =>
+      $node->field_schema_markup->value,
+    );
+
+    $page['#attached']['html_head'][] = [$script, 'meta'];
+  // }
 
 }
 
