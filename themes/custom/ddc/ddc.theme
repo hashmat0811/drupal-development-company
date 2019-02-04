@@ -39,8 +39,7 @@ function ddc_preprocess_html(&$variables) {
     $script = array(
       '#tag' => 'meta',
       '#attributes' => array('type' => 'application/ld+json'),
-      '#value' => '',
-      print $node->field_schema_markup->value,
+      '#value' => $node->field_schema_markup->value,
     );
 
     $page['#attached']['html_head'][] = [$script, 'meta'];
