@@ -41,11 +41,11 @@ function ddc_preprocess_html(&$variables) {
       // '#attributes' => array('type' => 'application/ld+json'),
       '#attributes' => [
         'type' => 'application/ld+json',
-        'content' => $node->field_schema_markup->value
+        'value' => $node->field_schema_markup->value,
       ]
     );
 
-    $page['#attached']['html_head'][] = [$script, 'meta'];
+    $variables['page']['#attached']['html_head'][] = [$script, 'meta'];
   }
 
 }
