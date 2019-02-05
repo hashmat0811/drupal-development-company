@@ -39,10 +39,6 @@ function ddc_preprocess_html(&$variables) {
     $script = array(
       '#tag' => 'script',
       '#attributes' => array('type' => 'application/ld+json'),
-      // '#attributes' => [
-      //   'type' => 'application/ld+json',
-      //   '#value' => $node->field_schema_markup->value,
-      // ]
       '#value' => $node->field_schema_markup->value,
     );
 
