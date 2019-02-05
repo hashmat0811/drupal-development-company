@@ -37,15 +37,16 @@ function ddc_preprocess_html(&$variables) {
 
   if (($node = \Drupal::routeMatch()->getParameter('node')) && $node instanceof \Drupal\node\NodeInterface) {
     $script = array(
-      '#tag' => 'meta',
-      // '#attributes' => array('type' => 'application/ld+json'),
-      '#attributes' => [
-        'type' => 'application/ld+json',
-        'value' => $node->field_schema_markup->value,
-      ]
+      '#tag' => 'script',
+      '#attributes' => array('type' => 'application/ld+json'),
+      // '#attributes' => [
+      //   'type' => 'application/ld+json',
+      //   '#value' => $node->field_schema_markup->value,
+      // ]
+      '#value' => $node->field_schema_markup->value,
     );
 
-    $variables['page']['#attached']['html_head'][] = [$script, 'meta'];
+    $variables['page']['#attached']['html_head'][] = [$script, 'script'];
   }
 
 }
