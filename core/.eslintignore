@@ -1,7 +1,8 @@
-assets/vendor/**/*
-node_modules/**/*
+core/**/*
+vendor/**/*
+sites/**/files/**/*
+libraries/**/*
+sites/**/libraries/**/*
+profiles/**/libraries/**/*
 **/js_test_files/**/*
-*.js
-!*.es6.js
-modules/locale/tests/locale_test.es6.js
-!tests/Drupal/Nightwatch/**/*.js
+**/node_modules/**/*
