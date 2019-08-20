@@ -6,3 +6,4 @@ Disallow:
 Disallow: /user/login
 Disallow: /user/register
 Disallow: /user/password
+Disallow: /service-offerings
