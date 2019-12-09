@@ -3,7 +3,7 @@ type: module
 description: 'Provides layout building utility.'
 package: Core (Experimental)
 # version: VERSION
-# core: 8.x
+core: 8.x
 dependencies:
   - drupal:layout_discovery
   - drupal:contextual
@@ -12,8 +12,7 @@ dependencies:
   # @todo Discuss removing in https://www.drupal.org/project/drupal/issues/3003610.
   - drupal:block
 
-# Information added by Drupal.org packaging script on 2019-03-20
-version: '8.6.13'
-core: '8.x'
+# Information added by Drupal.org packaging script on 2019-11-13
+version: '8.6.18'
 project: 'drupal'
-datestamp: 1553100246
+datestamp: 1573688174

@@ -3,14 +3,13 @@ type: module
 description: 'Support module for action bulk form testing.'
 package: Testing
 # version: VERSION
-# core: 8.x
+core: 8.x
 dependencies:
   - drupal:action
   - drupal:views
   - drupal:node
 
-# Information added by Drupal.org packaging script on 2019-03-20
-version: '8.6.13'
-core: '8.x'
+# Information added by Drupal.org packaging script on 2019-11-13
+version: '8.6.18'
 project: 'drupal'
-datestamp: 1553100246
+datestamp: 1573688174

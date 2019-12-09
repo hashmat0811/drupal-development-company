@@ -2,7 +2,7 @@ name: 'Demo: Umami Food Magazine (Experimental)'
 type: profile
 description: 'Install an example site that shows off some of Drupal’s capabilities.'
 # version: VERSION
-# core: 8.x
+core: 8.x
 install:
   - node
   - history
@@ -46,8 +46,7 @@ themes:
   - seven
   - umami
 
-# Information added by Drupal.org packaging script on 2019-03-20
-version: '8.6.13'
-core: '8.x'
+# Information added by Drupal.org packaging script on 2019-11-13
+version: '8.6.18'
 project: 'drupal'
-datestamp: 1553100246
+datestamp: 1573688174
