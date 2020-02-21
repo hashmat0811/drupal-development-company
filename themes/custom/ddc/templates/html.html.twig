@@ -35,7 +35,7 @@
 <html{{ html_attributes }}>
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -51,7 +51,7 @@
     <js-placeholder token="{{ placeholder_token }}">
 
     <!-- Hotjar Tracking Code for https://www.drupaldevelopmentcompany.com/ -->
-    <script>
+    <script defer>
 
       (function(h,o,t,j,a,r){
 
@@ -70,7 +70,7 @@
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
     </script>
-    
+
   </head>
   <body{{ attributes.addClass(body_classes) }}>
     <!-- Google Tag Manager (noscript) -->
